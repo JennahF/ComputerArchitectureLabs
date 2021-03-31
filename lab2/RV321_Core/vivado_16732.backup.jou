@@ -1,0 +1,152 @@
+#-----------------------------------------------------------
+# Vivado v2018.2 (64-bit)
+# SW Build 2258646 on Thu Jun 14 20:03:12 MDT 2018
+# IP Build 2256618 on Thu Jun 14 22:10:49 MDT 2018
+# Start of session at: Tue Apr 14 11:10:35 2020
+# Process ID: 16732
+# Current directory: F:/1fr/HWnLABS/CA/labs/lab2/RV321_Core
+# Command line: vivado.exe -gui_launcher_event rodinguilauncherevent18148 F:\1fr\HWnLABS\CA\labs\lab2\RV321_Core\RV321_Core.xpr
+# Log file: F:/1fr/HWnLABS/CA/labs/lab2/RV321_Core/vivado.log
+# Journal file: F:/1fr/HWnLABS/CA/labs/lab2/RV321_Core\vivado.jou
+#-----------------------------------------------------------
+start_gui
+open_project F:/1fr/HWnLABS/CA/labs/lab2/RV321_Core/RV321_Core.xpr
+update_compile_order -fileset sources_1
+launch_simulation
+source testBench.tcl
+relaunch_sim
+run 30 us
+relaunch_sim
+run 30 us
+relaunch_sim
+run 30 us
+relaunch_sim
+run 30 us
+relaunch_sim
+run 30 us
+relaunch_sim
+run 30 us
+relaunch_sim
+run 30 us
+relaunch_sim
+run 30 us
+relaunch_sim
+run 30 us
+relaunch_sim
+run 30 us
+relaunch_sim
+run 30 us
+relaunch_sim
+run 30 us
+relaunch_sim
+relaunch_sim
+run 30 us
+close_sim
+launch_simulation
+source testBench.tcl
+run 30 us
+relaunch_sim
+run 30 us
+run 30 us
+current_wave_config {Untitled 2}
+add_wave {{/testBench/RV32ICore1/inst_ID}} 
+relaunch_sim
+run 30 us
+relaunch_sim
+run 30 us
+relaunch_sim
+run 30 us
+relaunch_sim
+run 30 us
+relaunch_sim
+run 30 us
+relaunch_sim
+run 30 us
+relaunch_sim
+run 30 us
+relaunch_sim
+run 30 us
+relaunch_sim
+run 30 us
+relaunch_sim
+run 30 us
+relaunch_sim
+run 30 us
+relaunch_sim
+run 30 us
+relaunch_sim
+run 30 us
+relaunch_sim
+run 30 us
+relaunch_sim
+run 30 us
+run 30 us
+run 30 us
+relaunch_sim
+run 30 us
+relaunch_sim
+run 30 us
+relaunch_sim
+relaunch_sim
+close_sim
+launch_simulation
+launch_simulation
+source testBench.tcl
+run 30 us
+relaunch_sim
+run 30 us
+current_wave_config {Untitled 3}
+add_wave {{/testBench/RV32ICore1/inst_ID}} 
+relaunch_sim
+run 30 us
+relaunch_sim
+run 30 us
+relaunch_sim
+run 30 us
+relaunch_sim
+run 30 us
+relaunch_sim
+run 30 us
+relaunch_sim
+run 30 us
+relaunch_sim
+run 30 us
+relaunch_sim
+run 30 us
+relaunch_sim
+run 30 us
+close_sim
+close_project
+open_project F:/1fr/HWnLABS/CA/labs/lab2/RV321_Core/RV321_Core.xpr
+update_compile_order -fileset sources_1
+launch_simulation
+source testBench.tcl
+relaunch_sim
+run 30 us
+current_wave_config {Untitled 4}
+add_wave {{/testBench/RV32ICore1/inst_ID}} 
+relaunch_sim
+run 30 us
+relaunch_sim
+run 30 us
+relaunch_sim
+run 30 us
+relaunch_sim
+run 30 us
+relaunch_sim
+run 30 us
+relaunch_sim
+run 30 us
+relaunch_sim
+run 30 us
+relaunch_sim
+run 30 us
+relaunch_sim
+run 30 us
+relaunch_sim
+run 30 us
+relaunch_sim
+run 30 us
+current_wave_config {Untitled 4}
+add_wave {{/testBench/RV32ICore1/WB_Data_WB1/DataCache1/data_cache}} 
+close_sim

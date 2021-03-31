@@ -1,0 +1,47 @@
+# compile verilog/system verilog design source files
+verilog xil_defaultlib  \
+"../../../../../LAB3CPU_BTB_BHT/ALU.v" \
+"../../../../../LAB3CPU_BTB_BHT/IdExSegReg/AddrEx.v" \
+"../../../../../LAB3CPU_BTB_BHT/ExMemSegReg/AddrMem.v" \
+"../../../../../LAB3CPU_BTB_BHT/MemWbSegReg/AddrWb.v" \
+"../../../../BHT.srcs/sources_1/new/BHT.v" \
+"../../../../../LAB3CPU_BTB_BHT/BTB.v" \
+"../../../../../LAB3CPU_BTB_BHT/IdExSegReg/BrTarget.v" \
+"../../../../../LAB3CPU_BTB_BHT/BranchDecision.v" \
+"../../../../../LAB3CPU_BTB_BHT/CSR.v" \
+"../../../../../LAB3CPU_BTB_BHT/CSR_ALU.v" \
+"../../../../../LAB3CPU_BTB_BHT/ControllerDecoder.v" \
+"../../../../../LAB3CPU_BTB_BHT/IdExSegReg/CtrlEx.v" \
+"../../../../../LAB3CPU_BTB_BHT/ExMemSegReg/CtrlMem.v" \
+"../../../../../LAB3CPU_BTB_BHT/MemWbSegReg/CtrlWb.v" \
+"../../../../../LAB3CPU_BTB_BHT/DataExtend.v" \
+"../../../../../LAB3CPU_BTB_BHT/GeneralRegister.v" \
+"../../../../../LAB3CPU_BTB_BHT/Hazard.v" \
+"../../../../../LAB3CPU_BTB_BHT/IfIdSegReg/IR.v" \
+"../../../../../LAB3CPU_BTB_BHT/ImmExtend.v" \
+"../../../../../LAB3CPU_BTB_BHT/Cache/InstructionCache.v" \
+"../../../../../LAB3CPU_BTB_BHT/NPCGenerator.v" \
+"../../../../../LAB3CPU_BTB_BHT/IdExSegReg/Op1.v" \
+"../../../../../LAB3CPU_BTB_BHT/IdExSegReg/Op2.v" \
+"../../../../../LAB3CPU_BTB_BHT/PC.v" \
+"../../../../../LAB3CPU_BTB_BHT/IdExSegReg/PcEx.v" \
+"../../../../../LAB3CPU_BTB_BHT/IfIdSegReg/PcId.v" \
+"../../../../../LAB3CPU_BTB_BHT/RV32ICore.v" \
+"../../../../../LAB3CPU_BTB_BHT/IdExSegReg/Reg2Ex.v" \
+"../../../../../LAB3CPU_BTB_BHT/ExMemSegReg/Reg2Mem.v" \
+"../../../../../LAB3CPU_BTB_BHT/ExMemSegReg/Result.v" \
+"../../../../../LAB3CPU_BTB_BHT/MemWbSegReg/WbData.v" \
+
+sv xil_defaultlib  \
+"../../../../../LAB3CPU_BTB_BHT/cache.sv" \
+"../../../../../LAB3CPU_BTB_BHT/main_mem.sv" \
+"../../../../../LAB3CPU_BTB_BHT/mem.sv" \
+
+verilog xil_defaultlib  \
+"../../../../../LAB3CPU_BTB_BHT/Simulation/cpu_tb.v" \
+
+# compile glbl module
+verilog xil_defaultlib "glbl.v"
+
+# Do not sort compile order
+nosort

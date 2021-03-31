@@ -1,0 +1,153 @@
+#-----------------------------------------------------------
+# Vivado v2018.2 (64-bit)
+# SW Build 2258646 on Thu Jun 14 20:03:12 MDT 2018
+# IP Build 2256618 on Thu Jun 14 22:10:49 MDT 2018
+# Start of session at: Tue Apr 21 09:54:59 2020
+# Process ID: 13800
+# Current directory: F:/1fr/HWnLABS/CA/labs/lab2/RV321_Core
+# Command line: vivado.exe -gui_launcher_event rodinguilauncherevent16564 F:\1fr\HWnLABS\CA\labs\lab2\RV321_Core\RV321_Core.xpr
+# Log file: F:/1fr/HWnLABS/CA/labs/lab2/RV321_Core/vivado.log
+# Journal file: F:/1fr/HWnLABS/CA/labs/lab2/RV321_Core\vivado.jou
+#-----------------------------------------------------------
+start_guioopen_project F:/1fr/HWnLABS/CA/labs/lab2/RV321_Core/RV321_Core.xprupdate_compile_order -fileset sources_1
+launch_simulation
+source testBench.tcl
+current_wave_config {Untitled 1}
+add_wave {{/testBench/RV32ICore1/inst_ID}} 
+current_wave_config {Untitled 1}
+add_wave {{/testBench/RV32ICore1/RegisterFile1/reg_file}} 
+relaunch_sim
+run 30 us
+relaunch_sim
+run 30 us
+current_wave_config {Untitled 1}
+add_wave {{/testBench/RV32ICore1/WB_Data_WB1/addr}} 
+current_wave_config {Untitled 1}
+add_wave {{/testBench/RV32ICore1/WB_Data_WB1/addr}} 
+current_wave_config {Untitled 1}
+add_wave {{/testBench/RV32ICore1/WB_Data_WB1/data_raw}} 
+current_wave_config {Untitled 1}
+add_wave {{/testBench/RV32ICore1/WB_Data_WB1/wb_select_old}} 
+relaunch_sim
+run 30 us
+relaunch_sim
+run 30 us
+relaunch_sim
+run 30 us
+current_wave_config {Untitled 1}
+add_wave {{/testBench/RV32ICore1/WB_Data_WB1/DataCache1/dealt_addr}} 
+current_wave_config {Untitled 1}
+add_wave {{/testBench/RV32ICore1/WB_Data_WB1/DataCache1/addr_valid}} 
+relaunch_sim
+run 30 us
+relaunch_sim
+run 30 us
+relaunch_sim
+run 30 us
+relaunch_sim
+run 30 us
+relaunch_sim
+run 30 us
+relaunch_sim
+run 30 us
+relaunch_sim
+run 30 us
+relaunch_sim
+run 30 us
+relaunch_sim
+run 30 us
+relaunch_sim
+run 30 us
+relaunch_sim
+run 30 us
+relaunch_sim
+run 30 us
+relaunch_sim
+run 30 us
+relaunch_sim
+run 30 us
+relaunch_sim
+run 30 us
+relaunch_sim
+run 30 us
+relaunch_sim
+run 30 us
+relaunch_sim
+run 30 us
+relaunch_sim
+run 30 us
+relaunch_sim
+run 30 us
+relaunch_sim
+run 30 us
+relaunch_sim
+run 30 us
+relaunch_sim
+run 30 us
+relaunch_sim
+run 30 us
+relaunch_sim
+run 30 us
+run 30 us
+relaunch_sim
+run 30 us
+relaunch_sim
+run 30 us
+relaunch_sim
+run 30 us
+relaunch_sim
+relaunch_sim
+run 30 us
+relaunch_sim
+run 30 us
+relaunch_sim
+run 30 us
+relaunch_sim
+current_wave_config {Untitled 1}
+add_wave {{/testBench/RV32ICore1/WB_Data_WB1/DataCache1/in_data}} 
+relaunch_sim
+run 30 us
+relaunch_sim
+run 30 us
+current_wave_config {Untitled 1}
+add_wave {{/testBench/RV32ICore1/WB_Data_WB1/data_WB_raw}} 
+relaunch_sim
+run 30 us
+relaunch_sim
+run 30 us
+relaunch_sim
+run 30 us
+relaunch_sim
+run 30 us
+close_sim
+launch_simulation
+source testBench.tcl
+relaunch_sim
+run 30 us
+current_wave_config {Untitled 2}
+add_wave {{/testBench/RV32ICore1/inst_ID}} 
+current_wave_config {Untitled 2}
+add_wave {{/testBench/RV32ICore1/ALU_out}} {{/testBench/RV32ICore1/ALU_op2}} {{/testBench/RV32ICore1/ALU_op1}} 
+current_wave_config {Untitled 2}
+add_wave {{/testBench/RV32ICore1/ALU_func_EX}} 
+relaunch_sim
+run 30 us
+current_wave_config {Untitled 2}
+add_wave {{/testBench/RV32ICore1/reg1}} 
+current_wave_config {Untitled 2}
+add_wave {{/testBench/RV32ICore1/BranchDecision1/reg1}} 
+current_wave_config {Untitled 2}
+add_wave {{/testBench/RV32ICore1/BranchDecision1/reg2}} 
+relaunch_sim
+run 30 us
+relaunch_sim
+run 30 us
+relaunch_sim
+run 30 us
+relaunch_sim
+run 30 us
+relaunch_sim
+run 30 us
+relaunch_sim
+run 30 us
+close_sim

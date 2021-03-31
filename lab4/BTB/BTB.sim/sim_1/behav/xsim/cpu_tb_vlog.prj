@@ -1,0 +1,46 @@
+# compile verilog/system verilog design source files
+verilog xil_defaultlib  \
+"../../../../../LAB3CPU_BTB/ALU.v" \
+"../../../../../LAB3CPU_BTB/IdExSegReg/AddrEx.v" \
+"../../../../../LAB3CPU_BTB/ExMemSegReg/AddrMem.v" \
+"../../../../../LAB3CPU_BTB/MemWbSegReg/AddrWb.v" \
+"../../../../BTB.srcs/sources_1/new/BTB.v" \
+"../../../../../LAB3CPU_BTB/IdExSegReg/BrTarget.v" \
+"../../../../../LAB3CPU_BTB/BranchDecision.v" \
+"../../../../../LAB3CPU_BTB/CSR.v" \
+"../../../../../LAB3CPU_BTB/CSR_ALU.v" \
+"../../../../../LAB3CPU_BTB/ControllerDecoder.v" \
+"../../../../../LAB3CPU_BTB/IdExSegReg/CtrlEx.v" \
+"../../../../../LAB3CPU_BTB/ExMemSegReg/CtrlMem.v" \
+"../../../../../LAB3CPU_BTB/MemWbSegReg/CtrlWb.v" \
+"../../../../../LAB3CPU_BTB/DataExtend.v" \
+"../../../../../LAB3CPU_BTB/GeneralRegister.v" \
+"../../../../../LAB3CPU_BTB/Hazard.v" \
+"../../../../../LAB3CPU_BTB/IfIdSegReg/IR.v" \
+"../../../../../LAB3CPU_BTB/ImmExtend.v" \
+"../../../../../LAB3CPU_BTB/Cache/InstructionCache.v" \
+"../../../../../LAB3CPU_BTB/NPCGenerator.v" \
+"../../../../../LAB3CPU_BTB/IdExSegReg/Op1.v" \
+"../../../../../LAB3CPU_BTB/IdExSegReg/Op2.v" \
+"../../../../../LAB3CPU_BTB/PC.v" \
+"../../../../../LAB3CPU_BTB/IdExSegReg/PcEx.v" \
+"../../../../../LAB3CPU_BTB/IfIdSegReg/PcId.v" \
+"../../../../../LAB3CPU_BTB/RV32ICore.v" \
+"../../../../../LAB3CPU_BTB/IdExSegReg/Reg2Ex.v" \
+"../../../../../LAB3CPU_BTB/ExMemSegReg/Reg2Mem.v" \
+"../../../../../LAB3CPU_BTB/ExMemSegReg/Result.v" \
+"../../../../../LAB3CPU_BTB/MemWbSegReg/WbData.v" \
+
+sv xil_defaultlib  \
+"../../../../../LAB3CPU_BTB/cache.sv" \
+"../../../../../LAB3CPU_BTB/main_mem.sv" \
+"../../../../../LAB3CPU_BTB/mem.sv" \
+
+verilog xil_defaultlib  \
+"../../../../../LAB3CPU_BTB/Simulation/cpu_tb.v" \
+
+# compile glbl module
+verilog xil_defaultlib "glbl.v"
+
+# Do not sort compile order
+nosort

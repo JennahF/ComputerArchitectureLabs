@@ -1,0 +1,185 @@
+#-----------------------------------------------------------
+# Vivado v2018.2 (64-bit)
+# SW Build 2258646 on Thu Jun 14 20:03:12 MDT 2018
+# IP Build 2256618 on Thu Jun 14 22:10:49 MDT 2018
+# Start of session at: Sun May 17 11:08:53 2020
+# Process ID: 8040
+# Current directory: F:/1fr/HWnLABS/CA/labs/lab3/Level1
+# Command line: vivado.exe -gui_launcher_event rodinguilauncherevent13728 F:\1fr\HWnLABS\CA\labs\lab3\Level1\Level1.xpr
+# Log file: F:/1fr/HWnLABS/CA/labs/lab3/Level1/vivado.log
+# Journal file: F:/1fr/HWnLABS/CA/labs/lab3/Level1\vivado.jou
+#-----------------------------------------------------------
+start_gui
+open_project F:/1fr/HWnLABS/CA/labs/lab3/Level1/Level1.xpr
+Scanning sources...
+Finished scanning sources
+INFO: [IP_Flow 19-234] Refreshing IP repositories
+INFO: [IP_Flow 19-1704] No user IP repositories specified
+INFO: [IP_Flow 19-2313] Loaded Vivado IP repository 'D:/Xilinx/Vivado/2018.2/data/ip'.
+open_project: Time (s): cpu = 00:00:11 ; elapsed = 00:00:13 . Memory (MB): peak = 720.887 ; gain = 62.492
+update_compile_order -fileset sources_1
+launch_runs synth_1 -jobs 4
+[Sun May 17 12:40:29 2020] Launched synth_1...
+Run output will be captured here: F:/1fr/HWnLABS/CA/labs/lab3/Level1/Level1.runs/synth_1/runme.log
+open_run synth_1 -name synth_1
+Design is defaulting to impl run constrset: constrs_1
+Design is defaulting to synth run part: xc7k70tfbv676-1
+INFO: [Netlist 29-17] Analyzing 108 Unisim elements for replacement
+INFO: [Netlist 29-28] Unisim Transformation completed in 0 CPU seconds
+INFO: [Project 1-479] Netlist was created with Vivado 2018.2
+INFO: [Device 21-403] Loading part xc7k70tfbv676-1
+INFO: [Project 1-570] Preparing netlist for logic optimization
+INFO: [Opt 31-138] Pushed 0 inverter(s) to 0 load pin(s).
+INFO: [Project 1-111] Unisim Transformation Summary:
+No Unisim elements were transformed.
+
+open_run: Time (s): cpu = 00:00:20 ; elapsed = 00:00:14 . Memory (MB): peak = 1176.309 ; gain = 375.934
+report_utilization -name utilization_1
+report_utilization: Time (s): cpu = 00:00:06 ; elapsed = 00:00:02 . Memory (MB): peak = 1632.664 ; gain = 278.184
+reset_run synth_1
+launch_runs synth_1 -jobs 4
+[Sun May 17 12:42:55 2020] Launched synth_1...
+Run output will be captured here: F:/1fr/HWnLABS/CA/labs/lab3/Level1/Level1.runs/synth_1/runme.log
+close_design
+open_run synth_1 -name synth_1
+Design is defaulting to impl run constrset: constrs_1
+Design is defaulting to synth run part: xc7k70tfbv676-1
+INFO: [Netlist 29-17] Analyzing 108 Unisim elements for replacement
+INFO: [Netlist 29-28] Unisim Transformation completed in 0 CPU seconds
+INFO: [Project 1-479] Netlist was created with Vivado 2018.2
+INFO: [Project 1-570] Preparing netlist for logic optimization
+INFO: [Opt 31-138] Pushed 0 inverter(s) to 0 load pin(s).
+INFO: [Project 1-111] Unisim Transformation Summary:
+No Unisim elements were transformed.
+
+report_utilization -name utilization_1
+report_utilization: Time (s): cpu = 00:00:03 ; elapsed = 00:00:02 . Memory (MB): peak = 1672.512 ; gain = 0.148
+reset_run synth_1
+launch_runs synth_1 -jobs 4
+[Sun May 17 12:56:19 2020] Launched synth_1...
+Run output will be captured here: F:/1fr/HWnLABS/CA/labs/lab3/Level1/Level1.runs/synth_1/runme.log
+close_design
+open_run synth_1 -name synth_1
+Design is defaulting to impl run constrset: constrs_1
+Design is defaulting to synth run part: xc7k70tfbv676-1
+INFO: [Netlist 29-17] Analyzing 305 Unisim elements for replacement
+INFO: [Netlist 29-28] Unisim Transformation completed in 0 CPU seconds
+WARNING: [Netlist 29-101] Netlist 'cache' is not ideal for floorplanning, since the cellview 'cache' contains a large number of primitives.  Please consider enabling hierarchy in synthesis if you want to do floorplanning.
+INFO: [Project 1-479] Netlist was created with Vivado 2018.2
+INFO: [Project 1-570] Preparing netlist for logic optimization
+INFO: [Opt 31-138] Pushed 0 inverter(s) to 0 load pin(s).
+INFO: [Project 1-111] Unisim Transformation Summary:
+No Unisim elements were transformed.
+
+report_utilization -name utilization_1
+report_utilization: Time (s): cpu = 00:00:03 ; elapsed = 00:00:02 . Memory (MB): peak = 1766.180 ; gain = 0.785
+reset_run synth_1
+launch_runs synth_1 -jobs 4
+[Sun May 17 13:00:38 2020] Launched synth_1...
+Run output will be captured here: F:/1fr/HWnLABS/CA/labs/lab3/Level1/Level1.runs/synth_1/runme.log
+close_design
+open_run synth_1 -name synth_1
+Design is defaulting to impl run constrset: constrs_1
+Design is defaulting to synth run part: xc7k70tfbv676-1
+INFO: [Netlist 29-17] Analyzing 2712 Unisim elements for replacement
+INFO: [Netlist 29-28] Unisim Transformation completed in 0 CPU seconds
+WARNING: [Netlist 29-101] Netlist 'cache' is not ideal for floorplanning, since the cellview 'cache' contains a large number of primitives.  Please consider enabling hierarchy in synthesis if you want to do floorplanning.
+INFO: [Project 1-479] Netlist was created with Vivado 2018.2
+INFO: [Project 1-570] Preparing netlist for logic optimization
+INFO: [Opt 31-138] Pushed 0 inverter(s) to 0 load pin(s).
+INFO: [Project 1-111] Unisim Transformation Summary:
+No Unisim elements were transformed.
+
+open_run: Time (s): cpu = 00:00:08 ; elapsed = 00:00:06 . Memory (MB): peak = 1803.906 ; gain = 31.734
+report_utilization -name utilization_1
+report_utilization: Time (s): cpu = 00:00:06 ; elapsed = 00:00:04 . Memory (MB): peak = 1815.500 ; gain = 11.594
+reset_run synth_1
+launch_runs synth_1 -jobs 4
+[Sun May 17 13:03:15 2020] Launched synth_1...
+Run output will be captured here: F:/1fr/HWnLABS/CA/labs/lab3/Level1/Level1.runs/synth_1/runme.log
+close_design
+open_run synth_1 -name synth_1
+Design is defaulting to impl run constrset: constrs_1
+Design is defaulting to synth run part: xc7k70tfbv676-1
+INFO: [Netlist 29-17] Analyzing 6176 Unisim elements for replacement
+INFO: [Netlist 29-28] Unisim Transformation completed in 1 CPU seconds
+WARNING: [Netlist 29-101] Netlist 'cache' is not ideal for floorplanning, since the cellview 'cache' contains a large number of primitives.  Please consider enabling hierarchy in synthesis if you want to do floorplanning.
+INFO: [Project 1-479] Netlist was created with Vivado 2018.2
+INFO: [Project 1-570] Preparing netlist for logic optimization
+INFO: [Opt 31-138] Pushed 0 inverter(s) to 0 load pin(s).
+INFO: [Project 1-111] Unisim Transformation Summary:
+No Unisim elements were transformed.
+
+open_run: Time (s): cpu = 00:00:12 ; elapsed = 00:00:10 . Memory (MB): peak = 1867.629 ; gain = 52.129
+report_utilization -name utilization_1
+report_utilization: Time (s): cpu = 00:00:09 ; elapsed = 00:00:07 . Memory (MB): peak = 1867.629 ; gain = 0.000
+report_utilization: Time (s): cpu = 00:00:09 ; elapsed = 00:00:07 . Memory (MB): peak = 1867.629 ; gain = 0.000
+reset_run synth_1
+launch_runs synth_1 -jobs 4
+[Sun May 17 13:21:27 2020] Launched synth_1...
+Run output will be captured here: F:/1fr/HWnLABS/CA/labs/lab3/Level1/Level1.runs/synth_1/runme.log
+close_design
+open_run synth_1 -name synth_1
+Design is defaulting to impl run constrset: constrs_1
+Design is defaulting to synth run part: xc7k70tfbv676-1
+INFO: [Netlist 29-17] Analyzing 858 Unisim elements for replacement
+INFO: [Netlist 29-28] Unisim Transformation completed in 0 CPU seconds
+WARNING: [Netlist 29-101] Netlist 'cache' is not ideal for floorplanning, since the cellview 'cache' contains a large number of primitives.  Please consider enabling hierarchy in synthesis if you want to do floorplanning.
+INFO: [Project 1-479] Netlist was created with Vivado 2018.2
+INFO: [Project 1-570] Preparing netlist for logic optimization
+INFO: [Opt 31-138] Pushed 0 inverter(s) to 0 load pin(s).
+INFO: [Project 1-111] Unisim Transformation Summary:
+No Unisim elements were transformed.
+
+report_utilization -name utilization_1
+report_utilization: Time (s): cpu = 00:00:04 ; elapsed = 00:00:02 . Memory (MB): peak = 1869.656 ; gain = 0.000
+reset_run synth_1
+launch_runs synth_1 -jobs 4
+[Sun May 17 13:23:30 2020] Launched synth_1...
+Run output will be captured here: F:/1fr/HWnLABS/CA/labs/lab3/Level1/Level1.runs/synth_1/runme.log
+close_design
+open_run synth_1 -name synth_1
+Design is defaulting to impl run constrset: constrs_1
+Design is defaulting to synth run part: xc7k70tfbv676-1
+INFO: [Netlist 29-17] Analyzing 1616 Unisim elements for replacement
+INFO: [Netlist 29-28] Unisim Transformation completed in 0 CPU seconds
+WARNING: [Netlist 29-101] Netlist 'cache' is not ideal for floorplanning, since the cellview 'cache' contains a large number of primitives.  Please consider enabling hierarchy in synthesis if you want to do floorplanning.
+INFO: [Project 1-479] Netlist was created with Vivado 2018.2
+INFO: [Project 1-570] Preparing netlist for logic optimization
+INFO: [Opt 31-138] Pushed 0 inverter(s) to 0 load pin(s).
+INFO: [Project 1-111] Unisim Transformation Summary:
+No Unisim elements were transformed.
+
+report_utilization -name utilization_1
+report_utilization: Time (s): cpu = 00:00:07 ; elapsed = 00:00:04 . Memory (MB): peak = 1869.656 ; gain = 0.000
+reset_run synth_1
+launch_runs synth_1 -jobs 4
+[Sun May 17 15:47:42 2020] Launched synth_1...
+Run output will be captured here: F:/1fr/HWnLABS/CA/labs/lab3/Level1/Level1.runs/synth_1/runme.log
+reset_run synth_1
+WARNING: [Vivado 12-1017] Problems encountered:
+1. PID not specified
+
+launch_runs synth_1 -jobs 4
+[Sun May 17 15:47:50 2020] Launched synth_1...
+Run output will be captured here: F:/1fr/HWnLABS/CA/labs/lab3/Level1/Level1.runs/synth_1/runme.log
+close_design
+close_design: Time (s): cpu = 00:00:07 ; elapsed = 00:00:06 . Memory (MB): peak = 1869.656 ; gain = 0.000
+open_run synth_1 -name synth_1
+Design is defaulting to impl run constrset: constrs_1
+Design is defaulting to synth run part: xc7k70tfbv676-1
+INFO: [Netlist 29-17] Analyzing 3503 Unisim elements for replacement
+INFO: [Netlist 29-28] Unisim Transformation completed in 0 CPU seconds
+WARNING: [Netlist 29-101] Netlist 'cache' is not ideal for floorplanning, since the cellview 'cache' contains a large number of primitives.  Please consider enabling hierarchy in synthesis if you want to do floorplanning.
+INFO: [Project 1-479] Netlist was created with Vivado 2018.2
+INFO: [Project 1-570] Preparing netlist for logic optimization
+INFO: [Opt 31-138] Pushed 0 inverter(s) to 0 load pin(s).
+INFO: [Project 1-111] Unisim Transformation Summary:
+No Unisim elements were transformed.
+
+open_run: Time (s): cpu = 00:00:11 ; elapsed = 00:00:09 . Memory (MB): peak = 1873.207 ; gain = 3.551
+report_utilization -name utilization_1
+report_utilization: Time (s): cpu = 00:00:10 ; elapsed = 00:00:08 . Memory (MB): peak = 1875.094 ; gain = 1.742
+report_utilization: Time (s): cpu = 00:00:10 ; elapsed = 00:00:08 . Memory (MB): peak = 1875.094 ; gain = 1.742
+exit
+INFO: [Common 17-206] Exiting Vivado at Sun May 17 16:41:41 2020...

@@ -1,0 +1,62 @@
+INFO: [VRFC 10-2263] Analyzing Verilog file "F:/1fr/HWnLABS/CA/labs/ustc_ca2020_lab/Lab2/CSR/ALU.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module ALU
+INFO: [VRFC 10-2263] Analyzing Verilog file "F:/1fr/HWnLABS/CA/labs/ustc_ca2020_lab/Lab2/CSR/IdExSegReg/AddrEx.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module Addr_EX
+INFO: [VRFC 10-2263] Analyzing Verilog file "F:/1fr/HWnLABS/CA/labs/ustc_ca2020_lab/Lab2/CSR/ExMemSegReg/AddrMem.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module Addr_MEM
+INFO: [VRFC 10-2263] Analyzing Verilog file "F:/1fr/HWnLABS/CA/labs/ustc_ca2020_lab/Lab2/CSR/MemWbSegReg/AddrWb.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module Addr_WB
+INFO: [VRFC 10-2263] Analyzing Verilog file "F:/1fr/HWnLABS/CA/labs/ustc_ca2020_lab/Lab2/CSR/IdExSegReg/BrTarget.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module BR_Target_EX
+INFO: [VRFC 10-2263] Analyzing Verilog file "F:/1fr/HWnLABS/CA/labs/ustc_ca2020_lab/Lab2/CSR/BranchDecision.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module BranchDecision
+INFO: [VRFC 10-2263] Analyzing Verilog file "F:/1fr/HWnLABS/CA/labs/ustc_ca2020_lab/Lab2/CSR/CSR.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module CSR_RegisterFile
+INFO: [VRFC 10-2263] Analyzing Verilog file "F:/1fr/HWnLABS/CA/labs/ustc_ca2020_lab/Lab2/CSR/CSR_ALU.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module CSRALU
+INFO: [VRFC 10-2263] Analyzing Verilog file "F:/1fr/HWnLABS/CA/labs/ustc_ca2020_lab/Lab2/CSR/ControllerDecoder.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module ControllerDecoder
+INFO: [VRFC 10-2263] Analyzing Verilog file "F:/1fr/HWnLABS/CA/labs/ustc_ca2020_lab/Lab2/CSR/IdExSegReg/CtrlEx.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module Ctrl_EX
+INFO: [VRFC 10-2263] Analyzing Verilog file "F:/1fr/HWnLABS/CA/labs/ustc_ca2020_lab/Lab2/CSR/ExMemSegReg/CtrlMem.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module Ctrl_MEM
+INFO: [VRFC 10-2263] Analyzing Verilog file "F:/1fr/HWnLABS/CA/labs/ustc_ca2020_lab/Lab2/CSR/MemWbSegReg/CtrlWb.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module Ctrl_WB
+INFO: [VRFC 10-2263] Analyzing Verilog file "F:/1fr/HWnLABS/CA/labs/ustc_ca2020_lab/Lab2/CSR/Cache/DataCache.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module DataCache
+INFO: [VRFC 10-2263] Analyzing Verilog file "F:/1fr/HWnLABS/CA/labs/ustc_ca2020_lab/Lab2/CSR/DataExtend.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module DataExtend
+INFO: [VRFC 10-2263] Analyzing Verilog file "F:/1fr/HWnLABS/CA/labs/ustc_ca2020_lab/Lab2/CSR/GeneralRegister.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module RegisterFile
+INFO: [VRFC 10-2263] Analyzing Verilog file "F:/1fr/HWnLABS/CA/labs/ustc_ca2020_lab/Lab2/CSR/Hazard.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module HarzardUnit
+INFO: [VRFC 10-2263] Analyzing Verilog file "F:/1fr/HWnLABS/CA/labs/ustc_ca2020_lab/Lab2/CSR/IfIdSegReg/IR.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module IR_ID
+INFO: [VRFC 10-2263] Analyzing Verilog file "F:/1fr/HWnLABS/CA/labs/ustc_ca2020_lab/Lab2/CSR/ImmExtend.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module ImmExtend
+INFO: [VRFC 10-2263] Analyzing Verilog file "F:/1fr/HWnLABS/CA/labs/ustc_ca2020_lab/Lab2/CSR/Cache/InstructionCache.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module InstructionCache
+INFO: [VRFC 10-2263] Analyzing Verilog file "F:/1fr/HWnLABS/CA/labs/ustc_ca2020_lab/Lab2/CSR/NPCGenerator.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module NPC_Generator
+INFO: [VRFC 10-2263] Analyzing Verilog file "F:/1fr/HWnLABS/CA/labs/ustc_ca2020_lab/Lab2/CSR/IdExSegReg/Op1.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module Op1_EX
+INFO: [VRFC 10-2263] Analyzing Verilog file "F:/1fr/HWnLABS/CA/labs/ustc_ca2020_lab/Lab2/CSR/IdExSegReg/Op2.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module Op2_EX
+INFO: [VRFC 10-2263] Analyzing Verilog file "F:/1fr/HWnLABS/CA/labs/ustc_ca2020_lab/Lab2/CSR/PC.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module PC_IF
+INFO: [VRFC 10-2263] Analyzing Verilog file "F:/1fr/HWnLABS/CA/labs/ustc_ca2020_lab/Lab2/CSR/IdExSegReg/PcEx.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module PC_EX
+INFO: [VRFC 10-2263] Analyzing Verilog file "F:/1fr/HWnLABS/CA/labs/ustc_ca2020_lab/Lab2/CSR/IfIdSegReg/PcId.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module PC_ID
+INFO: [VRFC 10-2263] Analyzing Verilog file "F:/1fr/HWnLABS/CA/labs/ustc_ca2020_lab/Lab2/CSR/RV32ICore.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module RV32ICore
+INFO: [VRFC 10-2263] Analyzing Verilog file "F:/1fr/HWnLABS/CA/labs/ustc_ca2020_lab/Lab2/CSR/IdExSegReg/Reg2Ex.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module Reg2_EX
+INFO: [VRFC 10-2263] Analyzing Verilog file "F:/1fr/HWnLABS/CA/labs/ustc_ca2020_lab/Lab2/CSR/ExMemSegReg/Reg2Mem.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module Reg2_MEM
+INFO: [VRFC 10-2263] Analyzing Verilog file "F:/1fr/HWnLABS/CA/labs/ustc_ca2020_lab/Lab2/CSR/ExMemSegReg/Result.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module Result_MEM
+INFO: [VRFC 10-2263] Analyzing Verilog file "F:/1fr/HWnLABS/CA/labs/ustc_ca2020_lab/Lab2/CSR/MemWbSegReg/WbData.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module WB_Data_WB
+INFO: [VRFC 10-2263] Analyzing Verilog file "F:/1fr/HWnLABS/CA/labs/ustc_ca2020_lab/Lab2/CSR/Simulation/testBench.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module testBench

@@ -1,0 +1,9 @@
+0.6
+2018.2
+Jun 14 2018
+20:41:02
+F:/1fr/HWnLABS/CA/labs/lab3/CacheSrcCode/cache.sv,1588858524,systemVerilog,,F:/1fr/HWnLABS/CA/labs/lab3/CacheSrcCode/main_mem.sv,,cache,,,,,,,,
+F:/1fr/HWnLABS/CA/labs/lab3/CacheSrcCode/cache_tb.sv,1588858343,systemVerilog,,,,cache_tb,,,,,,,,
+F:/1fr/HWnLABS/CA/labs/lab3/CacheSrcCode/main_mem.sv,1587982805,systemVerilog,,F:/1fr/HWnLABS/CA/labs/lab3/CacheSrcCode/mem.sv,,main_mem,,,,,,,,
+F:/1fr/HWnLABS/CA/labs/lab3/CacheSrcCode/mem.sv,1588843651,systemVerilog,,F:/1fr/HWnLABS/CA/labs/lab3/CacheSrcCode/cache_tb.sv,,mem,,,,,,,,
+F:/1fr/HWnLABS/CA/labs/lab3/Level1/Level1.sim/sim_1/behav/xsim/glbl.v,1529022455,verilog,,,,glbl,,,,,,,,

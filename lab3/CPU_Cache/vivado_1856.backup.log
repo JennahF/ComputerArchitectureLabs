@@ -1,0 +1,1302 @@
+#-----------------------------------------------------------
+# Vivado v2018.2 (64-bit)
+# SW Build 2258646 on Thu Jun 14 20:03:12 MDT 2018
+# IP Build 2256618 on Thu Jun 14 22:10:49 MDT 2018
+# Start of session at: Fri May  8 11:05:02 2020
+# Process ID: 1856
+# Current directory: F:/1fr/HWnLABS/CA/labs/lab3/CPU_Cache
+# Command line: vivado.exe -gui_launcher_event rodinguilauncherevent9752 F:\1fr\HWnLABS\CA\labs\lab3\CPU_Cache\CPU_Cache.xpr
+# Log file: F:/1fr/HWnLABS/CA/labs/lab3/CPU_Cache/vivado.log
+# Journal file: F:/1fr/HWnLABS/CA/labs/lab3/CPU_Cache\vivado.jou
+#-----------------------------------------------------------
+start_gui
+open_project F:/1fr/HWnLABS/CA/labs/lab3/CPU_Cache/CPU_Cache.xpr
+CRITICAL WARNING: [Project 1-19] Could not find the file 'D:/20SP/CA/lab/CPU_Cache/CPU_Cache.srcs/sources_1/imports/lab/basic/basic.srcs/sources_1/imports/SourceCode/Parameters.sv'.
+CRITICAL WARNING: [Project 1-19] Could not find the file 'D:/20SP/CA/lab/CPU_Cache/CPU_Cache.srcs/sources_1/imports/lab/basic/basic.srcs/sources_1/imports/SourceCode/ALU.v'.
+CRITICAL WARNING: [Project 1-19] Could not find the file 'D:/20SP/CA/lab/CPU_Cache/CPU_Cache.srcs/sources_1/imports/lab/basic/basic.srcs/sources_1/imports/SourceCode/IdExSegReg/AddrEx.v'.
+CRITICAL WARNING: [Project 1-19] Could not find the file 'D:/20SP/CA/lab/CPU_Cache/CPU_Cache.srcs/sources_1/imports/lab/basic/basic.srcs/sources_1/imports/SourceCode/ExMemSegReg/AddrMem.v'.
+CRITICAL WARNING: [Project 1-19] Could not find the file 'D:/20SP/CA/lab/CPU_Cache/CPU_Cache.srcs/sources_1/imports/lab/basic/basic.srcs/sources_1/imports/SourceCode/MemWbSegReg/AddrWb.v'.
+CRITICAL WARNING: [Project 1-19] Could not find the file 'D:/20SP/CA/lab/CPU_Cache/CPU_Cache.srcs/sources_1/imports/lab/basic/basic.srcs/sources_1/imports/SourceCode/IdExSegReg/BrTarget.v'.
+CRITICAL WARNING: [Project 1-19] Could not find the file 'D:/20SP/CA/lab/CPU_Cache/CPU_Cache.srcs/sources_1/imports/lab/basic/basic.srcs/sources_1/imports/SourceCode/BranchDecision.v'.
+CRITICAL WARNING: [Project 1-19] Could not find the file 'D:/20SP/CA/lab/CPU_Cache/CPU_Cache.srcs/sources_1/imports/lab/basic/basic.srcs/sources_1/imports/SourceCode/ControllerDecoder.v'.
+CRITICAL WARNING: [Project 1-19] Could not find the file 'D:/20SP/CA/lab/CPU_Cache/CPU_Cache.srcs/sources_1/imports/lab/basic/basic.srcs/sources_1/imports/SourceCode/IdExSegReg/CsrAddrEX.v'.
+CRITICAL WARNING: [Project 1-19] Could not find the file 'D:/20SP/CA/lab/CPU_Cache/CPU_Cache.srcs/sources_1/imports/lab/basic/basic.srcs/sources_1/imports/SourceCode/ExMemSegReg/CsrAddrMem.v'.
+CRITICAL WARNING: [Project 1-19] Could not find the file 'D:/20SP/CA/lab/CPU_Cache/CPU_Cache.srcs/sources_1/imports/lab/basic/basic.srcs/sources_1/imports/SourceCode/MemWbSegReg/CsrAddrWb.v'.
+CRITICAL WARNING: [Project 1-19] Could not find the file 'D:/20SP/CA/lab/CPU_Cache/CPU_Cache.srcs/sources_1/imports/lab/basic/basic.srcs/sources_1/imports/SourceCode/CsrController.v'.
+CRITICAL WARNING: [Project 1-19] Could not find the file 'D:/20SP/CA/lab/CPU_Cache/CPU_Cache.srcs/sources_1/imports/lab/basic/basic.srcs/sources_1/imports/SourceCode/IdExSegReg/CsrCtrlEX.v'.
+CRITICAL WARNING: [Project 1-19] Could not find the file 'D:/20SP/CA/lab/CPU_Cache/CPU_Cache.srcs/sources_1/imports/lab/basic/basic.srcs/sources_1/imports/SourceCode/ExMemSegReg/CsrCtrlMem.v'.
+CRITICAL WARNING: [Project 1-19] Could not find the file 'D:/20SP/CA/lab/CPU_Cache/CPU_Cache.srcs/sources_1/imports/lab/basic/basic.srcs/sources_1/imports/SourceCode/MemWbSegReg/CsrCtrlWb.v'.
+CRITICAL WARNING: [Project 1-19] Could not find the file 'D:/20SP/CA/lab/CPU_Cache/CPU_Cache.srcs/sources_1/imports/lab/basic/basic.srcs/sources_1/imports/SourceCode/IdExSegReg/CsrDataEX.v'.
+CRITICAL WARNING: [Project 1-19] Could not find the file 'D:/20SP/CA/lab/CPU_Cache/CPU_Cache.srcs/sources_1/imports/lab/basic/basic.srcs/sources_1/imports/SourceCode/ExMemSegReg/CsrDataMem.v'.
+CRITICAL WARNING: [Project 1-19] Could not find the file 'D:/20SP/CA/lab/CPU_Cache/CPU_Cache.srcs/sources_1/imports/lab/basic/basic.srcs/sources_1/imports/SourceCode/MemWbSegReg/CsrWbData.v'.
+CRITICAL WARNING: [Project 1-19] Could not find the file 'D:/20SP/CA/lab/CPU_Cache/CPU_Cache.srcs/sources_1/imports/lab/basic/basic.srcs/sources_1/imports/SourceCode/IdExSegReg/CtrlEx.v'.
+CRITICAL WARNING: [Project 1-19] Could not find the file 'D:/20SP/CA/lab/CPU_Cache/CPU_Cache.srcs/sources_1/imports/lab/basic/basic.srcs/sources_1/imports/SourceCode/ExMemSegReg/CtrlMem.v'.
+CRITICAL WARNING: [Project 1-19] Could not find the file 'D:/20SP/CA/lab/CPU_Cache/CPU_Cache.srcs/sources_1/imports/lab/basic/basic.srcs/sources_1/imports/SourceCode/MemWbSegReg/CtrlWb.v'.
+CRITICAL WARNING: [Project 1-19] Could not find the file 'D:/20SP/CA/lab/CPU_Cache/CPU_Cache.srcs/sources_1/imports/lab/basic/basic.srcs/sources_1/imports/SourceCode/Cache/DataCache.v'.
+CRITICAL WARNING: [Project 1-19] Could not find the file 'D:/20SP/CA/lab/CPU_Cache/CPU_Cache.srcs/sources_1/imports/lab/basic/basic.srcs/sources_1/imports/SourceCode/DataExtend.v'.
+CRITICAL WARNING: [Project 1-19] Could not find the file 'D:/20SP/CA/lab/CPU_Cache/CPU_Cache.srcs/sources_1/imports/lab/basic/basic.srcs/sources_1/imports/SourceCode/GeneralRegister.v'.
+CRITICAL WARNING: [Project 1-19] Could not find the file 'D:/20SP/CA/lab/CPU_Cache/CPU_Cache.srcs/sources_1/imports/lab/basic/basic.srcs/sources_1/imports/SourceCode/Hazard.v'.
+CRITICAL WARNING: [Project 1-19] Could not find the file 'D:/20SP/CA/lab/CPU_Cache/CPU_Cache.srcs/sources_1/imports/lab/basic/basic.srcs/sources_1/imports/SourceCode/IfIdSegReg/IR.v'.
+CRITICAL WARNING: [Project 1-19] Could not find the file 'D:/20SP/CA/lab/CPU_Cache/CPU_Cache.srcs/sources_1/imports/lab/basic/basic.srcs/sources_1/imports/SourceCode/ImmExtend.v'.
+CRITICAL WARNING: [Project 1-19] Could not find the file 'D:/20SP/CA/lab/CPU_Cache/CPU_Cache.srcs/sources_1/imports/lab/basic/basic.srcs/sources_1/imports/SourceCode/Cache/InstructionCache.v'.
+CRITICAL WARNING: [Project 1-19] Could not find the file 'D:/20SP/CA/lab/CPU_Cache/CPU_Cache.srcs/sources_1/imports/lab/basic/basic.srcs/sources_1/imports/SourceCode/NPCGenerator.v'.
+CRITICAL WARNING: [Project 1-19] Could not find the file 'D:/20SP/CA/lab/CPU_Cache/CPU_Cache.srcs/sources_1/imports/lab/basic/basic.srcs/sources_1/imports/SourceCode/IdExSegReg/Op1.v'.
+CRITICAL WARNING: [Project 1-19] Could not find the file 'D:/20SP/CA/lab/CPU_Cache/CPU_Cache.srcs/sources_1/imports/lab/basic/basic.srcs/sources_1/imports/SourceCode/IdExSegReg/Op2.v'.
+CRITICAL WARNING: [Project 1-19] Could not find the file 'D:/20SP/CA/lab/CPU_Cache/CPU_Cache.srcs/sources_1/imports/lab/basic/basic.srcs/sources_1/imports/SourceCode/PC.v'.
+CRITICAL WARNING: [Project 1-19] Could not find the file 'D:/20SP/CA/lab/CPU_Cache/CPU_Cache.srcs/sources_1/imports/lab/basic/basic.srcs/sources_1/imports/SourceCode/IdExSegReg/PcEx.v'.
+CRITICAL WARNING: [Project 1-19] Could not find the file 'D:/20SP/CA/lab/CPU_Cache/CPU_Cache.srcs/sources_1/imports/lab/basic/basic.srcs/sources_1/imports/SourceCode/IfIdSegReg/PcId.v'.
+CRITICAL WARNING: [Project 1-19] Could not find the file 'D:/20SP/CA/lab/CPU_Cache/CPU_Cache.srcs/sources_1/imports/lab/basic/basic.srcs/sources_1/imports/SourceCode/IdExSegReg/Reg2Ex.v'.
+CRITICAL WARNING: [Project 1-19] Could not find the file 'D:/20SP/CA/lab/CPU_Cache/CPU_Cache.srcs/sources_1/imports/lab/basic/basic.srcs/sources_1/imports/SourceCode/ExMemSegReg/Reg2Mem.v'.
+CRITICAL WARNING: [Project 1-19] Could not find the file 'D:/20SP/CA/lab/CPU_Cache/CPU_Cache.srcs/sources_1/imports/lab/basic/basic.srcs/sources_1/imports/SourceCode/ExMemSegReg/Result.v'.
+CRITICAL WARNING: [Project 1-19] Could not find the file 'D:/20SP/CA/lab/CPU_Cache/CPU_Cache.srcs/sources_1/imports/lab/basic/basic.srcs/sources_1/imports/SourceCode/csralu.v'.
+Scanning sources...
+Finished scanning sources
+INFO: [IP_Flow 19-234] Refreshing IP repositories
+INFO: [IP_Flow 19-1704] No user IP repositories specified
+INFO: [IP_Flow 19-2313] Loaded Vivado IP repository 'D:/Xilinx/Vivado/2018.2/data/ip'.
+open_project: Time (s): cpu = 00:00:12 ; elapsed = 00:00:15 . Memory (MB): peak = 750.516 ; gain = 66.246
+update_compile_order -fileset sources_1
+set_property top RV32ICore [current_fileset]
+update_compile_order -fileset sources_1
+launch_simulation
+INFO: [Vivado 12-5682] Launching behavioral simulation in 'F:/1fr/HWnLABS/CA/labs/lab3/CPU_Cache/CPU_Cache.sim/sim_1/behav/xsim'
+INFO: [SIM-utils-51] Simulation object is 'sim_1'
+INFO: [SIM-utils-54] Inspecting design source files for 'cpu_tb' in fileset 'sim_1'...
+INFO: [USF-XSim-97] Finding global include files...
+INFO: [USF-XSim-98] Fetching design files from 'sim_1'...
+INFO: [USF-XSim-2] XSim::Compile design
+INFO: [USF-XSim-61] Executing 'COMPILE and ANALYZE' step in 'F:/1fr/HWnLABS/CA/labs/lab3/CPU_Cache/CPU_Cache.sim/sim_1/behav/xsim'
+"xvlog --incr --relax -prj cpu_tb_vlog.prj"
+INFO: [VRFC 10-2263] Analyzing SystemVerilog file "F:/1fr/HWnLABS/CA/labs/lab3/CPU_Cache/CPU_Cache.srcs/sources_1/imports/lab/basic/basic.srcs/sources_1/imports/SourceCode/ALU.sv" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module ALU
+INFO: [VRFC 10-2263] Analyzing SystemVerilog file "F:/1fr/HWnLABS/CA/labs/lab3/CPU_Cache/CPU_Cache.srcs/sources_1/imports/lab/basic/basic.srcs/sources_1/imports/SourceCode/IdExSegReg/AddrEx.sv" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module Addr_EX
+INFO: [VRFC 10-2263] Analyzing SystemVerilog file "F:/1fr/HWnLABS/CA/labs/lab3/CPU_Cache/CPU_Cache.srcs/sources_1/imports/lab/basic/basic.srcs/sources_1/imports/SourceCode/ExMemSegReg/AddrMem.sv" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module Addr_MEM
+INFO: [VRFC 10-2263] Analyzing SystemVerilog file "F:/1fr/HWnLABS/CA/labs/lab3/CPU_Cache/CPU_Cache.srcs/sources_1/imports/lab/basic/basic.srcs/sources_1/imports/SourceCode/MemWbSegReg/AddrWb.sv" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module Addr_WB
+INFO: [VRFC 10-2263] Analyzing SystemVerilog file "F:/1fr/HWnLABS/CA/labs/lab3/CPU_Cache/CPU_Cache.srcs/sources_1/imports/lab/basic/basic.srcs/sources_1/imports/SourceCode/IdExSegReg/BrTarget.sv" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module BR_Target_EX
+INFO: [VRFC 10-2263] Analyzing SystemVerilog file "F:/1fr/HWnLABS/CA/labs/lab3/CPU_Cache/CPU_Cache.srcs/sources_1/imports/lab/basic/basic.srcs/sources_1/imports/SourceCode/BranchDecision.sv" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module BranchDecision
+INFO: [VRFC 10-2263] Analyzing SystemVerilog file "F:/1fr/HWnLABS/CA/labs/lab3/CPU_Cache/CPU_Cache.srcs/sources_1/imports/lab/basic/basic.srcs/sources_1/imports/SourceCode/ControllerDecoder.sv" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module ControllerDecoder
+INFO: [VRFC 10-2263] Analyzing SystemVerilog file "F:/1fr/HWnLABS/CA/labs/lab3/CPU_Cache/CPU_Cache.srcs/sources_1/imports/lab/basic/basic.srcs/sources_1/imports/SourceCode/IdExSegReg/CsrAddrEX.sv" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module Csr_Addr_EX
+INFO: [VRFC 10-2263] Analyzing SystemVerilog file "F:/1fr/HWnLABS/CA/labs/lab3/CPU_Cache/CPU_Cache.srcs/sources_1/imports/lab/basic/basic.srcs/sources_1/imports/SourceCode/ExMemSegReg/CsrAddrMem.sv" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module Csr_Addr_MEM
+INFO: [VRFC 10-2263] Analyzing SystemVerilog file "F:/1fr/HWnLABS/CA/labs/lab3/CPU_Cache/CPU_Cache.srcs/sources_1/imports/lab/basic/basic.srcs/sources_1/imports/SourceCode/MemWbSegReg/CsrAddrWb.sv" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module Csr_Addr_WB
+INFO: [VRFC 10-2263] Analyzing SystemVerilog file "F:/1fr/HWnLABS/CA/labs/lab3/CPU_Cache/CPU_Cache.srcs/sources_1/imports/lab/basic/basic.srcs/sources_1/imports/SourceCode/CsrController.sv" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module CSR_ControllerDecoder
+INFO: [VRFC 10-2263] Analyzing SystemVerilog file "F:/1fr/HWnLABS/CA/labs/lab3/CPU_Cache/CPU_Cache.srcs/sources_1/imports/lab/basic/basic.srcs/sources_1/imports/SourceCode/IdExSegReg/CsrCtrlEX.sv" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module Csr_Ctrl_EX
+INFO: [VRFC 10-2263] Analyzing SystemVerilog file "F:/1fr/HWnLABS/CA/labs/lab3/CPU_Cache/CPU_Cache.srcs/sources_1/imports/lab/basic/basic.srcs/sources_1/imports/SourceCode/ExMemSegReg/CsrCtrlMem.sv" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module Csr_Ctrl_MEM
+INFO: [VRFC 10-2263] Analyzing SystemVerilog file "F:/1fr/HWnLABS/CA/labs/lab3/CPU_Cache/CPU_Cache.srcs/sources_1/imports/lab/basic/basic.srcs/sources_1/imports/SourceCode/MemWbSegReg/CsrCtrlWb.sv" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module Csr_Ctrl_WB
+INFO: [VRFC 10-2263] Analyzing SystemVerilog file "F:/1fr/HWnLABS/CA/labs/lab3/CPU_Cache/CPU_Cache.srcs/sources_1/imports/lab/basic/basic.srcs/sources_1/imports/SourceCode/IdExSegReg/CsrDataEX.sv" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module Csr_Data_EX
+INFO: [VRFC 10-2263] Analyzing SystemVerilog file "F:/1fr/HWnLABS/CA/labs/lab3/CPU_Cache/CPU_Cache.srcs/sources_1/imports/lab/basic/basic.srcs/sources_1/imports/SourceCode/ExMemSegReg/CsrDataMem.sv" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module Csr_Data_MEM
+INFO: [VRFC 10-2263] Analyzing SystemVerilog file "F:/1fr/HWnLABS/CA/labs/lab3/CPU_Cache/CPU_Cache.srcs/sources_1/imports/lab/basic/basic.srcs/sources_1/imports/SourceCode/MemWbSegReg/CsrWbData.sv" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module Csr_Data_WB
+INFO: [VRFC 10-2263] Analyzing SystemVerilog file "F:/1fr/HWnLABS/CA/labs/lab3/CPU_Cache/CPU_Cache.srcs/sources_1/imports/lab/basic/basic.srcs/sources_1/imports/SourceCode/IdExSegReg/CtrlEx.sv" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module Ctrl_EX
+INFO: [VRFC 10-2263] Analyzing SystemVerilog file "F:/1fr/HWnLABS/CA/labs/lab3/CPU_Cache/CPU_Cache.srcs/sources_1/imports/lab/basic/basic.srcs/sources_1/imports/SourceCode/ExMemSegReg/CtrlMem.sv" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module Ctrl_MEM
+INFO: [VRFC 10-2263] Analyzing SystemVerilog file "F:/1fr/HWnLABS/CA/labs/lab3/CPU_Cache/CPU_Cache.srcs/sources_1/imports/lab/basic/basic.srcs/sources_1/imports/SourceCode/MemWbSegReg/CtrlWb.sv" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module Ctrl_WB
+INFO: [VRFC 10-2263] Analyzing SystemVerilog file "F:/1fr/HWnLABS/CA/labs/lab3/CPU_Cache/CPU_Cache.srcs/sources_1/imports/lab/basic/basic.srcs/sources_1/imports/SourceCode/DataExtend.sv" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module DataExtend
+INFO: [VRFC 10-2263] Analyzing SystemVerilog file "F:/1fr/HWnLABS/CA/labs/lab3/CPU_Cache/CPU_Cache.srcs/sources_1/imports/lab/basic/basic.srcs/sources_1/imports/SourceCode/GeneralRegister.sv" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module RegisterFile
+INFO: [VRFC 10-2263] Analyzing SystemVerilog file "F:/1fr/HWnLABS/CA/labs/lab3/CPU_Cache/CPU_Cache.srcs/sources_1/imports/lab/basic/basic.srcs/sources_1/imports/SourceCode/Hazard.sv" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module HarzardUnit
+INFO: [VRFC 10-2263] Analyzing SystemVerilog file "F:/1fr/HWnLABS/CA/labs/lab3/CPU_Cache/CPU_Cache.srcs/sources_1/imports/lab/basic/basic.srcs/sources_1/imports/SourceCode/IfIdSegReg/IR.sv" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module IR_ID
+INFO: [VRFC 10-2263] Analyzing SystemVerilog file "F:/1fr/HWnLABS/CA/labs/lab3/CPU_Cache/CPU_Cache.srcs/sources_1/imports/lab/basic/basic.srcs/sources_1/imports/SourceCode/ImmExtend.sv" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module ImmExtend
+INFO: [VRFC 10-2263] Analyzing SystemVerilog file "F:/1fr/HWnLABS/CA/labs/lab3/CPU_Cache/CPU_Cache.srcs/sources_1/imports/lab/basic/basic.srcs/sources_1/imports/SourceCode/Cache/InstructionCache.sv" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module InstructionCache
+INFO: [VRFC 10-2263] Analyzing SystemVerilog file "F:/1fr/HWnLABS/CA/labs/lab3/CPU_Cache/CPU_Cache.srcs/sources_1/imports/lab/basic/basic.srcs/sources_1/imports/SourceCode/NPCGenerator.sv" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module NPC_Generator
+INFO: [VRFC 10-2263] Analyzing SystemVerilog file "F:/1fr/HWnLABS/CA/labs/lab3/CPU_Cache/CPU_Cache.srcs/sources_1/imports/lab/basic/basic.srcs/sources_1/imports/SourceCode/IdExSegReg/Op1.sv" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module Op1_EX
+INFO: [VRFC 10-2263] Analyzing SystemVerilog file "F:/1fr/HWnLABS/CA/labs/lab3/CPU_Cache/CPU_Cache.srcs/sources_1/imports/lab/basic/basic.srcs/sources_1/imports/SourceCode/IdExSegReg/Op2.sv" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module Op2_EX
+INFO: [VRFC 10-2263] Analyzing SystemVerilog file "F:/1fr/HWnLABS/CA/labs/lab3/CPU_Cache/CPU_Cache.srcs/sources_1/imports/lab/basic/basic.srcs/sources_1/imports/SourceCode/PC.sv" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module PC_IF
+INFO: [VRFC 10-2263] Analyzing SystemVerilog file "F:/1fr/HWnLABS/CA/labs/lab3/CPU_Cache/CPU_Cache.srcs/sources_1/imports/lab/basic/basic.srcs/sources_1/imports/SourceCode/IdExSegReg/PcEx.sv" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module PC_EX
+INFO: [VRFC 10-2263] Analyzing SystemVerilog file "F:/1fr/HWnLABS/CA/labs/lab3/CPU_Cache/CPU_Cache.srcs/sources_1/imports/lab/basic/basic.srcs/sources_1/imports/SourceCode/IfIdSegReg/PcId.sv" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module PC_ID
+INFO: [VRFC 10-2263] Analyzing SystemVerilog file "F:/1fr/HWnLABS/CA/labs/lab3/CPU_Cache/CPU_Cache.srcs/sources_1/imports/lab/basic/basic.srcs/sources_1/imports/SourceCode/RV32ICore.sv" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module RV32ICore
+INFO: [VRFC 10-2263] Analyzing SystemVerilog file "F:/1fr/HWnLABS/CA/labs/lab3/CPU_Cache/CPU_Cache.srcs/sources_1/imports/lab/basic/basic.srcs/sources_1/imports/SourceCode/IdExSegReg/Reg2Ex.sv" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module Reg2_EX
+INFO: [VRFC 10-2263] Analyzing SystemVerilog file "F:/1fr/HWnLABS/CA/labs/lab3/CPU_Cache/CPU_Cache.srcs/sources_1/imports/lab/basic/basic.srcs/sources_1/imports/SourceCode/ExMemSegReg/Reg2Mem.sv" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module Reg2_MEM
+INFO: [VRFC 10-2263] Analyzing SystemVerilog file "F:/1fr/HWnLABS/CA/labs/lab3/CPU_Cache/CPU_Cache.srcs/sources_1/imports/lab/basic/basic.srcs/sources_1/imports/SourceCode/ExMemSegReg/Result.sv" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module Result_MEM
+INFO: [VRFC 10-2263] Analyzing SystemVerilog file "F:/1fr/HWnLABS/CA/labs/lab3/CPU_Cache/CPU_Cache.srcs/sources_1/imports/lab/basic/basic.srcs/sources_1/imports/SourceCode/MemWbSegReg/WbData.sv" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module WB_Data_WB
+INFO: [VRFC 10-2263] Analyzing SystemVerilog file "F:/1fr/HWnLABS/CA/labs/lab3/CPU_Cache/CPU_Cache.srcs/sources_1/imports/lab/cache/cache.srcs/sources_1/imports/CacheSrcCode/cache_backup.sv" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module cache_lru
+INFO: [VRFC 10-2263] Analyzing SystemVerilog file "F:/1fr/HWnLABS/CA/labs/lab3/CPU_Cache/CPU_Cache.srcs/sources_1/imports/lab/basic/basic.srcs/sources_1/imports/SourceCode/csralu.sv" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module csrALU
+INFO: [VRFC 10-2263] Analyzing SystemVerilog file "F:/1fr/HWnLABS/CA/labs/lab3/CPU_Cache/CPU_Cache.srcs/sources_1/imports/lab/cache/cache.srcs/sources_1/imports/CacheSrcCode/lru.sv" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module lru
+INFO: [VRFC 10-2263] Analyzing SystemVerilog file "F:/1fr/HWnLABS/CA/labs/lab3/CPU_Cache/CPU_Cache.srcs/sources_1/imports/lab/cache/cache.srcs/sources_1/imports/CacheSrcCode/main_mem.sv" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module main_mem
+INFO: [VRFC 10-2263] Analyzing SystemVerilog file "F:/1fr/HWnLABS/CA/labs/lab3/CPU_Cache/CPU_Cache.srcs/sources_1/imports/lab/cache/cache.srcs/sources_1/imports/CacheSrcCode/mem.sv" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module mem
+run_program: Time (s): cpu = 00:00:00 ; elapsed = 00:00:05 . Memory (MB): peak = 799.355 ; gain = 0.000
+INFO: [USF-XSim-69] 'compile' step finished in '5' seconds
+INFO: [USF-XSim-3] XSim::Elaborate design
+INFO: [USF-XSim-61] Executing 'ELABORATE' step in 'F:/1fr/HWnLABS/CA/labs/lab3/CPU_Cache/CPU_Cache.sim/sim_1/behav/xsim'
+Vivado Simulator 2018.2
+Copyright 1986-1999, 2001-2018 Xilinx, Inc. All Rights Reserved.
+Running: D:/Xilinx/Vivado/2018.2/bin/unwrapped/win64.o/xelab.exe -wto dbc366324fa14ebea69a6218dce599dc --incr --debug typical --relax --mt 2 -L xil_defaultlib -L unisims_ver -L unimacro_ver -L secureip --snapshot cpu_tb_behav xil_defaultlib.cpu_tb xil_defaultlib.glbl -log elaborate.log 
+Using 2 slave threads.
+WARNING: [XSIM 43-3431] One or more environment variables have been detected which affect the operation of the C compiler. These are typically not set in standard installations and are not tested by Xilinx, however they may be appropriate for your system, so the flow will attempt to continue.  If errors occur, try running xelab with the "-mt off -v 1" switches to see more information from the C compiler. The following environment variables have been detected:
+    LIBRARY_PATH
+Starting static elaboration
+WARNING: [VRFC 10-278] actual bit length 2 differs from formal bit length 3 for port src_reg_en_EX [F:/1fr/HWnLABS/CA/labs/lab3/CPU_Cache/CPU_Cache.srcs/sources_1/imports/lab/basic/basic.srcs/sources_1/imports/SourceCode/RV32ICore.sv:314]
+Completed static elaboration
+Starting simulation data flow analysis
+Completed simulation data flow analysis
+Time Resolution for simulation is 1ps
+Compiling module xil_defaultlib.NPC_Generator
+Compiling module xil_defaultlib.PC_IF
+Compiling module xil_defaultlib.PC_ID
+Compiling module xil_defaultlib.InstructionCache
+Compiling module xil_defaultlib.IR_ID
+Compiling module xil_defaultlib.RegisterFile
+Compiling module xil_defaultlib.CSR_ControllerDecoder
+Compiling module xil_defaultlib.csrALU
+Compiling module xil_defaultlib.ControllerDecoder
+Compiling module xil_defaultlib.ImmExtend
+Compiling module xil_defaultlib.PC_EX
+Compiling module xil_defaultlib.BR_Target_EX
+Compiling module xil_defaultlib.Op1_EX
+Compiling module xil_defaultlib.Op2_EX
+Compiling module xil_defaultlib.Reg2_EX
+Compiling module xil_defaultlib.Addr_EX
+Compiling module xil_defaultlib.Ctrl_EX
+Compiling module xil_defaultlib.Csr_Addr_EX
+Compiling module xil_defaultlib.Csr_Ctrl_EX
+Compiling module xil_defaultlib.Csr_Data_EX
+Compiling module xil_defaultlib.ALU
+Compiling module xil_defaultlib.BranchDecision
+Compiling module xil_defaultlib.Result_MEM
+Compiling module xil_defaultlib.Reg2_MEM
+Compiling module xil_defaultlib.Addr_MEM
+Compiling module xil_defaultlib.Ctrl_MEM
+Compiling module xil_defaultlib.Csr_Addr_MEM
+Compiling module xil_defaultlib.Csr_Ctrl_MEM
+Compiling module xil_defaultlib.Csr_Data_MEM
+Compiling module xil_defaultlib.mem(ADDR_LEN=12)
+Compiling module xil_defaultlib.main_mem(ADDR_LEN=9)
+Compiling module xil_defaultlib.lru(SET_ADDR_LEN=2,TAG_ADDR_LEN=...
+Compiling module xil_defaultlib.cache_lru(SET_ADDR_LEN=2,TAG_ADD...
+Compiling module xil_defaultlib.DataExtend
+Compiling module xil_defaultlib.WB_Data_WB
+Compiling module xil_defaultlib.Addr_WB
+Compiling module xil_defaultlib.Ctrl_WB
+Compiling module xil_defaultlib.Csr_Addr_WB
+Compiling module xil_defaultlib.Csr_Ctrl_WB
+Compiling module xil_defaultlib.Csr_Data_WB
+Compiling module xil_defaultlib.HarzardUnit
+Compiling module xil_defaultlib.RV32ICore
+Compiling module xil_defaultlib.cpu_tb
+Compiling module xil_defaultlib.glbl
+Built simulation snapshot cpu_tb_behav
+
+****** Webtalk v2018.2 (64-bit)
+  **** SW Build 2258646 on Thu Jun 14 20:03:12 MDT 2018
+  **** IP Build 2256618 on Thu Jun 14 22:10:49 MDT 2018
+    ** Copyright 1986-2018 Xilinx, Inc. All Rights Reserved.
+
+source F:/1fr/HWnLABS/CA/labs/lab3/CPU_Cache/CPU_Cache.sim/sim_1/behav/xsim/xsim.dir/cpu_tb_behav/webtalk/xsim_webtalk.tcl -notrace
+INFO: [Common 17-206] Exiting Webtalk at Fri May  8 11:07:31 2020...
+run_program: Time (s): cpu = 00:00:00 ; elapsed = 00:00:07 . Memory (MB): peak = 799.355 ; gain = 0.000
+INFO: [USF-XSim-69] 'elaborate' step finished in '6' seconds
+INFO: [USF-XSim-4] XSim::Simulate design
+INFO: [USF-XSim-61] Executing 'SIMULATE' step in 'F:/1fr/HWnLABS/CA/labs/lab3/CPU_Cache/CPU_Cache.sim/sim_1/behav/xsim'
+INFO: [USF-XSim-98] *** Running xsim
+   with args "cpu_tb_behav -key {Behavioral:sim_1:Functional:cpu_tb} -tclbatch {cpu_tb.tcl} -view {F:/1fr/HWnLABS/CA/labs/lab3/CPU_Cache/CPU_Cache.srcs/sim_1/imports/CPU_Cache/cpu_tb_behav.wcfg} -log {simulate.log}"
+INFO: [USF-XSim-8] Loading simulator feature
+Vivado Simulator 2018.2
+Time resolution is 1 ps
+open_wave_config F:/1fr/HWnLABS/CA/labs/lab3/CPU_Cache/CPU_Cache.srcs/sim_1/imports/CPU_Cache/cpu_tb_behav.wcfg
+source cpu_tb.tcl
+# set curr_wave [current_wave_config]
+# if { [string length $curr_wave] == 0 } {
+#   if { [llength [get_objects]] > 0} {
+#     add_wave /
+#     set_property needs_save false [current_wave_config]
+#   } else {
+#      send_msg_id Add_Wave-1 WARNING "No top level signals found. Simulator will start without a wave window. If you want to open a wave window go to 'File->New Waveform Configuration' or type 'create_wave_config' in the TCL console."
+#   }
+# }
+# run 1000ns
+INFO: [USF-XSim-96] XSim completed. Design snapshot 'cpu_tb_behav' loaded.
+INFO: [USF-XSim-97] XSim simulation ran for 1000ns
+launch_simulation: Time (s): cpu = 00:00:07 ; elapsed = 00:00:16 . Memory (MB): peak = 808.082 ; gain = 8.727
+current_wave_config {cpu_tb_behav.wcfg}
+cpu_tb_behav.wcfg
+add_wave {{/cpu_tb/RV32ICore_tb_inst/inst_ID}} 
+current_wave_config {cpu_tb_behav.wcfg}
+cpu_tb_behav.wcfg
+add_wave {{/cpu_tb/RV32ICore_tb_inst/RegisterFile1/reg_file}} 
+current_wave_config {cpu_tb_behav.wcfg}
+cpu_tb_behav.wcfg
+add_wave {{/cpu_tb/RV32ICore_tb_inst/WB_Data_WB1/cache_inst1/wr_req}} 
+current_wave_config {cpu_tb_behav.wcfg}
+cpu_tb_behav.wcfg
+add_wave {{/cpu_tb/RV32ICore_tb_inst/WB_Data_WB1/cache_inst1/rd_req}} 
+current_wave_config {cpu_tb_behav.wcfg}
+cpu_tb_behav.wcfg
+add_wave {{/cpu_tb/RV32ICore_tb_inst/WB_Data_WB1/cache_inst1/rd_data}} 
+current_wave_config {cpu_tb_behav.wcfg}
+cpu_tb_behav.wcfg
+add_wave {{/cpu_tb/RV32ICore_tb_inst/WB_Data_WB1/cache_inst1/cache_stat}} 
+relaunch_sim
+INFO: [Vivado 12-5682] Launching behavioral simulation in 'F:/1fr/HWnLABS/CA/labs/lab3/CPU_Cache/CPU_Cache.sim/sim_1/behav/xsim'
+INFO: [SIM-utils-51] Simulation object is 'sim_1'
+INFO: [SIM-utils-54] Inspecting design source files for 'cpu_tb' in fileset 'sim_1'...
+INFO: [USF-XSim-97] Finding global include files...
+INFO: [USF-XSim-98] Fetching design files from 'sim_1'...
+INFO: [USF-XSim-2] XSim::Compile design
+INFO: [USF-XSim-61] Executing 'COMPILE and ANALYZE' step in 'F:/1fr/HWnLABS/CA/labs/lab3/CPU_Cache/CPU_Cache.sim/sim_1/behav/xsim'
+"xvlog --incr --relax -prj cpu_tb_vlog.prj"
+INFO: [VRFC 10-2263] Analyzing SystemVerilog file "F:/1fr/HWnLABS/CA/labs/lab3/CPU_Cache/CPU_Cache.srcs/sources_1/imports/lab/basic/basic.srcs/sources_1/imports/SourceCode/ALU.sv" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module ALU
+INFO: [VRFC 10-2263] Analyzing SystemVerilog file "F:/1fr/HWnLABS/CA/labs/lab3/CPU_Cache/CPU_Cache.srcs/sources_1/imports/lab/basic/basic.srcs/sources_1/imports/SourceCode/IdExSegReg/AddrEx.sv" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module Addr_EX
+INFO: [VRFC 10-2263] Analyzing SystemVerilog file "F:/1fr/HWnLABS/CA/labs/lab3/CPU_Cache/CPU_Cache.srcs/sources_1/imports/lab/basic/basic.srcs/sources_1/imports/SourceCode/ExMemSegReg/AddrMem.sv" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module Addr_MEM
+INFO: [VRFC 10-2263] Analyzing SystemVerilog file "F:/1fr/HWnLABS/CA/labs/lab3/CPU_Cache/CPU_Cache.srcs/sources_1/imports/lab/basic/basic.srcs/sources_1/imports/SourceCode/MemWbSegReg/AddrWb.sv" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module Addr_WB
+INFO: [VRFC 10-2263] Analyzing SystemVerilog file "F:/1fr/HWnLABS/CA/labs/lab3/CPU_Cache/CPU_Cache.srcs/sources_1/imports/lab/basic/basic.srcs/sources_1/imports/SourceCode/IdExSegReg/BrTarget.sv" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module BR_Target_EX
+INFO: [VRFC 10-2263] Analyzing SystemVerilog file "F:/1fr/HWnLABS/CA/labs/lab3/CPU_Cache/CPU_Cache.srcs/sources_1/imports/lab/basic/basic.srcs/sources_1/imports/SourceCode/BranchDecision.sv" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module BranchDecision
+INFO: [VRFC 10-2263] Analyzing SystemVerilog file "F:/1fr/HWnLABS/CA/labs/lab3/CPU_Cache/CPU_Cache.srcs/sources_1/imports/lab/basic/basic.srcs/sources_1/imports/SourceCode/ControllerDecoder.sv" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module ControllerDecoder
+INFO: [VRFC 10-2263] Analyzing SystemVerilog file "F:/1fr/HWnLABS/CA/labs/lab3/CPU_Cache/CPU_Cache.srcs/sources_1/imports/lab/basic/basic.srcs/sources_1/imports/SourceCode/IdExSegReg/CsrAddrEX.sv" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module Csr_Addr_EX
+INFO: [VRFC 10-2263] Analyzing SystemVerilog file "F:/1fr/HWnLABS/CA/labs/lab3/CPU_Cache/CPU_Cache.srcs/sources_1/imports/lab/basic/basic.srcs/sources_1/imports/SourceCode/ExMemSegReg/CsrAddrMem.sv" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module Csr_Addr_MEM
+INFO: [VRFC 10-2263] Analyzing SystemVerilog file "F:/1fr/HWnLABS/CA/labs/lab3/CPU_Cache/CPU_Cache.srcs/sources_1/imports/lab/basic/basic.srcs/sources_1/imports/SourceCode/MemWbSegReg/CsrAddrWb.sv" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module Csr_Addr_WB
+INFO: [VRFC 10-2263] Analyzing SystemVerilog file "F:/1fr/HWnLABS/CA/labs/lab3/CPU_Cache/CPU_Cache.srcs/sources_1/imports/lab/basic/basic.srcs/sources_1/imports/SourceCode/CsrController.sv" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module CSR_ControllerDecoder
+INFO: [VRFC 10-2263] Analyzing SystemVerilog file "F:/1fr/HWnLABS/CA/labs/lab3/CPU_Cache/CPU_Cache.srcs/sources_1/imports/lab/basic/basic.srcs/sources_1/imports/SourceCode/IdExSegReg/CsrCtrlEX.sv" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module Csr_Ctrl_EX
+INFO: [VRFC 10-2263] Analyzing SystemVerilog file "F:/1fr/HWnLABS/CA/labs/lab3/CPU_Cache/CPU_Cache.srcs/sources_1/imports/lab/basic/basic.srcs/sources_1/imports/SourceCode/ExMemSegReg/CsrCtrlMem.sv" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module Csr_Ctrl_MEM
+INFO: [VRFC 10-2263] Analyzing SystemVerilog file "F:/1fr/HWnLABS/CA/labs/lab3/CPU_Cache/CPU_Cache.srcs/sources_1/imports/lab/basic/basic.srcs/sources_1/imports/SourceCode/MemWbSegReg/CsrCtrlWb.sv" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module Csr_Ctrl_WB
+INFO: [VRFC 10-2263] Analyzing SystemVerilog file "F:/1fr/HWnLABS/CA/labs/lab3/CPU_Cache/CPU_Cache.srcs/sources_1/imports/lab/basic/basic.srcs/sources_1/imports/SourceCode/IdExSegReg/CsrDataEX.sv" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module Csr_Data_EX
+INFO: [VRFC 10-2263] Analyzing SystemVerilog file "F:/1fr/HWnLABS/CA/labs/lab3/CPU_Cache/CPU_Cache.srcs/sources_1/imports/lab/basic/basic.srcs/sources_1/imports/SourceCode/ExMemSegReg/CsrDataMem.sv" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module Csr_Data_MEM
+INFO: [VRFC 10-2263] Analyzing SystemVerilog file "F:/1fr/HWnLABS/CA/labs/lab3/CPU_Cache/CPU_Cache.srcs/sources_1/imports/lab/basic/basic.srcs/sources_1/imports/SourceCode/MemWbSegReg/CsrWbData.sv" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module Csr_Data_WB
+INFO: [VRFC 10-2263] Analyzing SystemVerilog file "F:/1fr/HWnLABS/CA/labs/lab3/CPU_Cache/CPU_Cache.srcs/sources_1/imports/lab/basic/basic.srcs/sources_1/imports/SourceCode/IdExSegReg/CtrlEx.sv" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module Ctrl_EX
+INFO: [VRFC 10-2263] Analyzing SystemVerilog file "F:/1fr/HWnLABS/CA/labs/lab3/CPU_Cache/CPU_Cache.srcs/sources_1/imports/lab/basic/basic.srcs/sources_1/imports/SourceCode/ExMemSegReg/CtrlMem.sv" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module Ctrl_MEM
+INFO: [VRFC 10-2263] Analyzing SystemVerilog file "F:/1fr/HWnLABS/CA/labs/lab3/CPU_Cache/CPU_Cache.srcs/sources_1/imports/lab/basic/basic.srcs/sources_1/imports/SourceCode/MemWbSegReg/CtrlWb.sv" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module Ctrl_WB
+INFO: [VRFC 10-2263] Analyzing SystemVerilog file "F:/1fr/HWnLABS/CA/labs/lab3/CPU_Cache/CPU_Cache.srcs/sources_1/imports/lab/basic/basic.srcs/sources_1/imports/SourceCode/DataExtend.sv" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module DataExtend
+INFO: [VRFC 10-2263] Analyzing SystemVerilog file "F:/1fr/HWnLABS/CA/labs/lab3/CPU_Cache/CPU_Cache.srcs/sources_1/imports/lab/basic/basic.srcs/sources_1/imports/SourceCode/GeneralRegister.sv" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module RegisterFile
+INFO: [VRFC 10-2263] Analyzing SystemVerilog file "F:/1fr/HWnLABS/CA/labs/lab3/CPU_Cache/CPU_Cache.srcs/sources_1/imports/lab/basic/basic.srcs/sources_1/imports/SourceCode/Hazard.sv" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module HarzardUnit
+INFO: [VRFC 10-2263] Analyzing SystemVerilog file "F:/1fr/HWnLABS/CA/labs/lab3/CPU_Cache/CPU_Cache.srcs/sources_1/imports/lab/basic/basic.srcs/sources_1/imports/SourceCode/IfIdSegReg/IR.sv" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module IR_ID
+INFO: [VRFC 10-2263] Analyzing SystemVerilog file "F:/1fr/HWnLABS/CA/labs/lab3/CPU_Cache/CPU_Cache.srcs/sources_1/imports/lab/basic/basic.srcs/sources_1/imports/SourceCode/ImmExtend.sv" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module ImmExtend
+INFO: [VRFC 10-2263] Analyzing SystemVerilog file "F:/1fr/HWnLABS/CA/labs/lab3/CPU_Cache/CPU_Cache.srcs/sources_1/imports/lab/basic/basic.srcs/sources_1/imports/SourceCode/Cache/InstructionCache.sv" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module InstructionCache
+INFO: [VRFC 10-2263] Analyzing SystemVerilog file "F:/1fr/HWnLABS/CA/labs/lab3/CPU_Cache/CPU_Cache.srcs/sources_1/imports/lab/basic/basic.srcs/sources_1/imports/SourceCode/NPCGenerator.sv" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module NPC_Generator
+INFO: [VRFC 10-2263] Analyzing SystemVerilog file "F:/1fr/HWnLABS/CA/labs/lab3/CPU_Cache/CPU_Cache.srcs/sources_1/imports/lab/basic/basic.srcs/sources_1/imports/SourceCode/IdExSegReg/Op1.sv" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module Op1_EX
+INFO: [VRFC 10-2263] Analyzing SystemVerilog file "F:/1fr/HWnLABS/CA/labs/lab3/CPU_Cache/CPU_Cache.srcs/sources_1/imports/lab/basic/basic.srcs/sources_1/imports/SourceCode/IdExSegReg/Op2.sv" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module Op2_EX
+INFO: [VRFC 10-2263] Analyzing SystemVerilog file "F:/1fr/HWnLABS/CA/labs/lab3/CPU_Cache/CPU_Cache.srcs/sources_1/imports/lab/basic/basic.srcs/sources_1/imports/SourceCode/PC.sv" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module PC_IF
+INFO: [VRFC 10-2263] Analyzing SystemVerilog file "F:/1fr/HWnLABS/CA/labs/lab3/CPU_Cache/CPU_Cache.srcs/sources_1/imports/lab/basic/basic.srcs/sources_1/imports/SourceCode/IdExSegReg/PcEx.sv" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module PC_EX
+INFO: [VRFC 10-2263] Analyzing SystemVerilog file "F:/1fr/HWnLABS/CA/labs/lab3/CPU_Cache/CPU_Cache.srcs/sources_1/imports/lab/basic/basic.srcs/sources_1/imports/SourceCode/IfIdSegReg/PcId.sv" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module PC_ID
+INFO: [VRFC 10-2263] Analyzing SystemVerilog file "F:/1fr/HWnLABS/CA/labs/lab3/CPU_Cache/CPU_Cache.srcs/sources_1/imports/lab/basic/basic.srcs/sources_1/imports/SourceCode/RV32ICore.sv" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module RV32ICore
+INFO: [VRFC 10-2263] Analyzing SystemVerilog file "F:/1fr/HWnLABS/CA/labs/lab3/CPU_Cache/CPU_Cache.srcs/sources_1/imports/lab/basic/basic.srcs/sources_1/imports/SourceCode/IdExSegReg/Reg2Ex.sv" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module Reg2_EX
+INFO: [VRFC 10-2263] Analyzing SystemVerilog file "F:/1fr/HWnLABS/CA/labs/lab3/CPU_Cache/CPU_Cache.srcs/sources_1/imports/lab/basic/basic.srcs/sources_1/imports/SourceCode/ExMemSegReg/Reg2Mem.sv" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module Reg2_MEM
+INFO: [VRFC 10-2263] Analyzing SystemVerilog file "F:/1fr/HWnLABS/CA/labs/lab3/CPU_Cache/CPU_Cache.srcs/sources_1/imports/lab/basic/basic.srcs/sources_1/imports/SourceCode/ExMemSegReg/Result.sv" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module Result_MEM
+INFO: [VRFC 10-2263] Analyzing SystemVerilog file "F:/1fr/HWnLABS/CA/labs/lab3/CPU_Cache/CPU_Cache.srcs/sources_1/imports/lab/basic/basic.srcs/sources_1/imports/SourceCode/MemWbSegReg/WbData.sv" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module WB_Data_WB
+INFO: [VRFC 10-2263] Analyzing SystemVerilog file "F:/1fr/HWnLABS/CA/labs/lab3/CPU_Cache/CPU_Cache.srcs/sources_1/imports/lab/cache/cache.srcs/sources_1/imports/CacheSrcCode/cache_backup.sv" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module cache_lru
+INFO: [VRFC 10-2263] Analyzing SystemVerilog file "F:/1fr/HWnLABS/CA/labs/lab3/CPU_Cache/CPU_Cache.srcs/sources_1/imports/lab/basic/basic.srcs/sources_1/imports/SourceCode/csralu.sv" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module csrALU
+INFO: [VRFC 10-2263] Analyzing SystemVerilog file "F:/1fr/HWnLABS/CA/labs/lab3/CPU_Cache/CPU_Cache.srcs/sources_1/imports/lab/cache/cache.srcs/sources_1/imports/CacheSrcCode/lru.sv" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module lru
+INFO: [VRFC 10-2263] Analyzing SystemVerilog file "F:/1fr/HWnLABS/CA/labs/lab3/CPU_Cache/CPU_Cache.srcs/sources_1/imports/lab/cache/cache.srcs/sources_1/imports/CacheSrcCode/main_mem.sv" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module main_mem
+INFO: [VRFC 10-2263] Analyzing SystemVerilog file "F:/1fr/HWnLABS/CA/labs/lab3/CPU_Cache/CPU_Cache.srcs/sources_1/imports/lab/cache/cache.srcs/sources_1/imports/CacheSrcCode/mem.sv" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module mem
+run_program: Time (s): cpu = 00:00:01 ; elapsed = 00:00:05 . Memory (MB): peak = 820.820 ; gain = 0.316
+INFO: [USF-XSim-69] 'compile' step finished in '5' seconds
+launch_simulation: Time (s): cpu = 00:00:01 ; elapsed = 00:00:05 . Memory (MB): peak = 820.820 ; gain = 0.316
+INFO: [Vivado 12-5682] Launching behavioral simulation in 'F:/1fr/HWnLABS/CA/labs/lab3/CPU_Cache/CPU_Cache.sim/sim_1/behav/xsim'
+INFO: [USF-XSim-3] XSim::Elaborate design
+INFO: [USF-XSim-61] Executing 'ELABORATE' step in 'F:/1fr/HWnLABS/CA/labs/lab3/CPU_Cache/CPU_Cache.sim/sim_1/behav/xsim'
+Vivado Simulator 2018.2
+Copyright 1986-1999, 2001-2018 Xilinx, Inc. All Rights Reserved.
+Running: D:/Xilinx/Vivado/2018.2/bin/unwrapped/win64.o/xelab.exe -wto dbc366324fa14ebea69a6218dce599dc --incr --debug typical --relax --mt 2 -L xil_defaultlib -L unisims_ver -L unimacro_ver -L secureip --snapshot cpu_tb_behav xil_defaultlib.cpu_tb xil_defaultlib.glbl -log elaborate.log 
+Using 2 slave threads.
+WARNING: [XSIM 43-3431] One or more environment variables have been detected which affect the operation of the C compiler. These are typically not set in standard installations and are not tested by Xilinx, however they may be appropriate for your system, so the flow will attempt to continue.  If errors occur, try running xelab with the "-mt off -v 1" switches to see more information from the C compiler. The following environment variables have been detected:
+    LIBRARY_PATH
+Starting static elaboration
+WARNING: [VRFC 10-278] actual bit length 2 differs from formal bit length 3 for port src_reg_en_EX [F:/1fr/HWnLABS/CA/labs/lab3/CPU_Cache/CPU_Cache.srcs/sources_1/imports/lab/basic/basic.srcs/sources_1/imports/SourceCode/RV32ICore.sv:314]
+Completed static elaboration
+Starting simulation data flow analysis
+Completed simulation data flow analysis
+Time Resolution for simulation is 1ps
+Compiling module xil_defaultlib.NPC_Generator
+Compiling module xil_defaultlib.PC_IF
+Compiling module xil_defaultlib.PC_ID
+Compiling module xil_defaultlib.InstructionCache
+Compiling module xil_defaultlib.IR_ID
+Compiling module xil_defaultlib.RegisterFile
+Compiling module xil_defaultlib.CSR_ControllerDecoder
+Compiling module xil_defaultlib.csrALU
+Compiling module xil_defaultlib.ControllerDecoder
+Compiling module xil_defaultlib.ImmExtend
+Compiling module xil_defaultlib.PC_EX
+Compiling module xil_defaultlib.BR_Target_EX
+Compiling module xil_defaultlib.Op1_EX
+Compiling module xil_defaultlib.Op2_EX
+Compiling module xil_defaultlib.Reg2_EX
+Compiling module xil_defaultlib.Addr_EX
+Compiling module xil_defaultlib.Ctrl_EX
+Compiling module xil_defaultlib.Csr_Addr_EX
+Compiling module xil_defaultlib.Csr_Ctrl_EX
+Compiling module xil_defaultlib.Csr_Data_EX
+Compiling module xil_defaultlib.ALU
+Compiling module xil_defaultlib.BranchDecision
+Compiling module xil_defaultlib.Result_MEM
+Compiling module xil_defaultlib.Reg2_MEM
+Compiling module xil_defaultlib.Addr_MEM
+Compiling module xil_defaultlib.Ctrl_MEM
+Compiling module xil_defaultlib.Csr_Addr_MEM
+Compiling module xil_defaultlib.Csr_Ctrl_MEM
+Compiling module xil_defaultlib.Csr_Data_MEM
+Compiling module xil_defaultlib.mem(ADDR_LEN=12)
+Compiling module xil_defaultlib.main_mem(ADDR_LEN=9)
+Compiling module xil_defaultlib.lru(SET_ADDR_LEN=2,TAG_ADDR_LEN=...
+Compiling module xil_defaultlib.cache_lru(SET_ADDR_LEN=2,TAG_ADD...
+Compiling module xil_defaultlib.DataExtend
+Compiling module xil_defaultlib.WB_Data_WB
+Compiling module xil_defaultlib.Addr_WB
+Compiling module xil_defaultlib.Ctrl_WB
+Compiling module xil_defaultlib.Csr_Addr_WB
+Compiling module xil_defaultlib.Csr_Ctrl_WB
+Compiling module xil_defaultlib.Csr_Data_WB
+Compiling module xil_defaultlib.HarzardUnit
+Compiling module xil_defaultlib.RV32ICore
+Compiling module xil_defaultlib.cpu_tb
+Compiling module xil_defaultlib.glbl
+Built simulation snapshot cpu_tb_behav
+INFO: [USF-XSim-69] 'elaborate' step finished in '3' seconds
+Vivado Simulator 2018.2
+Time resolution is 1 ps
+relaunch_sim: Time (s): cpu = 00:00:03 ; elapsed = 00:00:15 . Memory (MB): peak = 826.457 ; gain = 5.953
+run all
+current_wave_config {cpu_tb_behav.wcfg}
+cpu_tb_behav.wcfg
+add_wave {{/cpu_tb/RV32ICore_tb_inst/WB_Data_WB1/cache_inst1/addr}} 
+relaunch_sim
+INFO: [Vivado 12-5682] Launching behavioral simulation in 'F:/1fr/HWnLABS/CA/labs/lab3/CPU_Cache/CPU_Cache.sim/sim_1/behav/xsim'
+INFO: [SIM-utils-51] Simulation object is 'sim_1'
+INFO: [SIM-utils-54] Inspecting design source files for 'cpu_tb' in fileset 'sim_1'...
+INFO: [USF-XSim-97] Finding global include files...
+INFO: [USF-XSim-98] Fetching design files from 'sim_1'...
+INFO: [USF-XSim-2] XSim::Compile design
+INFO: [USF-XSim-61] Executing 'COMPILE and ANALYZE' step in 'F:/1fr/HWnLABS/CA/labs/lab3/CPU_Cache/CPU_Cache.sim/sim_1/behav/xsim'
+"xvlog --incr --relax -prj cpu_tb_vlog.prj"
+INFO: [USF-XSim-69] 'compile' step finished in '3' seconds
+INFO: [Vivado 12-5682] Launching behavioral simulation in 'F:/1fr/HWnLABS/CA/labs/lab3/CPU_Cache/CPU_Cache.sim/sim_1/behav/xsim'
+INFO: [USF-XSim-3] XSim::Elaborate design
+INFO: [USF-XSim-61] Executing 'ELABORATE' step in 'F:/1fr/HWnLABS/CA/labs/lab3/CPU_Cache/CPU_Cache.sim/sim_1/behav/xsim'
+Vivado Simulator 2018.2
+Copyright 1986-1999, 2001-2018 Xilinx, Inc. All Rights Reserved.
+Running: D:/Xilinx/Vivado/2018.2/bin/unwrapped/win64.o/xelab.exe -wto dbc366324fa14ebea69a6218dce599dc --incr --debug typical --relax --mt 2 -L xil_defaultlib -L unisims_ver -L unimacro_ver -L secureip --snapshot cpu_tb_behav xil_defaultlib.cpu_tb xil_defaultlib.glbl -log elaborate.log 
+Using 2 slave threads.
+WARNING: [XSIM 43-3431] One or more environment variables have been detected which affect the operation of the C compiler. These are typically not set in standard installations and are not tested by Xilinx, however they may be appropriate for your system, so the flow will attempt to continue.  If errors occur, try running xelab with the "-mt off -v 1" switches to see more information from the C compiler. The following environment variables have been detected:
+    LIBRARY_PATH
+Starting static elaboration
+WARNING: [VRFC 10-278] actual bit length 2 differs from formal bit length 3 for port src_reg_en_EX [F:/1fr/HWnLABS/CA/labs/lab3/CPU_Cache/CPU_Cache.srcs/sources_1/imports/lab/basic/basic.srcs/sources_1/imports/SourceCode/RV32ICore.sv:314]
+Completed static elaboration
+INFO: [XSIM 43-4323] No Change in HDL. Linking previously generated obj files to create kernel
+INFO: [USF-XSim-69] 'elaborate' step finished in '4' seconds
+Vivado Simulator 2018.2
+Time resolution is 1 ps
+relaunch_sim: Time (s): cpu = 00:00:01 ; elapsed = 00:00:11 . Memory (MB): peak = 849.777 ; gain = 0.000
+current_wave_config {cpu_tb_behav.wcfg}
+cpu_tb_behav.wcfg
+add_wave {{/cpu_tb/RV32ICore_tb_inst/miss}} 
+relaunch_sim
+INFO: [Vivado 12-5682] Launching behavioral simulation in 'F:/1fr/HWnLABS/CA/labs/lab3/CPU_Cache/CPU_Cache.sim/sim_1/behav/xsim'
+INFO: [SIM-utils-51] Simulation object is 'sim_1'
+INFO: [SIM-utils-54] Inspecting design source files for 'cpu_tb' in fileset 'sim_1'...
+INFO: [USF-XSim-97] Finding global include files...
+INFO: [USF-XSim-98] Fetching design files from 'sim_1'...
+INFO: [USF-XSim-2] XSim::Compile design
+INFO: [USF-XSim-61] Executing 'COMPILE and ANALYZE' step in 'F:/1fr/HWnLABS/CA/labs/lab3/CPU_Cache/CPU_Cache.sim/sim_1/behav/xsim'
+"xvlog --incr --relax -prj cpu_tb_vlog.prj"
+INFO: [USF-XSim-69] 'compile' step finished in '2' seconds
+INFO: [Vivado 12-5682] Launching behavioral simulation in 'F:/1fr/HWnLABS/CA/labs/lab3/CPU_Cache/CPU_Cache.sim/sim_1/behav/xsim'
+INFO: [USF-XSim-3] XSim::Elaborate design
+INFO: [USF-XSim-61] Executing 'ELABORATE' step in 'F:/1fr/HWnLABS/CA/labs/lab3/CPU_Cache/CPU_Cache.sim/sim_1/behav/xsim'
+Vivado Simulator 2018.2
+Copyright 1986-1999, 2001-2018 Xilinx, Inc. All Rights Reserved.
+Running: D:/Xilinx/Vivado/2018.2/bin/unwrapped/win64.o/xelab.exe -wto dbc366324fa14ebea69a6218dce599dc --incr --debug typical --relax --mt 2 -L xil_defaultlib -L unisims_ver -L unimacro_ver -L secureip --snapshot cpu_tb_behav xil_defaultlib.cpu_tb xil_defaultlib.glbl -log elaborate.log 
+Using 2 slave threads.
+WARNING: [XSIM 43-3431] One or more environment variables have been detected which affect the operation of the C compiler. These are typically not set in standard installations and are not tested by Xilinx, however they may be appropriate for your system, so the flow will attempt to continue.  If errors occur, try running xelab with the "-mt off -v 1" switches to see more information from the C compiler. The following environment variables have been detected:
+    LIBRARY_PATH
+Starting static elaboration
+WARNING: [VRFC 10-278] actual bit length 2 differs from formal bit length 3 for port src_reg_en_EX [F:/1fr/HWnLABS/CA/labs/lab3/CPU_Cache/CPU_Cache.srcs/sources_1/imports/lab/basic/basic.srcs/sources_1/imports/SourceCode/RV32ICore.sv:314]
+Completed static elaboration
+INFO: [XSIM 43-4323] No Change in HDL. Linking previously generated obj files to create kernel
+INFO: [USF-XSim-69] 'elaborate' step finished in '1' seconds
+Vivado Simulator 2018.2
+Time resolution is 1 ps
+relaunch_sim: Time (s): cpu = 00:00:01 ; elapsed = 00:00:06 . Memory (MB): peak = 849.777 ; gain = 0.000
+current_wave_config {cpu_tb_behav.wcfg}
+cpu_tb_behav.wcfg
+add_wave {{/cpu_tb/RV32ICore_tb_inst/PC_IF}} 
+relaunch_sim
+INFO: [Vivado 12-5682] Launching behavioral simulation in 'F:/1fr/HWnLABS/CA/labs/lab3/CPU_Cache/CPU_Cache.sim/sim_1/behav/xsim'
+INFO: [SIM-utils-51] Simulation object is 'sim_1'
+INFO: [SIM-utils-54] Inspecting design source files for 'cpu_tb' in fileset 'sim_1'...
+INFO: [USF-XSim-97] Finding global include files...
+INFO: [USF-XSim-98] Fetching design files from 'sim_1'...
+INFO: [USF-XSim-2] XSim::Compile design
+INFO: [USF-XSim-61] Executing 'COMPILE and ANALYZE' step in 'F:/1fr/HWnLABS/CA/labs/lab3/CPU_Cache/CPU_Cache.sim/sim_1/behav/xsim'
+"xvlog --incr --relax -prj cpu_tb_vlog.prj"
+INFO: [USF-XSim-69] 'compile' step finished in '1' seconds
+INFO: [Vivado 12-5682] Launching behavioral simulation in 'F:/1fr/HWnLABS/CA/labs/lab3/CPU_Cache/CPU_Cache.sim/sim_1/behav/xsim'
+INFO: [USF-XSim-3] XSim::Elaborate design
+INFO: [USF-XSim-61] Executing 'ELABORATE' step in 'F:/1fr/HWnLABS/CA/labs/lab3/CPU_Cache/CPU_Cache.sim/sim_1/behav/xsim'
+Vivado Simulator 2018.2
+Copyright 1986-1999, 2001-2018 Xilinx, Inc. All Rights Reserved.
+Running: D:/Xilinx/Vivado/2018.2/bin/unwrapped/win64.o/xelab.exe -wto dbc366324fa14ebea69a6218dce599dc --incr --debug typical --relax --mt 2 -L xil_defaultlib -L unisims_ver -L unimacro_ver -L secureip --snapshot cpu_tb_behav xil_defaultlib.cpu_tb xil_defaultlib.glbl -log elaborate.log 
+Using 2 slave threads.
+WARNING: [XSIM 43-3431] One or more environment variables have been detected which affect the operation of the C compiler. These are typically not set in standard installations and are not tested by Xilinx, however they may be appropriate for your system, so the flow will attempt to continue.  If errors occur, try running xelab with the "-mt off -v 1" switches to see more information from the C compiler. The following environment variables have been detected:
+    LIBRARY_PATH
+Starting static elaboration
+WARNING: [VRFC 10-278] actual bit length 2 differs from formal bit length 3 for port src_reg_en_EX [F:/1fr/HWnLABS/CA/labs/lab3/CPU_Cache/CPU_Cache.srcs/sources_1/imports/lab/basic/basic.srcs/sources_1/imports/SourceCode/RV32ICore.sv:314]
+Completed static elaboration
+INFO: [XSIM 43-4323] No Change in HDL. Linking previously generated obj files to create kernel
+INFO: [USF-XSim-69] 'elaborate' step finished in '1' seconds
+Vivado Simulator 2018.2
+Time resolution is 1 ps
+relaunch_sim: Time (s): cpu = 00:00:02 ; elapsed = 00:00:06 . Memory (MB): peak = 849.777 ; gain = 0.000
+current_wave_config {cpu_tb_behav.wcfg}
+cpu_tb_behav.wcfg
+add_wave {{/cpu_tb/RV32ICore_tb_inst/IR_ID1/flush_ff}} 
+current_wave_config {cpu_tb_behav.wcfg}
+cpu_tb_behav.wcfg
+add_wave {{/cpu_tb/RV32ICore_tb_inst/IR_ID1/bubbleD}} 
+current_wave_config {cpu_tb_behav.wcfg}
+cpu_tb_behav.wcfg
+add_wave {{/cpu_tb/RV32ICore_tb_inst/IR_ID1/flushD}} 
+relaunch_sim
+INFO: [Vivado 12-5682] Launching behavioral simulation in 'F:/1fr/HWnLABS/CA/labs/lab3/CPU_Cache/CPU_Cache.sim/sim_1/behav/xsim'
+INFO: [SIM-utils-51] Simulation object is 'sim_1'
+INFO: [SIM-utils-54] Inspecting design source files for 'cpu_tb' in fileset 'sim_1'...
+INFO: [USF-XSim-97] Finding global include files...
+INFO: [USF-XSim-98] Fetching design files from 'sim_1'...
+INFO: [USF-XSim-2] XSim::Compile design
+INFO: [USF-XSim-61] Executing 'COMPILE and ANALYZE' step in 'F:/1fr/HWnLABS/CA/labs/lab3/CPU_Cache/CPU_Cache.sim/sim_1/behav/xsim'
+"xvlog --incr --relax -prj cpu_tb_vlog.prj"
+INFO: [USF-XSim-69] 'compile' step finished in '2' seconds
+INFO: [Vivado 12-5682] Launching behavioral simulation in 'F:/1fr/HWnLABS/CA/labs/lab3/CPU_Cache/CPU_Cache.sim/sim_1/behav/xsim'
+INFO: [USF-XSim-3] XSim::Elaborate design
+INFO: [USF-XSim-61] Executing 'ELABORATE' step in 'F:/1fr/HWnLABS/CA/labs/lab3/CPU_Cache/CPU_Cache.sim/sim_1/behav/xsim'
+Vivado Simulator 2018.2
+Copyright 1986-1999, 2001-2018 Xilinx, Inc. All Rights Reserved.
+Running: D:/Xilinx/Vivado/2018.2/bin/unwrapped/win64.o/xelab.exe -wto dbc366324fa14ebea69a6218dce599dc --incr --debug typical --relax --mt 2 -L xil_defaultlib -L unisims_ver -L unimacro_ver -L secureip --snapshot cpu_tb_behav xil_defaultlib.cpu_tb xil_defaultlib.glbl -log elaborate.log 
+Using 2 slave threads.
+WARNING: [XSIM 43-3431] One or more environment variables have been detected which affect the operation of the C compiler. These are typically not set in standard installations and are not tested by Xilinx, however they may be appropriate for your system, so the flow will attempt to continue.  If errors occur, try running xelab with the "-mt off -v 1" switches to see more information from the C compiler. The following environment variables have been detected:
+    LIBRARY_PATH
+Starting static elaboration
+WARNING: [VRFC 10-278] actual bit length 2 differs from formal bit length 3 for port src_reg_en_EX [F:/1fr/HWnLABS/CA/labs/lab3/CPU_Cache/CPU_Cache.srcs/sources_1/imports/lab/basic/basic.srcs/sources_1/imports/SourceCode/RV32ICore.sv:314]
+Completed static elaboration
+INFO: [XSIM 43-4323] No Change in HDL. Linking previously generated obj files to create kernel
+INFO: [USF-XSim-69] 'elaborate' step finished in '1' seconds
+Vivado Simulator 2018.2
+Time resolution is 1 ps
+relaunch_sim: Time (s): cpu = 00:00:01 ; elapsed = 00:00:06 . Memory (MB): peak = 849.777 ; gain = 0.000
+relaunch_sim
+INFO: [Vivado 12-5682] Launching behavioral simulation in 'F:/1fr/HWnLABS/CA/labs/lab3/CPU_Cache/CPU_Cache.sim/sim_1/behav/xsim'
+INFO: [SIM-utils-51] Simulation object is 'sim_1'
+INFO: [SIM-utils-54] Inspecting design source files for 'cpu_tb' in fileset 'sim_1'...
+INFO: [USF-XSim-97] Finding global include files...
+INFO: [USF-XSim-98] Fetching design files from 'sim_1'...
+INFO: [USF-XSim-2] XSim::Compile design
+INFO: [USF-XSim-61] Executing 'COMPILE and ANALYZE' step in 'F:/1fr/HWnLABS/CA/labs/lab3/CPU_Cache/CPU_Cache.sim/sim_1/behav/xsim'
+"xvlog --incr --relax -prj cpu_tb_vlog.prj"
+INFO: [VRFC 10-2263] Analyzing SystemVerilog file "F:/1fr/HWnLABS/CA/labs/lab3/CPU_Cache/CPU_Cache.srcs/sources_1/imports/lab/basic/basic.srcs/sources_1/imports/SourceCode/ALU.sv" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module ALU
+INFO: [VRFC 10-2263] Analyzing SystemVerilog file "F:/1fr/HWnLABS/CA/labs/lab3/CPU_Cache/CPU_Cache.srcs/sources_1/imports/lab/basic/basic.srcs/sources_1/imports/SourceCode/IdExSegReg/AddrEx.sv" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module Addr_EX
+INFO: [VRFC 10-2263] Analyzing SystemVerilog file "F:/1fr/HWnLABS/CA/labs/lab3/CPU_Cache/CPU_Cache.srcs/sources_1/imports/lab/basic/basic.srcs/sources_1/imports/SourceCode/ExMemSegReg/AddrMem.sv" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module Addr_MEM
+INFO: [VRFC 10-2263] Analyzing SystemVerilog file "F:/1fr/HWnLABS/CA/labs/lab3/CPU_Cache/CPU_Cache.srcs/sources_1/imports/lab/basic/basic.srcs/sources_1/imports/SourceCode/MemWbSegReg/AddrWb.sv" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module Addr_WB
+INFO: [VRFC 10-2263] Analyzing SystemVerilog file "F:/1fr/HWnLABS/CA/labs/lab3/CPU_Cache/CPU_Cache.srcs/sources_1/imports/lab/basic/basic.srcs/sources_1/imports/SourceCode/IdExSegReg/BrTarget.sv" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module BR_Target_EX
+INFO: [VRFC 10-2263] Analyzing SystemVerilog file "F:/1fr/HWnLABS/CA/labs/lab3/CPU_Cache/CPU_Cache.srcs/sources_1/imports/lab/basic/basic.srcs/sources_1/imports/SourceCode/BranchDecision.sv" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module BranchDecision
+INFO: [VRFC 10-2263] Analyzing SystemVerilog file "F:/1fr/HWnLABS/CA/labs/lab3/CPU_Cache/CPU_Cache.srcs/sources_1/imports/lab/basic/basic.srcs/sources_1/imports/SourceCode/ControllerDecoder.sv" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module ControllerDecoder
+INFO: [VRFC 10-2263] Analyzing SystemVerilog file "F:/1fr/HWnLABS/CA/labs/lab3/CPU_Cache/CPU_Cache.srcs/sources_1/imports/lab/basic/basic.srcs/sources_1/imports/SourceCode/IdExSegReg/CsrAddrEX.sv" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module Csr_Addr_EX
+INFO: [VRFC 10-2263] Analyzing SystemVerilog file "F:/1fr/HWnLABS/CA/labs/lab3/CPU_Cache/CPU_Cache.srcs/sources_1/imports/lab/basic/basic.srcs/sources_1/imports/SourceCode/ExMemSegReg/CsrAddrMem.sv" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module Csr_Addr_MEM
+INFO: [VRFC 10-2263] Analyzing SystemVerilog file "F:/1fr/HWnLABS/CA/labs/lab3/CPU_Cache/CPU_Cache.srcs/sources_1/imports/lab/basic/basic.srcs/sources_1/imports/SourceCode/MemWbSegReg/CsrAddrWb.sv" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module Csr_Addr_WB
+INFO: [VRFC 10-2263] Analyzing SystemVerilog file "F:/1fr/HWnLABS/CA/labs/lab3/CPU_Cache/CPU_Cache.srcs/sources_1/imports/lab/basic/basic.srcs/sources_1/imports/SourceCode/CsrController.sv" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module CSR_ControllerDecoder
+INFO: [VRFC 10-2263] Analyzing SystemVerilog file "F:/1fr/HWnLABS/CA/labs/lab3/CPU_Cache/CPU_Cache.srcs/sources_1/imports/lab/basic/basic.srcs/sources_1/imports/SourceCode/IdExSegReg/CsrCtrlEX.sv" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module Csr_Ctrl_EX
+INFO: [VRFC 10-2263] Analyzing SystemVerilog file "F:/1fr/HWnLABS/CA/labs/lab3/CPU_Cache/CPU_Cache.srcs/sources_1/imports/lab/basic/basic.srcs/sources_1/imports/SourceCode/ExMemSegReg/CsrCtrlMem.sv" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module Csr_Ctrl_MEM
+INFO: [VRFC 10-2263] Analyzing SystemVerilog file "F:/1fr/HWnLABS/CA/labs/lab3/CPU_Cache/CPU_Cache.srcs/sources_1/imports/lab/basic/basic.srcs/sources_1/imports/SourceCode/MemWbSegReg/CsrCtrlWb.sv" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module Csr_Ctrl_WB
+INFO: [VRFC 10-2263] Analyzing SystemVerilog file "F:/1fr/HWnLABS/CA/labs/lab3/CPU_Cache/CPU_Cache.srcs/sources_1/imports/lab/basic/basic.srcs/sources_1/imports/SourceCode/IdExSegReg/CsrDataEX.sv" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module Csr_Data_EX
+INFO: [VRFC 10-2263] Analyzing SystemVerilog file "F:/1fr/HWnLABS/CA/labs/lab3/CPU_Cache/CPU_Cache.srcs/sources_1/imports/lab/basic/basic.srcs/sources_1/imports/SourceCode/ExMemSegReg/CsrDataMem.sv" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module Csr_Data_MEM
+INFO: [VRFC 10-2263] Analyzing SystemVerilog file "F:/1fr/HWnLABS/CA/labs/lab3/CPU_Cache/CPU_Cache.srcs/sources_1/imports/lab/basic/basic.srcs/sources_1/imports/SourceCode/MemWbSegReg/CsrWbData.sv" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module Csr_Data_WB
+INFO: [VRFC 10-2263] Analyzing SystemVerilog file "F:/1fr/HWnLABS/CA/labs/lab3/CPU_Cache/CPU_Cache.srcs/sources_1/imports/lab/basic/basic.srcs/sources_1/imports/SourceCode/IdExSegReg/CtrlEx.sv" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module Ctrl_EX
+INFO: [VRFC 10-2263] Analyzing SystemVerilog file "F:/1fr/HWnLABS/CA/labs/lab3/CPU_Cache/CPU_Cache.srcs/sources_1/imports/lab/basic/basic.srcs/sources_1/imports/SourceCode/ExMemSegReg/CtrlMem.sv" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module Ctrl_MEM
+INFO: [VRFC 10-2263] Analyzing SystemVerilog file "F:/1fr/HWnLABS/CA/labs/lab3/CPU_Cache/CPU_Cache.srcs/sources_1/imports/lab/basic/basic.srcs/sources_1/imports/SourceCode/MemWbSegReg/CtrlWb.sv" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module Ctrl_WB
+INFO: [VRFC 10-2263] Analyzing SystemVerilog file "F:/1fr/HWnLABS/CA/labs/lab3/CPU_Cache/CPU_Cache.srcs/sources_1/imports/lab/basic/basic.srcs/sources_1/imports/SourceCode/DataExtend.sv" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module DataExtend
+INFO: [VRFC 10-2263] Analyzing SystemVerilog file "F:/1fr/HWnLABS/CA/labs/lab3/CPU_Cache/CPU_Cache.srcs/sources_1/imports/lab/basic/basic.srcs/sources_1/imports/SourceCode/GeneralRegister.sv" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module RegisterFile
+INFO: [VRFC 10-2263] Analyzing SystemVerilog file "F:/1fr/HWnLABS/CA/labs/lab3/CPU_Cache/CPU_Cache.srcs/sources_1/imports/lab/basic/basic.srcs/sources_1/imports/SourceCode/Hazard.sv" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module HarzardUnit
+INFO: [VRFC 10-2263] Analyzing SystemVerilog file "F:/1fr/HWnLABS/CA/labs/lab3/CPU_Cache/CPU_Cache.srcs/sources_1/imports/lab/basic/basic.srcs/sources_1/imports/SourceCode/IfIdSegReg/IR.sv" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module IR_ID
+INFO: [VRFC 10-2263] Analyzing SystemVerilog file "F:/1fr/HWnLABS/CA/labs/lab3/CPU_Cache/CPU_Cache.srcs/sources_1/imports/lab/basic/basic.srcs/sources_1/imports/SourceCode/ImmExtend.sv" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module ImmExtend
+INFO: [VRFC 10-2263] Analyzing SystemVerilog file "F:/1fr/HWnLABS/CA/labs/lab3/CPU_Cache/CPU_Cache.srcs/sources_1/imports/lab/basic/basic.srcs/sources_1/imports/SourceCode/Cache/InstructionCache.sv" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module InstructionCache
+INFO: [VRFC 10-2263] Analyzing SystemVerilog file "F:/1fr/HWnLABS/CA/labs/lab3/CPU_Cache/CPU_Cache.srcs/sources_1/imports/lab/basic/basic.srcs/sources_1/imports/SourceCode/NPCGenerator.sv" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module NPC_Generator
+INFO: [VRFC 10-2263] Analyzing SystemVerilog file "F:/1fr/HWnLABS/CA/labs/lab3/CPU_Cache/CPU_Cache.srcs/sources_1/imports/lab/basic/basic.srcs/sources_1/imports/SourceCode/IdExSegReg/Op1.sv" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module Op1_EX
+INFO: [VRFC 10-2263] Analyzing SystemVerilog file "F:/1fr/HWnLABS/CA/labs/lab3/CPU_Cache/CPU_Cache.srcs/sources_1/imports/lab/basic/basic.srcs/sources_1/imports/SourceCode/IdExSegReg/Op2.sv" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module Op2_EX
+INFO: [VRFC 10-2263] Analyzing SystemVerilog file "F:/1fr/HWnLABS/CA/labs/lab3/CPU_Cache/CPU_Cache.srcs/sources_1/imports/lab/basic/basic.srcs/sources_1/imports/SourceCode/PC.sv" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module PC_IF
+INFO: [VRFC 10-2263] Analyzing SystemVerilog file "F:/1fr/HWnLABS/CA/labs/lab3/CPU_Cache/CPU_Cache.srcs/sources_1/imports/lab/basic/basic.srcs/sources_1/imports/SourceCode/IdExSegReg/PcEx.sv" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module PC_EX
+INFO: [VRFC 10-2263] Analyzing SystemVerilog file "F:/1fr/HWnLABS/CA/labs/lab3/CPU_Cache/CPU_Cache.srcs/sources_1/imports/lab/basic/basic.srcs/sources_1/imports/SourceCode/IfIdSegReg/PcId.sv" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module PC_ID
+INFO: [VRFC 10-2263] Analyzing SystemVerilog file "F:/1fr/HWnLABS/CA/labs/lab3/CPU_Cache/CPU_Cache.srcs/sources_1/imports/lab/basic/basic.srcs/sources_1/imports/SourceCode/RV32ICore.sv" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module RV32ICore
+INFO: [VRFC 10-2263] Analyzing SystemVerilog file "F:/1fr/HWnLABS/CA/labs/lab3/CPU_Cache/CPU_Cache.srcs/sources_1/imports/lab/basic/basic.srcs/sources_1/imports/SourceCode/IdExSegReg/Reg2Ex.sv" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module Reg2_EX
+INFO: [VRFC 10-2263] Analyzing SystemVerilog file "F:/1fr/HWnLABS/CA/labs/lab3/CPU_Cache/CPU_Cache.srcs/sources_1/imports/lab/basic/basic.srcs/sources_1/imports/SourceCode/ExMemSegReg/Reg2Mem.sv" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module Reg2_MEM
+INFO: [VRFC 10-2263] Analyzing SystemVerilog file "F:/1fr/HWnLABS/CA/labs/lab3/CPU_Cache/CPU_Cache.srcs/sources_1/imports/lab/basic/basic.srcs/sources_1/imports/SourceCode/ExMemSegReg/Result.sv" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module Result_MEM
+INFO: [VRFC 10-2263] Analyzing SystemVerilog file "F:/1fr/HWnLABS/CA/labs/lab3/CPU_Cache/CPU_Cache.srcs/sources_1/imports/lab/basic/basic.srcs/sources_1/imports/SourceCode/MemWbSegReg/WbData.sv" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module WB_Data_WB
+INFO: [VRFC 10-2263] Analyzing SystemVerilog file "F:/1fr/HWnLABS/CA/labs/lab3/CPU_Cache/CPU_Cache.srcs/sources_1/imports/lab/cache/cache.srcs/sources_1/imports/CacheSrcCode/cache_backup.sv" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module cache_lru
+INFO: [VRFC 10-2263] Analyzing SystemVerilog file "F:/1fr/HWnLABS/CA/labs/lab3/CPU_Cache/CPU_Cache.srcs/sources_1/imports/lab/basic/basic.srcs/sources_1/imports/SourceCode/csralu.sv" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module csrALU
+INFO: [VRFC 10-2263] Analyzing SystemVerilog file "F:/1fr/HWnLABS/CA/labs/lab3/CPU_Cache/CPU_Cache.srcs/sources_1/imports/lab/cache/cache.srcs/sources_1/imports/CacheSrcCode/lru.sv" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module lru
+INFO: [VRFC 10-2263] Analyzing SystemVerilog file "F:/1fr/HWnLABS/CA/labs/lab3/CPU_Cache/CPU_Cache.srcs/sources_1/imports/lab/cache/cache.srcs/sources_1/imports/CacheSrcCode/main_mem.sv" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module main_mem
+INFO: [VRFC 10-2263] Analyzing SystemVerilog file "F:/1fr/HWnLABS/CA/labs/lab3/CPU_Cache/CPU_Cache.srcs/sources_1/imports/lab/cache/cache.srcs/sources_1/imports/CacheSrcCode/mem.sv" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module mem
+run_program: Time (s): cpu = 00:00:00 ; elapsed = 00:00:05 . Memory (MB): peak = 849.777 ; gain = 0.000
+INFO: [USF-XSim-69] 'compile' step finished in '6' seconds
+launch_simulation: Time (s): cpu = 00:00:00 ; elapsed = 00:00:05 . Memory (MB): peak = 849.777 ; gain = 0.000
+INFO: [Vivado 12-5682] Launching behavioral simulation in 'F:/1fr/HWnLABS/CA/labs/lab3/CPU_Cache/CPU_Cache.sim/sim_1/behav/xsim'
+INFO: [USF-XSim-3] XSim::Elaborate design
+INFO: [USF-XSim-61] Executing 'ELABORATE' step in 'F:/1fr/HWnLABS/CA/labs/lab3/CPU_Cache/CPU_Cache.sim/sim_1/behav/xsim'
+Vivado Simulator 2018.2
+Copyright 1986-1999, 2001-2018 Xilinx, Inc. All Rights Reserved.
+Running: D:/Xilinx/Vivado/2018.2/bin/unwrapped/win64.o/xelab.exe -wto dbc366324fa14ebea69a6218dce599dc --incr --debug typical --relax --mt 2 -L xil_defaultlib -L unisims_ver -L unimacro_ver -L secureip --snapshot cpu_tb_behav xil_defaultlib.cpu_tb xil_defaultlib.glbl -log elaborate.log 
+Using 2 slave threads.
+WARNING: [XSIM 43-3431] One or more environment variables have been detected which affect the operation of the C compiler. These are typically not set in standard installations and are not tested by Xilinx, however they may be appropriate for your system, so the flow will attempt to continue.  If errors occur, try running xelab with the "-mt off -v 1" switches to see more information from the C compiler. The following environment variables have been detected:
+    LIBRARY_PATH
+Starting static elaboration
+WARNING: [VRFC 10-278] actual bit length 2 differs from formal bit length 3 for port src_reg_en_EX [F:/1fr/HWnLABS/CA/labs/lab3/CPU_Cache/CPU_Cache.srcs/sources_1/imports/lab/basic/basic.srcs/sources_1/imports/SourceCode/RV32ICore.sv:314]
+Completed static elaboration
+Starting simulation data flow analysis
+Completed simulation data flow analysis
+Time Resolution for simulation is 1ps
+Compiling module xil_defaultlib.NPC_Generator
+Compiling module xil_defaultlib.PC_IF
+Compiling module xil_defaultlib.PC_ID
+Compiling module xil_defaultlib.InstructionCache
+Compiling module xil_defaultlib.IR_ID
+Compiling module xil_defaultlib.RegisterFile
+Compiling module xil_defaultlib.CSR_ControllerDecoder
+Compiling module xil_defaultlib.csrALU
+Compiling module xil_defaultlib.ControllerDecoder
+Compiling module xil_defaultlib.ImmExtend
+Compiling module xil_defaultlib.PC_EX
+Compiling module xil_defaultlib.BR_Target_EX
+Compiling module xil_defaultlib.Op1_EX
+Compiling module xil_defaultlib.Op2_EX
+Compiling module xil_defaultlib.Reg2_EX
+Compiling module xil_defaultlib.Addr_EX
+Compiling module xil_defaultlib.Ctrl_EX
+Compiling module xil_defaultlib.Csr_Addr_EX
+Compiling module xil_defaultlib.Csr_Ctrl_EX
+Compiling module xil_defaultlib.Csr_Data_EX
+Compiling module xil_defaultlib.ALU
+Compiling module xil_defaultlib.BranchDecision
+Compiling module xil_defaultlib.Result_MEM
+Compiling module xil_defaultlib.Reg2_MEM
+Compiling module xil_defaultlib.Addr_MEM
+Compiling module xil_defaultlib.Ctrl_MEM
+Compiling module xil_defaultlib.Csr_Addr_MEM
+Compiling module xil_defaultlib.Csr_Ctrl_MEM
+Compiling module xil_defaultlib.Csr_Data_MEM
+Compiling module xil_defaultlib.mem(ADDR_LEN=12)
+Compiling module xil_defaultlib.main_mem(ADDR_LEN=9)
+Compiling module xil_defaultlib.lru(SET_ADDR_LEN=2,TAG_ADDR_LEN=...
+Compiling module xil_defaultlib.cache_lru(SET_ADDR_LEN=2,TAG_ADD...
+Compiling module xil_defaultlib.DataExtend
+Compiling module xil_defaultlib.WB_Data_WB
+Compiling module xil_defaultlib.Addr_WB
+Compiling module xil_defaultlib.Ctrl_WB
+Compiling module xil_defaultlib.Csr_Addr_WB
+Compiling module xil_defaultlib.Csr_Ctrl_WB
+Compiling module xil_defaultlib.Csr_Data_WB
+Compiling module xil_defaultlib.HarzardUnit
+Compiling module xil_defaultlib.RV32ICore
+Compiling module xil_defaultlib.cpu_tb
+Compiling module xil_defaultlib.glbl
+Built simulation snapshot cpu_tb_behav
+INFO: [USF-XSim-69] 'elaborate' step finished in '3' seconds
+Vivado Simulator 2018.2
+Time resolution is 1 ps
+relaunch_sim: Time (s): cpu = 00:00:01 ; elapsed = 00:00:11 . Memory (MB): peak = 849.777 ; gain = 0.000
+run all
+current_wave_config {cpu_tb_behav.wcfg}
+cpu_tb_behav.wcfg
+add_wave {{/cpu_tb/RV32ICore_tb_inst/WB_Data_WB1/cache_inst1/cache_hit}} 
+relaunch_sim
+INFO: [Vivado 12-5682] Launching behavioral simulation in 'F:/1fr/HWnLABS/CA/labs/lab3/CPU_Cache/CPU_Cache.sim/sim_1/behav/xsim'
+INFO: [SIM-utils-51] Simulation object is 'sim_1'
+INFO: [SIM-utils-54] Inspecting design source files for 'cpu_tb' in fileset 'sim_1'...
+INFO: [USF-XSim-97] Finding global include files...
+INFO: [USF-XSim-98] Fetching design files from 'sim_1'...
+INFO: [USF-XSim-2] XSim::Compile design
+INFO: [USF-XSim-61] Executing 'COMPILE and ANALYZE' step in 'F:/1fr/HWnLABS/CA/labs/lab3/CPU_Cache/CPU_Cache.sim/sim_1/behav/xsim'
+"xvlog --incr --relax -prj cpu_tb_vlog.prj"
+INFO: [USF-XSim-69] 'compile' step finished in '1' seconds
+INFO: [Vivado 12-5682] Launching behavioral simulation in 'F:/1fr/HWnLABS/CA/labs/lab3/CPU_Cache/CPU_Cache.sim/sim_1/behav/xsim'
+INFO: [USF-XSim-3] XSim::Elaborate design
+INFO: [USF-XSim-61] Executing 'ELABORATE' step in 'F:/1fr/HWnLABS/CA/labs/lab3/CPU_Cache/CPU_Cache.sim/sim_1/behav/xsim'
+Vivado Simulator 2018.2
+Copyright 1986-1999, 2001-2018 Xilinx, Inc. All Rights Reserved.
+Running: D:/Xilinx/Vivado/2018.2/bin/unwrapped/win64.o/xelab.exe -wto dbc366324fa14ebea69a6218dce599dc --incr --debug typical --relax --mt 2 -L xil_defaultlib -L unisims_ver -L unimacro_ver -L secureip --snapshot cpu_tb_behav xil_defaultlib.cpu_tb xil_defaultlib.glbl -log elaborate.log 
+Using 2 slave threads.
+WARNING: [XSIM 43-3431] One or more environment variables have been detected which affect the operation of the C compiler. These are typically not set in standard installations and are not tested by Xilinx, however they may be appropriate for your system, so the flow will attempt to continue.  If errors occur, try running xelab with the "-mt off -v 1" switches to see more information from the C compiler. The following environment variables have been detected:
+    LIBRARY_PATH
+Starting static elaboration
+WARNING: [VRFC 10-278] actual bit length 2 differs from formal bit length 3 for port src_reg_en_EX [F:/1fr/HWnLABS/CA/labs/lab3/CPU_Cache/CPU_Cache.srcs/sources_1/imports/lab/basic/basic.srcs/sources_1/imports/SourceCode/RV32ICore.sv:314]
+Completed static elaboration
+INFO: [XSIM 43-4323] No Change in HDL. Linking previously generated obj files to create kernel
+INFO: [USF-XSim-69] 'elaborate' step finished in '2' seconds
+Vivado Simulator 2018.2
+Time resolution is 1 ps
+relaunch_sim: Time (s): cpu = 00:00:01 ; elapsed = 00:00:06 . Memory (MB): peak = 851.039 ; gain = 0.000
+current_wave_config {cpu_tb_behav.wcfg}
+cpu_tb_behav.wcfg
+add_wave {{/cpu_tb/RV32ICore_tb_inst/WB_Data_WB1/cache_inst1/tag_addr}} 
+current_wave_config {cpu_tb_behav.wcfg}
+cpu_tb_behav.wcfg
+add_wave {{/cpu_tb/RV32ICore_tb_inst/WB_Data_WB1/cache_inst1/mem_rd_tag_addr}} 
+current_wave_config {cpu_tb_behav.wcfg}
+cpu_tb_behav.wcfg
+add_wave {{/cpu_tb/RV32ICore_tb_inst/WB_Data_WB1/cache_inst1/cache_tags}} 
+current_wave_config {cpu_tb_behav.wcfg}
+cpu_tb_behav.wcfg
+add_wave {{/cpu_tb/RV32ICore_tb_inst/WB_Data_WB1/cache_inst1/set_addr}} 
+current_wave_config {cpu_tb_behav.wcfg}
+cpu_tb_behav.wcfg
+add_wave {{/cpu_tb/RV32ICore_tb_inst/WB_Data_WB1/cache_inst1/mem_rd_set_addr}} 
+relaunch_sim
+INFO: [Vivado 12-5682] Launching behavioral simulation in 'F:/1fr/HWnLABS/CA/labs/lab3/CPU_Cache/CPU_Cache.sim/sim_1/behav/xsim'
+INFO: [SIM-utils-51] Simulation object is 'sim_1'
+INFO: [SIM-utils-54] Inspecting design source files for 'cpu_tb' in fileset 'sim_1'...
+INFO: [USF-XSim-97] Finding global include files...
+INFO: [USF-XSim-98] Fetching design files from 'sim_1'...
+INFO: [USF-XSim-2] XSim::Compile design
+INFO: [USF-XSim-61] Executing 'COMPILE and ANALYZE' step in 'F:/1fr/HWnLABS/CA/labs/lab3/CPU_Cache/CPU_Cache.sim/sim_1/behav/xsim'
+"xvlog --incr --relax -prj cpu_tb_vlog.prj"
+INFO: [USF-XSim-69] 'compile' step finished in '2' seconds
+INFO: [Vivado 12-5682] Launching behavioral simulation in 'F:/1fr/HWnLABS/CA/labs/lab3/CPU_Cache/CPU_Cache.sim/sim_1/behav/xsim'
+INFO: [USF-XSim-3] XSim::Elaborate design
+INFO: [USF-XSim-61] Executing 'ELABORATE' step in 'F:/1fr/HWnLABS/CA/labs/lab3/CPU_Cache/CPU_Cache.sim/sim_1/behav/xsim'
+Vivado Simulator 2018.2
+Copyright 1986-1999, 2001-2018 Xilinx, Inc. All Rights Reserved.
+Running: D:/Xilinx/Vivado/2018.2/bin/unwrapped/win64.o/xelab.exe -wto dbc366324fa14ebea69a6218dce599dc --incr --debug typical --relax --mt 2 -L xil_defaultlib -L unisims_ver -L unimacro_ver -L secureip --snapshot cpu_tb_behav xil_defaultlib.cpu_tb xil_defaultlib.glbl -log elaborate.log 
+Using 2 slave threads.
+WARNING: [XSIM 43-3431] One or more environment variables have been detected which affect the operation of the C compiler. These are typically not set in standard installations and are not tested by Xilinx, however they may be appropriate for your system, so the flow will attempt to continue.  If errors occur, try running xelab with the "-mt off -v 1" switches to see more information from the C compiler. The following environment variables have been detected:
+    LIBRARY_PATH
+Starting static elaboration
+WARNING: [VRFC 10-278] actual bit length 2 differs from formal bit length 3 for port src_reg_en_EX [F:/1fr/HWnLABS/CA/labs/lab3/CPU_Cache/CPU_Cache.srcs/sources_1/imports/lab/basic/basic.srcs/sources_1/imports/SourceCode/RV32ICore.sv:314]
+Completed static elaboration
+INFO: [XSIM 43-4323] No Change in HDL. Linking previously generated obj files to create kernel
+INFO: [USF-XSim-69] 'elaborate' step finished in '1' seconds
+Vivado Simulator 2018.2
+Time resolution is 1 ps
+relaunch_sim: Time (s): cpu = 00:00:03 ; elapsed = 00:00:06 . Memory (MB): peak = 851.355 ; gain = 0.000
+current_wave_config {cpu_tb_behav.wcfg}
+cpu_tb_behav.wcfg
+add_wave {{/cpu_tb/RV32ICore_tb_inst/WB_Data_WB1/cache_inst1/swap_in_addr}} 
+current_wave_config {cpu_tb_behav.wcfg}
+cpu_tb_behav.wcfg
+add_wave {{/cpu_tb/RV32ICore_tb_inst/WB_Data_WB1/cache_inst1/swap_old_addr}} 
+relaunch_sim
+INFO: [Vivado 12-5682] Launching behavioral simulation in 'F:/1fr/HWnLABS/CA/labs/lab3/CPU_Cache/CPU_Cache.sim/sim_1/behav/xsim'
+INFO: [SIM-utils-51] Simulation object is 'sim_1'
+INFO: [SIM-utils-54] Inspecting design source files for 'cpu_tb' in fileset 'sim_1'...
+INFO: [USF-XSim-97] Finding global include files...
+INFO: [USF-XSim-98] Fetching design files from 'sim_1'...
+INFO: [USF-XSim-2] XSim::Compile design
+INFO: [USF-XSim-61] Executing 'COMPILE and ANALYZE' step in 'F:/1fr/HWnLABS/CA/labs/lab3/CPU_Cache/CPU_Cache.sim/sim_1/behav/xsim'
+"xvlog --incr --relax -prj cpu_tb_vlog.prj"
+INFO: [USF-XSim-69] 'compile' step finished in '2' seconds
+INFO: [Vivado 12-5682] Launching behavioral simulation in 'F:/1fr/HWnLABS/CA/labs/lab3/CPU_Cache/CPU_Cache.sim/sim_1/behav/xsim'
+INFO: [USF-XSim-3] XSim::Elaborate design
+INFO: [USF-XSim-61] Executing 'ELABORATE' step in 'F:/1fr/HWnLABS/CA/labs/lab3/CPU_Cache/CPU_Cache.sim/sim_1/behav/xsim'
+Vivado Simulator 2018.2
+Copyright 1986-1999, 2001-2018 Xilinx, Inc. All Rights Reserved.
+Running: D:/Xilinx/Vivado/2018.2/bin/unwrapped/win64.o/xelab.exe -wto dbc366324fa14ebea69a6218dce599dc --incr --debug typical --relax --mt 2 -L xil_defaultlib -L unisims_ver -L unimacro_ver -L secureip --snapshot cpu_tb_behav xil_defaultlib.cpu_tb xil_defaultlib.glbl -log elaborate.log 
+Using 2 slave threads.
+WARNING: [XSIM 43-3431] One or more environment variables have been detected which affect the operation of the C compiler. These are typically not set in standard installations and are not tested by Xilinx, however they may be appropriate for your system, so the flow will attempt to continue.  If errors occur, try running xelab with the "-mt off -v 1" switches to see more information from the C compiler. The following environment variables have been detected:
+    LIBRARY_PATH
+Starting static elaboration
+WARNING: [VRFC 10-278] actual bit length 2 differs from formal bit length 3 for port src_reg_en_EX [F:/1fr/HWnLABS/CA/labs/lab3/CPU_Cache/CPU_Cache.srcs/sources_1/imports/lab/basic/basic.srcs/sources_1/imports/SourceCode/RV32ICore.sv:314]
+Completed static elaboration
+INFO: [XSIM 43-4323] No Change in HDL. Linking previously generated obj files to create kernel
+INFO: [USF-XSim-69] 'elaborate' step finished in '1' seconds
+Vivado Simulator 2018.2
+Time resolution is 1 ps
+relaunch_sim: Time (s): cpu = 00:00:01 ; elapsed = 00:00:06 . Memory (MB): peak = 882.215 ; gain = 0.000
+current_wave_config {cpu_tb_behav.wcfg}
+cpu_tb_behav.wcfg
+add_wave {{/cpu_tb/RV32ICore_tb_inst/WB_Data_WB1/cache_inst1/cmp}} 
+relaunch_sim
+INFO: [Vivado 12-5682] Launching behavioral simulation in 'F:/1fr/HWnLABS/CA/labs/lab3/CPU_Cache/CPU_Cache.sim/sim_1/behav/xsim'
+INFO: [SIM-utils-51] Simulation object is 'sim_1'
+INFO: [SIM-utils-54] Inspecting design source files for 'cpu_tb' in fileset 'sim_1'...
+INFO: [USF-XSim-97] Finding global include files...
+INFO: [USF-XSim-98] Fetching design files from 'sim_1'...
+INFO: [USF-XSim-2] XSim::Compile design
+INFO: [USF-XSim-61] Executing 'COMPILE and ANALYZE' step in 'F:/1fr/HWnLABS/CA/labs/lab3/CPU_Cache/CPU_Cache.sim/sim_1/behav/xsim'
+"xvlog --incr --relax -prj cpu_tb_vlog.prj"
+INFO: [USF-XSim-69] 'compile' step finished in '1' seconds
+INFO: [Vivado 12-5682] Launching behavioral simulation in 'F:/1fr/HWnLABS/CA/labs/lab3/CPU_Cache/CPU_Cache.sim/sim_1/behav/xsim'
+INFO: [USF-XSim-3] XSim::Elaborate design
+INFO: [USF-XSim-61] Executing 'ELABORATE' step in 'F:/1fr/HWnLABS/CA/labs/lab3/CPU_Cache/CPU_Cache.sim/sim_1/behav/xsim'
+Vivado Simulator 2018.2
+Copyright 1986-1999, 2001-2018 Xilinx, Inc. All Rights Reserved.
+Running: D:/Xilinx/Vivado/2018.2/bin/unwrapped/win64.o/xelab.exe -wto dbc366324fa14ebea69a6218dce599dc --incr --debug typical --relax --mt 2 -L xil_defaultlib -L unisims_ver -L unimacro_ver -L secureip --snapshot cpu_tb_behav xil_defaultlib.cpu_tb xil_defaultlib.glbl -log elaborate.log 
+Using 2 slave threads.
+WARNING: [XSIM 43-3431] One or more environment variables have been detected which affect the operation of the C compiler. These are typically not set in standard installations and are not tested by Xilinx, however they may be appropriate for your system, so the flow will attempt to continue.  If errors occur, try running xelab with the "-mt off -v 1" switches to see more information from the C compiler. The following environment variables have been detected:
+    LIBRARY_PATH
+Starting static elaboration
+WARNING: [VRFC 10-278] actual bit length 2 differs from formal bit length 3 for port src_reg_en_EX [F:/1fr/HWnLABS/CA/labs/lab3/CPU_Cache/CPU_Cache.srcs/sources_1/imports/lab/basic/basic.srcs/sources_1/imports/SourceCode/RV32ICore.sv:314]
+Completed static elaboration
+INFO: [XSIM 43-4323] No Change in HDL. Linking previously generated obj files to create kernel
+INFO: [USF-XSim-69] 'elaborate' step finished in '2' seconds
+Vivado Simulator 2018.2
+Time resolution is 1 ps
+relaunch_sim: Time (s): cpu = 00:00:01 ; elapsed = 00:00:06 . Memory (MB): peak = 882.215 ; gain = 0.000
+current_wave_config {cpu_tb_behav.wcfg}
+cpu_tb_behav.wcfg
+add_wave {{/cpu_tb/RV32ICore_tb_inst/WB_Data_WB1/cache_inst1/valid}} 
+relaunch_sim
+INFO: [Vivado 12-5682] Launching behavioral simulation in 'F:/1fr/HWnLABS/CA/labs/lab3/CPU_Cache/CPU_Cache.sim/sim_1/behav/xsim'
+INFO: [SIM-utils-51] Simulation object is 'sim_1'
+INFO: [SIM-utils-54] Inspecting design source files for 'cpu_tb' in fileset 'sim_1'...
+INFO: [USF-XSim-97] Finding global include files...
+INFO: [USF-XSim-98] Fetching design files from 'sim_1'...
+INFO: [USF-XSim-2] XSim::Compile design
+INFO: [USF-XSim-61] Executing 'COMPILE and ANALYZE' step in 'F:/1fr/HWnLABS/CA/labs/lab3/CPU_Cache/CPU_Cache.sim/sim_1/behav/xsim'
+"xvlog --incr --relax -prj cpu_tb_vlog.prj"
+INFO: [USF-XSim-69] 'compile' step finished in '1' seconds
+INFO: [Vivado 12-5682] Launching behavioral simulation in 'F:/1fr/HWnLABS/CA/labs/lab3/CPU_Cache/CPU_Cache.sim/sim_1/behav/xsim'
+INFO: [USF-XSim-3] XSim::Elaborate design
+INFO: [USF-XSim-61] Executing 'ELABORATE' step in 'F:/1fr/HWnLABS/CA/labs/lab3/CPU_Cache/CPU_Cache.sim/sim_1/behav/xsim'
+Vivado Simulator 2018.2
+Copyright 1986-1999, 2001-2018 Xilinx, Inc. All Rights Reserved.
+Running: D:/Xilinx/Vivado/2018.2/bin/unwrapped/win64.o/xelab.exe -wto dbc366324fa14ebea69a6218dce599dc --incr --debug typical --relax --mt 2 -L xil_defaultlib -L unisims_ver -L unimacro_ver -L secureip --snapshot cpu_tb_behav xil_defaultlib.cpu_tb xil_defaultlib.glbl -log elaborate.log 
+Using 2 slave threads.
+WARNING: [XSIM 43-3431] One or more environment variables have been detected which affect the operation of the C compiler. These are typically not set in standard installations and are not tested by Xilinx, however they may be appropriate for your system, so the flow will attempt to continue.  If errors occur, try running xelab with the "-mt off -v 1" switches to see more information from the C compiler. The following environment variables have been detected:
+    LIBRARY_PATH
+Starting static elaboration
+WARNING: [VRFC 10-278] actual bit length 2 differs from formal bit length 3 for port src_reg_en_EX [F:/1fr/HWnLABS/CA/labs/lab3/CPU_Cache/CPU_Cache.srcs/sources_1/imports/lab/basic/basic.srcs/sources_1/imports/SourceCode/RV32ICore.sv:314]
+Completed static elaboration
+INFO: [XSIM 43-4323] No Change in HDL. Linking previously generated obj files to create kernel
+INFO: [USF-XSim-69] 'elaborate' step finished in '2' seconds
+Vivado Simulator 2018.2
+Time resolution is 1 ps
+relaunch_sim: Time (s): cpu = 00:00:01 ; elapsed = 00:00:06 . Memory (MB): peak = 882.215 ; gain = 0.000
+relaunch_sim
+INFO: [Vivado 12-5682] Launching behavioral simulation in 'F:/1fr/HWnLABS/CA/labs/lab3/CPU_Cache/CPU_Cache.sim/sim_1/behav/xsim'
+INFO: [SIM-utils-51] Simulation object is 'sim_1'
+INFO: [SIM-utils-54] Inspecting design source files for 'cpu_tb' in fileset 'sim_1'...
+INFO: [USF-XSim-97] Finding global include files...
+INFO: [USF-XSim-98] Fetching design files from 'sim_1'...
+INFO: [USF-XSim-2] XSim::Compile design
+INFO: [USF-XSim-61] Executing 'COMPILE and ANALYZE' step in 'F:/1fr/HWnLABS/CA/labs/lab3/CPU_Cache/CPU_Cache.sim/sim_1/behav/xsim'
+"xvlog --incr --relax -prj cpu_tb_vlog.prj"
+INFO: [VRFC 10-2263] Analyzing SystemVerilog file "F:/1fr/HWnLABS/CA/labs/lab3/CPU_Cache/CPU_Cache.srcs/sources_1/imports/lab/basic/basic.srcs/sources_1/imports/SourceCode/ALU.sv" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module ALU
+INFO: [VRFC 10-2263] Analyzing SystemVerilog file "F:/1fr/HWnLABS/CA/labs/lab3/CPU_Cache/CPU_Cache.srcs/sources_1/imports/lab/basic/basic.srcs/sources_1/imports/SourceCode/IdExSegReg/AddrEx.sv" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module Addr_EX
+INFO: [VRFC 10-2263] Analyzing SystemVerilog file "F:/1fr/HWnLABS/CA/labs/lab3/CPU_Cache/CPU_Cache.srcs/sources_1/imports/lab/basic/basic.srcs/sources_1/imports/SourceCode/ExMemSegReg/AddrMem.sv" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module Addr_MEM
+INFO: [VRFC 10-2263] Analyzing SystemVerilog file "F:/1fr/HWnLABS/CA/labs/lab3/CPU_Cache/CPU_Cache.srcs/sources_1/imports/lab/basic/basic.srcs/sources_1/imports/SourceCode/MemWbSegReg/AddrWb.sv" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module Addr_WB
+INFO: [VRFC 10-2263] Analyzing SystemVerilog file "F:/1fr/HWnLABS/CA/labs/lab3/CPU_Cache/CPU_Cache.srcs/sources_1/imports/lab/basic/basic.srcs/sources_1/imports/SourceCode/IdExSegReg/BrTarget.sv" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module BR_Target_EX
+INFO: [VRFC 10-2263] Analyzing SystemVerilog file "F:/1fr/HWnLABS/CA/labs/lab3/CPU_Cache/CPU_Cache.srcs/sources_1/imports/lab/basic/basic.srcs/sources_1/imports/SourceCode/BranchDecision.sv" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module BranchDecision
+INFO: [VRFC 10-2263] Analyzing SystemVerilog file "F:/1fr/HWnLABS/CA/labs/lab3/CPU_Cache/CPU_Cache.srcs/sources_1/imports/lab/basic/basic.srcs/sources_1/imports/SourceCode/ControllerDecoder.sv" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module ControllerDecoder
+INFO: [VRFC 10-2263] Analyzing SystemVerilog file "F:/1fr/HWnLABS/CA/labs/lab3/CPU_Cache/CPU_Cache.srcs/sources_1/imports/lab/basic/basic.srcs/sources_1/imports/SourceCode/IdExSegReg/CsrAddrEX.sv" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module Csr_Addr_EX
+INFO: [VRFC 10-2263] Analyzing SystemVerilog file "F:/1fr/HWnLABS/CA/labs/lab3/CPU_Cache/CPU_Cache.srcs/sources_1/imports/lab/basic/basic.srcs/sources_1/imports/SourceCode/ExMemSegReg/CsrAddrMem.sv" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module Csr_Addr_MEM
+INFO: [VRFC 10-2263] Analyzing SystemVerilog file "F:/1fr/HWnLABS/CA/labs/lab3/CPU_Cache/CPU_Cache.srcs/sources_1/imports/lab/basic/basic.srcs/sources_1/imports/SourceCode/MemWbSegReg/CsrAddrWb.sv" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module Csr_Addr_WB
+INFO: [VRFC 10-2263] Analyzing SystemVerilog file "F:/1fr/HWnLABS/CA/labs/lab3/CPU_Cache/CPU_Cache.srcs/sources_1/imports/lab/basic/basic.srcs/sources_1/imports/SourceCode/CsrController.sv" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module CSR_ControllerDecoder
+INFO: [VRFC 10-2263] Analyzing SystemVerilog file "F:/1fr/HWnLABS/CA/labs/lab3/CPU_Cache/CPU_Cache.srcs/sources_1/imports/lab/basic/basic.srcs/sources_1/imports/SourceCode/IdExSegReg/CsrCtrlEX.sv" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module Csr_Ctrl_EX
+INFO: [VRFC 10-2263] Analyzing SystemVerilog file "F:/1fr/HWnLABS/CA/labs/lab3/CPU_Cache/CPU_Cache.srcs/sources_1/imports/lab/basic/basic.srcs/sources_1/imports/SourceCode/ExMemSegReg/CsrCtrlMem.sv" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module Csr_Ctrl_MEM
+INFO: [VRFC 10-2263] Analyzing SystemVerilog file "F:/1fr/HWnLABS/CA/labs/lab3/CPU_Cache/CPU_Cache.srcs/sources_1/imports/lab/basic/basic.srcs/sources_1/imports/SourceCode/MemWbSegReg/CsrCtrlWb.sv" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module Csr_Ctrl_WB
+INFO: [VRFC 10-2263] Analyzing SystemVerilog file "F:/1fr/HWnLABS/CA/labs/lab3/CPU_Cache/CPU_Cache.srcs/sources_1/imports/lab/basic/basic.srcs/sources_1/imports/SourceCode/IdExSegReg/CsrDataEX.sv" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module Csr_Data_EX
+INFO: [VRFC 10-2263] Analyzing SystemVerilog file "F:/1fr/HWnLABS/CA/labs/lab3/CPU_Cache/CPU_Cache.srcs/sources_1/imports/lab/basic/basic.srcs/sources_1/imports/SourceCode/ExMemSegReg/CsrDataMem.sv" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module Csr_Data_MEM
+INFO: [VRFC 10-2263] Analyzing SystemVerilog file "F:/1fr/HWnLABS/CA/labs/lab3/CPU_Cache/CPU_Cache.srcs/sources_1/imports/lab/basic/basic.srcs/sources_1/imports/SourceCode/MemWbSegReg/CsrWbData.sv" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module Csr_Data_WB
+INFO: [VRFC 10-2263] Analyzing SystemVerilog file "F:/1fr/HWnLABS/CA/labs/lab3/CPU_Cache/CPU_Cache.srcs/sources_1/imports/lab/basic/basic.srcs/sources_1/imports/SourceCode/IdExSegReg/CtrlEx.sv" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module Ctrl_EX
+INFO: [VRFC 10-2263] Analyzing SystemVerilog file "F:/1fr/HWnLABS/CA/labs/lab3/CPU_Cache/CPU_Cache.srcs/sources_1/imports/lab/basic/basic.srcs/sources_1/imports/SourceCode/ExMemSegReg/CtrlMem.sv" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module Ctrl_MEM
+INFO: [VRFC 10-2263] Analyzing SystemVerilog file "F:/1fr/HWnLABS/CA/labs/lab3/CPU_Cache/CPU_Cache.srcs/sources_1/imports/lab/basic/basic.srcs/sources_1/imports/SourceCode/MemWbSegReg/CtrlWb.sv" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module Ctrl_WB
+INFO: [VRFC 10-2263] Analyzing SystemVerilog file "F:/1fr/HWnLABS/CA/labs/lab3/CPU_Cache/CPU_Cache.srcs/sources_1/imports/lab/basic/basic.srcs/sources_1/imports/SourceCode/DataExtend.sv" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module DataExtend
+INFO: [VRFC 10-2263] Analyzing SystemVerilog file "F:/1fr/HWnLABS/CA/labs/lab3/CPU_Cache/CPU_Cache.srcs/sources_1/imports/lab/basic/basic.srcs/sources_1/imports/SourceCode/GeneralRegister.sv" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module RegisterFile
+INFO: [VRFC 10-2263] Analyzing SystemVerilog file "F:/1fr/HWnLABS/CA/labs/lab3/CPU_Cache/CPU_Cache.srcs/sources_1/imports/lab/basic/basic.srcs/sources_1/imports/SourceCode/Hazard.sv" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module HarzardUnit
+INFO: [VRFC 10-2263] Analyzing SystemVerilog file "F:/1fr/HWnLABS/CA/labs/lab3/CPU_Cache/CPU_Cache.srcs/sources_1/imports/lab/basic/basic.srcs/sources_1/imports/SourceCode/IfIdSegReg/IR.sv" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module IR_ID
+INFO: [VRFC 10-2263] Analyzing SystemVerilog file "F:/1fr/HWnLABS/CA/labs/lab3/CPU_Cache/CPU_Cache.srcs/sources_1/imports/lab/basic/basic.srcs/sources_1/imports/SourceCode/ImmExtend.sv" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module ImmExtend
+INFO: [VRFC 10-2263] Analyzing SystemVerilog file "F:/1fr/HWnLABS/CA/labs/lab3/CPU_Cache/CPU_Cache.srcs/sources_1/imports/lab/basic/basic.srcs/sources_1/imports/SourceCode/Cache/InstructionCache.sv" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module InstructionCache
+INFO: [VRFC 10-2263] Analyzing SystemVerilog file "F:/1fr/HWnLABS/CA/labs/lab3/CPU_Cache/CPU_Cache.srcs/sources_1/imports/lab/basic/basic.srcs/sources_1/imports/SourceCode/NPCGenerator.sv" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module NPC_Generator
+INFO: [VRFC 10-2263] Analyzing SystemVerilog file "F:/1fr/HWnLABS/CA/labs/lab3/CPU_Cache/CPU_Cache.srcs/sources_1/imports/lab/basic/basic.srcs/sources_1/imports/SourceCode/IdExSegReg/Op1.sv" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module Op1_EX
+INFO: [VRFC 10-2263] Analyzing SystemVerilog file "F:/1fr/HWnLABS/CA/labs/lab3/CPU_Cache/CPU_Cache.srcs/sources_1/imports/lab/basic/basic.srcs/sources_1/imports/SourceCode/IdExSegReg/Op2.sv" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module Op2_EX
+INFO: [VRFC 10-2263] Analyzing SystemVerilog file "F:/1fr/HWnLABS/CA/labs/lab3/CPU_Cache/CPU_Cache.srcs/sources_1/imports/lab/basic/basic.srcs/sources_1/imports/SourceCode/PC.sv" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module PC_IF
+INFO: [VRFC 10-2263] Analyzing SystemVerilog file "F:/1fr/HWnLABS/CA/labs/lab3/CPU_Cache/CPU_Cache.srcs/sources_1/imports/lab/basic/basic.srcs/sources_1/imports/SourceCode/IdExSegReg/PcEx.sv" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module PC_EX
+INFO: [VRFC 10-2263] Analyzing SystemVerilog file "F:/1fr/HWnLABS/CA/labs/lab3/CPU_Cache/CPU_Cache.srcs/sources_1/imports/lab/basic/basic.srcs/sources_1/imports/SourceCode/IfIdSegReg/PcId.sv" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module PC_ID
+INFO: [VRFC 10-2263] Analyzing SystemVerilog file "F:/1fr/HWnLABS/CA/labs/lab3/CPU_Cache/CPU_Cache.srcs/sources_1/imports/lab/basic/basic.srcs/sources_1/imports/SourceCode/RV32ICore.sv" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module RV32ICore
+INFO: [VRFC 10-2263] Analyzing SystemVerilog file "F:/1fr/HWnLABS/CA/labs/lab3/CPU_Cache/CPU_Cache.srcs/sources_1/imports/lab/basic/basic.srcs/sources_1/imports/SourceCode/IdExSegReg/Reg2Ex.sv" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module Reg2_EX
+INFO: [VRFC 10-2263] Analyzing SystemVerilog file "F:/1fr/HWnLABS/CA/labs/lab3/CPU_Cache/CPU_Cache.srcs/sources_1/imports/lab/basic/basic.srcs/sources_1/imports/SourceCode/ExMemSegReg/Reg2Mem.sv" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module Reg2_MEM
+INFO: [VRFC 10-2263] Analyzing SystemVerilog file "F:/1fr/HWnLABS/CA/labs/lab3/CPU_Cache/CPU_Cache.srcs/sources_1/imports/lab/basic/basic.srcs/sources_1/imports/SourceCode/ExMemSegReg/Result.sv" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module Result_MEM
+INFO: [VRFC 10-2263] Analyzing SystemVerilog file "F:/1fr/HWnLABS/CA/labs/lab3/CPU_Cache/CPU_Cache.srcs/sources_1/imports/lab/basic/basic.srcs/sources_1/imports/SourceCode/MemWbSegReg/WbData.sv" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module WB_Data_WB
+INFO: [VRFC 10-2263] Analyzing SystemVerilog file "F:/1fr/HWnLABS/CA/labs/lab3/CPU_Cache/CPU_Cache.srcs/sources_1/imports/lab/cache/cache.srcs/sources_1/imports/CacheSrcCode/cache_backup.sv" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module cache_lru
+INFO: [VRFC 10-2263] Analyzing SystemVerilog file "F:/1fr/HWnLABS/CA/labs/lab3/CPU_Cache/CPU_Cache.srcs/sources_1/imports/lab/basic/basic.srcs/sources_1/imports/SourceCode/csralu.sv" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module csrALU
+INFO: [VRFC 10-2263] Analyzing SystemVerilog file "F:/1fr/HWnLABS/CA/labs/lab3/CPU_Cache/CPU_Cache.srcs/sources_1/imports/lab/cache/cache.srcs/sources_1/imports/CacheSrcCode/lru.sv" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module lru
+INFO: [VRFC 10-2263] Analyzing SystemVerilog file "F:/1fr/HWnLABS/CA/labs/lab3/CPU_Cache/CPU_Cache.srcs/sources_1/imports/lab/cache/cache.srcs/sources_1/imports/CacheSrcCode/main_mem.sv" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module main_mem
+INFO: [VRFC 10-2263] Analyzing SystemVerilog file "F:/1fr/HWnLABS/CA/labs/lab3/CPU_Cache/CPU_Cache.srcs/sources_1/imports/lab/cache/cache.srcs/sources_1/imports/CacheSrcCode/mem.sv" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module mem
+run_program: Time (s): cpu = 00:00:00 ; elapsed = 00:00:05 . Memory (MB): peak = 882.215 ; gain = 0.000
+INFO: [USF-XSim-69] 'compile' step finished in '5' seconds
+launch_simulation: Time (s): cpu = 00:00:00 ; elapsed = 00:00:05 . Memory (MB): peak = 882.215 ; gain = 0.000
+INFO: [Vivado 12-5682] Launching behavioral simulation in 'F:/1fr/HWnLABS/CA/labs/lab3/CPU_Cache/CPU_Cache.sim/sim_1/behav/xsim'
+INFO: [USF-XSim-3] XSim::Elaborate design
+INFO: [USF-XSim-61] Executing 'ELABORATE' step in 'F:/1fr/HWnLABS/CA/labs/lab3/CPU_Cache/CPU_Cache.sim/sim_1/behav/xsim'
+Vivado Simulator 2018.2
+Copyright 1986-1999, 2001-2018 Xilinx, Inc. All Rights Reserved.
+Running: D:/Xilinx/Vivado/2018.2/bin/unwrapped/win64.o/xelab.exe -wto dbc366324fa14ebea69a6218dce599dc --incr --debug typical --relax --mt 2 -L xil_defaultlib -L unisims_ver -L unimacro_ver -L secureip --snapshot cpu_tb_behav xil_defaultlib.cpu_tb xil_defaultlib.glbl -log elaborate.log 
+Using 2 slave threads.
+WARNING: [XSIM 43-3431] One or more environment variables have been detected which affect the operation of the C compiler. These are typically not set in standard installations and are not tested by Xilinx, however they may be appropriate for your system, so the flow will attempt to continue.  If errors occur, try running xelab with the "-mt off -v 1" switches to see more information from the C compiler. The following environment variables have been detected:
+    LIBRARY_PATH
+Starting static elaboration
+WARNING: [VRFC 10-278] actual bit length 2 differs from formal bit length 3 for port src_reg_en_EX [F:/1fr/HWnLABS/CA/labs/lab3/CPU_Cache/CPU_Cache.srcs/sources_1/imports/lab/basic/basic.srcs/sources_1/imports/SourceCode/RV32ICore.sv:314]
+Completed static elaboration
+Starting simulation data flow analysis
+Completed simulation data flow analysis
+Time Resolution for simulation is 1ps
+Compiling module xil_defaultlib.NPC_Generator
+Compiling module xil_defaultlib.PC_IF
+Compiling module xil_defaultlib.PC_ID
+Compiling module xil_defaultlib.InstructionCache
+Compiling module xil_defaultlib.IR_ID
+Compiling module xil_defaultlib.RegisterFile
+Compiling module xil_defaultlib.CSR_ControllerDecoder
+Compiling module xil_defaultlib.csrALU
+Compiling module xil_defaultlib.ControllerDecoder
+Compiling module xil_defaultlib.ImmExtend
+Compiling module xil_defaultlib.PC_EX
+Compiling module xil_defaultlib.BR_Target_EX
+Compiling module xil_defaultlib.Op1_EX
+Compiling module xil_defaultlib.Op2_EX
+Compiling module xil_defaultlib.Reg2_EX
+Compiling module xil_defaultlib.Addr_EX
+Compiling module xil_defaultlib.Ctrl_EX
+Compiling module xil_defaultlib.Csr_Addr_EX
+Compiling module xil_defaultlib.Csr_Ctrl_EX
+Compiling module xil_defaultlib.Csr_Data_EX
+Compiling module xil_defaultlib.ALU
+Compiling module xil_defaultlib.BranchDecision
+Compiling module xil_defaultlib.Result_MEM
+Compiling module xil_defaultlib.Reg2_MEM
+Compiling module xil_defaultlib.Addr_MEM
+Compiling module xil_defaultlib.Ctrl_MEM
+Compiling module xil_defaultlib.Csr_Addr_MEM
+Compiling module xil_defaultlib.Csr_Ctrl_MEM
+Compiling module xil_defaultlib.Csr_Data_MEM
+Compiling module xil_defaultlib.mem(ADDR_LEN=12)
+Compiling module xil_defaultlib.main_mem(ADDR_LEN=9)
+Compiling module xil_defaultlib.lru(SET_ADDR_LEN=2,TAG_ADDR_LEN=...
+Compiling module xil_defaultlib.cache_lru(SET_ADDR_LEN=2,TAG_ADD...
+Compiling module xil_defaultlib.DataExtend
+Compiling module xil_defaultlib.WB_Data_WB
+Compiling module xil_defaultlib.Addr_WB
+Compiling module xil_defaultlib.Ctrl_WB
+Compiling module xil_defaultlib.Csr_Addr_WB
+Compiling module xil_defaultlib.Csr_Ctrl_WB
+Compiling module xil_defaultlib.Csr_Data_WB
+Compiling module xil_defaultlib.HarzardUnit
+Compiling module xil_defaultlib.RV32ICore
+Compiling module xil_defaultlib.cpu_tb
+Compiling module xil_defaultlib.glbl
+Built simulation snapshot cpu_tb_behav
+INFO: [USF-XSim-69] 'elaborate' step finished in '3' seconds
+Vivado Simulator 2018.2
+Time resolution is 1 ps
+relaunch_sim: Time (s): cpu = 00:00:01 ; elapsed = 00:00:11 . Memory (MB): peak = 882.215 ; gain = 0.000
+run all
+current_wave_config {cpu_tb_behav.wcfg}
+cpu_tb_behav.wcfg
+add_wave {{/cpu_tb/RV32ICore_tb_inst/reg_write_en_WB}} 
+current_wave_config {cpu_tb_behav.wcfg}
+cpu_tb_behav.wcfg
+add_wave {{/cpu_tb/RV32ICore_tb_inst/reg_dest_WB}} 
+relaunch_sim
+INFO: [Vivado 12-5682] Launching behavioral simulation in 'F:/1fr/HWnLABS/CA/labs/lab3/CPU_Cache/CPU_Cache.sim/sim_1/behav/xsim'
+INFO: [SIM-utils-51] Simulation object is 'sim_1'
+INFO: [SIM-utils-54] Inspecting design source files for 'cpu_tb' in fileset 'sim_1'...
+INFO: [USF-XSim-97] Finding global include files...
+INFO: [USF-XSim-98] Fetching design files from 'sim_1'...
+INFO: [USF-XSim-2] XSim::Compile design
+INFO: [USF-XSim-61] Executing 'COMPILE and ANALYZE' step in 'F:/1fr/HWnLABS/CA/labs/lab3/CPU_Cache/CPU_Cache.sim/sim_1/behav/xsim'
+"xvlog --incr --relax -prj cpu_tb_vlog.prj"
+INFO: [USF-XSim-69] 'compile' step finished in '1' seconds
+INFO: [Vivado 12-5682] Launching behavioral simulation in 'F:/1fr/HWnLABS/CA/labs/lab3/CPU_Cache/CPU_Cache.sim/sim_1/behav/xsim'
+INFO: [USF-XSim-3] XSim::Elaborate design
+INFO: [USF-XSim-61] Executing 'ELABORATE' step in 'F:/1fr/HWnLABS/CA/labs/lab3/CPU_Cache/CPU_Cache.sim/sim_1/behav/xsim'
+Vivado Simulator 2018.2
+Copyright 1986-1999, 2001-2018 Xilinx, Inc. All Rights Reserved.
+Running: D:/Xilinx/Vivado/2018.2/bin/unwrapped/win64.o/xelab.exe -wto dbc366324fa14ebea69a6218dce599dc --incr --debug typical --relax --mt 2 -L xil_defaultlib -L unisims_ver -L unimacro_ver -L secureip --snapshot cpu_tb_behav xil_defaultlib.cpu_tb xil_defaultlib.glbl -log elaborate.log 
+Using 2 slave threads.
+WARNING: [XSIM 43-3431] One or more environment variables have been detected which affect the operation of the C compiler. These are typically not set in standard installations and are not tested by Xilinx, however they may be appropriate for your system, so the flow will attempt to continue.  If errors occur, try running xelab with the "-mt off -v 1" switches to see more information from the C compiler. The following environment variables have been detected:
+    LIBRARY_PATH
+Starting static elaboration
+WARNING: [VRFC 10-278] actual bit length 2 differs from formal bit length 3 for port src_reg_en_EX [F:/1fr/HWnLABS/CA/labs/lab3/CPU_Cache/CPU_Cache.srcs/sources_1/imports/lab/basic/basic.srcs/sources_1/imports/SourceCode/RV32ICore.sv:314]
+Completed static elaboration
+INFO: [XSIM 43-4323] No Change in HDL. Linking previously generated obj files to create kernel
+INFO: [USF-XSim-69] 'elaborate' step finished in '2' seconds
+Vivado Simulator 2018.2
+Time resolution is 1 ps
+relaunch_sim: Time (s): cpu = 00:00:01 ; elapsed = 00:00:06 . Memory (MB): peak = 882.215 ; gain = 0.000
+current_wave_config {cpu_tb_behav.wcfg}
+cpu_tb_behav.wcfg
+add_wave {{/cpu_tb/RV32ICore_tb_inst/reg_write_en_ID}} {{/cpu_tb/RV32ICore_tb_inst/reg_write_en_EX}} {{/cpu_tb/RV32ICore_tb_inst/reg_write_en_MEM}} 
+relaunch_sim
+INFO: [Vivado 12-5682] Launching behavioral simulation in 'F:/1fr/HWnLABS/CA/labs/lab3/CPU_Cache/CPU_Cache.sim/sim_1/behav/xsim'
+INFO: [SIM-utils-51] Simulation object is 'sim_1'
+INFO: [SIM-utils-54] Inspecting design source files for 'cpu_tb' in fileset 'sim_1'...
+INFO: [USF-XSim-97] Finding global include files...
+INFO: [USF-XSim-98] Fetching design files from 'sim_1'...
+INFO: [USF-XSim-2] XSim::Compile design
+INFO: [USF-XSim-61] Executing 'COMPILE and ANALYZE' step in 'F:/1fr/HWnLABS/CA/labs/lab3/CPU_Cache/CPU_Cache.sim/sim_1/behav/xsim'
+"xvlog --incr --relax -prj cpu_tb_vlog.prj"
+INFO: [USF-XSim-69] 'compile' step finished in '2' seconds
+INFO: [Vivado 12-5682] Launching behavioral simulation in 'F:/1fr/HWnLABS/CA/labs/lab3/CPU_Cache/CPU_Cache.sim/sim_1/behav/xsim'
+INFO: [USF-XSim-3] XSim::Elaborate design
+INFO: [USF-XSim-61] Executing 'ELABORATE' step in 'F:/1fr/HWnLABS/CA/labs/lab3/CPU_Cache/CPU_Cache.sim/sim_1/behav/xsim'
+Vivado Simulator 2018.2
+Copyright 1986-1999, 2001-2018 Xilinx, Inc. All Rights Reserved.
+Running: D:/Xilinx/Vivado/2018.2/bin/unwrapped/win64.o/xelab.exe -wto dbc366324fa14ebea69a6218dce599dc --incr --debug typical --relax --mt 2 -L xil_defaultlib -L unisims_ver -L unimacro_ver -L secureip --snapshot cpu_tb_behav xil_defaultlib.cpu_tb xil_defaultlib.glbl -log elaborate.log 
+Using 2 slave threads.
+WARNING: [XSIM 43-3431] One or more environment variables have been detected which affect the operation of the C compiler. These are typically not set in standard installations and are not tested by Xilinx, however they may be appropriate for your system, so the flow will attempt to continue.  If errors occur, try running xelab with the "-mt off -v 1" switches to see more information from the C compiler. The following environment variables have been detected:
+    LIBRARY_PATH
+Starting static elaboration
+WARNING: [VRFC 10-278] actual bit length 2 differs from formal bit length 3 for port src_reg_en_EX [F:/1fr/HWnLABS/CA/labs/lab3/CPU_Cache/CPU_Cache.srcs/sources_1/imports/lab/basic/basic.srcs/sources_1/imports/SourceCode/RV32ICore.sv:314]
+Completed static elaboration
+INFO: [XSIM 43-4323] No Change in HDL. Linking previously generated obj files to create kernel
+INFO: [USF-XSim-69] 'elaborate' step finished in '1' seconds
+Vivado Simulator 2018.2
+Time resolution is 1 ps
+relaunch_sim: Time (s): cpu = 00:00:02 ; elapsed = 00:00:06 . Memory (MB): peak = 882.215 ; gain = 0.000
+current_wave_config {cpu_tb_behav.wcfg}
+cpu_tb_behav.wcfg
+add_wave {{/cpu_tb/RV32ICore_tb_inst/flushE}} 
+relaunch_sim
+INFO: [Vivado 12-5682] Launching behavioral simulation in 'F:/1fr/HWnLABS/CA/labs/lab3/CPU_Cache/CPU_Cache.sim/sim_1/behav/xsim'
+INFO: [SIM-utils-51] Simulation object is 'sim_1'
+INFO: [SIM-utils-54] Inspecting design source files for 'cpu_tb' in fileset 'sim_1'...
+INFO: [USF-XSim-97] Finding global include files...
+INFO: [USF-XSim-98] Fetching design files from 'sim_1'...
+INFO: [USF-XSim-2] XSim::Compile design
+INFO: [USF-XSim-61] Executing 'COMPILE and ANALYZE' step in 'F:/1fr/HWnLABS/CA/labs/lab3/CPU_Cache/CPU_Cache.sim/sim_1/behav/xsim'
+"xvlog --incr --relax -prj cpu_tb_vlog.prj"
+INFO: [USF-XSim-69] 'compile' step finished in '1' seconds
+INFO: [Vivado 12-5682] Launching behavioral simulation in 'F:/1fr/HWnLABS/CA/labs/lab3/CPU_Cache/CPU_Cache.sim/sim_1/behav/xsim'
+INFO: [USF-XSim-3] XSim::Elaborate design
+INFO: [USF-XSim-61] Executing 'ELABORATE' step in 'F:/1fr/HWnLABS/CA/labs/lab3/CPU_Cache/CPU_Cache.sim/sim_1/behav/xsim'
+Vivado Simulator 2018.2
+Copyright 1986-1999, 2001-2018 Xilinx, Inc. All Rights Reserved.
+Running: D:/Xilinx/Vivado/2018.2/bin/unwrapped/win64.o/xelab.exe -wto dbc366324fa14ebea69a6218dce599dc --incr --debug typical --relax --mt 2 -L xil_defaultlib -L unisims_ver -L unimacro_ver -L secureip --snapshot cpu_tb_behav xil_defaultlib.cpu_tb xil_defaultlib.glbl -log elaborate.log 
+Using 2 slave threads.
+WARNING: [XSIM 43-3431] One or more environment variables have been detected which affect the operation of the C compiler. These are typically not set in standard installations and are not tested by Xilinx, however they may be appropriate for your system, so the flow will attempt to continue.  If errors occur, try running xelab with the "-mt off -v 1" switches to see more information from the C compiler. The following environment variables have been detected:
+    LIBRARY_PATH
+Starting static elaboration
+WARNING: [VRFC 10-278] actual bit length 2 differs from formal bit length 3 for port src_reg_en_EX [F:/1fr/HWnLABS/CA/labs/lab3/CPU_Cache/CPU_Cache.srcs/sources_1/imports/lab/basic/basic.srcs/sources_1/imports/SourceCode/RV32ICore.sv:314]
+Completed static elaboration
+INFO: [XSIM 43-4323] No Change in HDL. Linking previously generated obj files to create kernel
+INFO: [USF-XSim-69] 'elaborate' step finished in '1' seconds
+Vivado Simulator 2018.2
+Time resolution is 1 ps
+relaunch_sim: Time (s): cpu = 00:00:01 ; elapsed = 00:00:06 . Memory (MB): peak = 882.215 ; gain = 0.000
+run 5 us
+current_wave_config {cpu_tb_behav.wcfg}
+cpu_tb_behav.wcfg
+add_wave {{/cpu_tb/RV32ICore_tb_inst/op1_sel}} 
+current_wave_config {cpu_tb_behav.wcfg}
+cpu_tb_behav.wcfg
+add_wave {{/cpu_tb/RV32ICore_tb_inst/reg2_sel}} 
+relaunch_sim
+INFO: [Vivado 12-5682] Launching behavioral simulation in 'F:/1fr/HWnLABS/CA/labs/lab3/CPU_Cache/CPU_Cache.sim/sim_1/behav/xsim'
+INFO: [SIM-utils-51] Simulation object is 'sim_1'
+INFO: [SIM-utils-54] Inspecting design source files for 'cpu_tb' in fileset 'sim_1'...
+INFO: [USF-XSim-97] Finding global include files...
+INFO: [USF-XSim-98] Fetching design files from 'sim_1'...
+INFO: [USF-XSim-2] XSim::Compile design
+INFO: [USF-XSim-61] Executing 'COMPILE and ANALYZE' step in 'F:/1fr/HWnLABS/CA/labs/lab3/CPU_Cache/CPU_Cache.sim/sim_1/behav/xsim'
+"xvlog --incr --relax -prj cpu_tb_vlog.prj"
+INFO: [USF-XSim-69] 'compile' step finished in '2' seconds
+INFO: [Vivado 12-5682] Launching behavioral simulation in 'F:/1fr/HWnLABS/CA/labs/lab3/CPU_Cache/CPU_Cache.sim/sim_1/behav/xsim'
+INFO: [USF-XSim-3] XSim::Elaborate design
+INFO: [USF-XSim-61] Executing 'ELABORATE' step in 'F:/1fr/HWnLABS/CA/labs/lab3/CPU_Cache/CPU_Cache.sim/sim_1/behav/xsim'
+Vivado Simulator 2018.2
+Copyright 1986-1999, 2001-2018 Xilinx, Inc. All Rights Reserved.
+Running: D:/Xilinx/Vivado/2018.2/bin/unwrapped/win64.o/xelab.exe -wto dbc366324fa14ebea69a6218dce599dc --incr --debug typical --relax --mt 2 -L xil_defaultlib -L unisims_ver -L unimacro_ver -L secureip --snapshot cpu_tb_behav xil_defaultlib.cpu_tb xil_defaultlib.glbl -log elaborate.log 
+Using 2 slave threads.
+WARNING: [XSIM 43-3431] One or more environment variables have been detected which affect the operation of the C compiler. These are typically not set in standard installations and are not tested by Xilinx, however they may be appropriate for your system, so the flow will attempt to continue.  If errors occur, try running xelab with the "-mt off -v 1" switches to see more information from the C compiler. The following environment variables have been detected:
+    LIBRARY_PATH
+Starting static elaboration
+WARNING: [VRFC 10-278] actual bit length 2 differs from formal bit length 3 for port src_reg_en_EX [F:/1fr/HWnLABS/CA/labs/lab3/CPU_Cache/CPU_Cache.srcs/sources_1/imports/lab/basic/basic.srcs/sources_1/imports/SourceCode/RV32ICore.sv:314]
+Completed static elaboration
+INFO: [XSIM 43-4323] No Change in HDL. Linking previously generated obj files to create kernel
+INFO: [USF-XSim-69] 'elaborate' step finished in '3' seconds
+Vivado Simulator 2018.2
+Time resolution is 1 ps
+relaunch_sim: Time (s): cpu = 00:00:02 ; elapsed = 00:00:10 . Memory (MB): peak = 882.215 ; gain = 0.000
+run 5 us
+current_wave_config {cpu_tb_behav.wcfg}
+cpu_tb_behav.wcfg
+add_wave {{/cpu_tb/RV32ICore_tb_inst/ALU_op1}} 
+current_wave_config {cpu_tb_behav.wcfg}
+cpu_tb_behav.wcfg
+add_wave {{/cpu_tb/RV32ICore_tb_inst/dealt_reg2}} 
+run 5 us
+relaunch_sim
+INFO: [Vivado 12-5682] Launching behavioral simulation in 'F:/1fr/HWnLABS/CA/labs/lab3/CPU_Cache/CPU_Cache.sim/sim_1/behav/xsim'
+INFO: [SIM-utils-51] Simulation object is 'sim_1'
+INFO: [SIM-utils-54] Inspecting design source files for 'cpu_tb' in fileset 'sim_1'...
+INFO: [USF-XSim-97] Finding global include files...
+INFO: [USF-XSim-98] Fetching design files from 'sim_1'...
+INFO: [USF-XSim-2] XSim::Compile design
+INFO: [USF-XSim-61] Executing 'COMPILE and ANALYZE' step in 'F:/1fr/HWnLABS/CA/labs/lab3/CPU_Cache/CPU_Cache.sim/sim_1/behav/xsim'
+"xvlog --incr --relax -prj cpu_tb_vlog.prj"
+INFO: [USF-XSim-69] 'compile' step finished in '1' seconds
+INFO: [Vivado 12-5682] Launching behavioral simulation in 'F:/1fr/HWnLABS/CA/labs/lab3/CPU_Cache/CPU_Cache.sim/sim_1/behav/xsim'
+INFO: [USF-XSim-3] XSim::Elaborate design
+INFO: [USF-XSim-61] Executing 'ELABORATE' step in 'F:/1fr/HWnLABS/CA/labs/lab3/CPU_Cache/CPU_Cache.sim/sim_1/behav/xsim'
+Vivado Simulator 2018.2
+Copyright 1986-1999, 2001-2018 Xilinx, Inc. All Rights Reserved.
+Running: D:/Xilinx/Vivado/2018.2/bin/unwrapped/win64.o/xelab.exe -wto dbc366324fa14ebea69a6218dce599dc --incr --debug typical --relax --mt 2 -L xil_defaultlib -L unisims_ver -L unimacro_ver -L secureip --snapshot cpu_tb_behav xil_defaultlib.cpu_tb xil_defaultlib.glbl -log elaborate.log 
+Using 2 slave threads.
+WARNING: [XSIM 43-3431] One or more environment variables have been detected which affect the operation of the C compiler. These are typically not set in standard installations and are not tested by Xilinx, however they may be appropriate for your system, so the flow will attempt to continue.  If errors occur, try running xelab with the "-mt off -v 1" switches to see more information from the C compiler. The following environment variables have been detected:
+    LIBRARY_PATH
+Starting static elaboration
+WARNING: [VRFC 10-278] actual bit length 2 differs from formal bit length 3 for port src_reg_en_EX [F:/1fr/HWnLABS/CA/labs/lab3/CPU_Cache/CPU_Cache.srcs/sources_1/imports/lab/basic/basic.srcs/sources_1/imports/SourceCode/RV32ICore.sv:314]
+Completed static elaboration
+INFO: [XSIM 43-4323] No Change in HDL. Linking previously generated obj files to create kernel
+INFO: [USF-XSim-69] 'elaborate' step finished in '1' seconds
+Vivado Simulator 2018.2
+Time resolution is 1 ps
+relaunch_sim: Time (s): cpu = 00:00:01 ; elapsed = 00:00:06 . Memory (MB): peak = 882.215 ; gain = 0.000
+run 5 us
+current_wave_config {cpu_tb_behav.wcfg}
+cpu_tb_behav.wcfg
+add_wave {{/cpu_tb/RV32ICore_tb_inst/br}} 
+relaunch_sim
+INFO: [Vivado 12-5682] Launching behavioral simulation in 'F:/1fr/HWnLABS/CA/labs/lab3/CPU_Cache/CPU_Cache.sim/sim_1/behav/xsim'
+INFO: [SIM-utils-51] Simulation object is 'sim_1'
+INFO: [SIM-utils-54] Inspecting design source files for 'cpu_tb' in fileset 'sim_1'...
+INFO: [USF-XSim-97] Finding global include files...
+INFO: [USF-XSim-98] Fetching design files from 'sim_1'...
+INFO: [USF-XSim-2] XSim::Compile design
+INFO: [USF-XSim-61] Executing 'COMPILE and ANALYZE' step in 'F:/1fr/HWnLABS/CA/labs/lab3/CPU_Cache/CPU_Cache.sim/sim_1/behav/xsim'
+"xvlog --incr --relax -prj cpu_tb_vlog.prj"
+INFO: [USF-XSim-69] 'compile' step finished in '2' seconds
+INFO: [Vivado 12-5682] Launching behavioral simulation in 'F:/1fr/HWnLABS/CA/labs/lab3/CPU_Cache/CPU_Cache.sim/sim_1/behav/xsim'
+INFO: [USF-XSim-3] XSim::Elaborate design
+INFO: [USF-XSim-61] Executing 'ELABORATE' step in 'F:/1fr/HWnLABS/CA/labs/lab3/CPU_Cache/CPU_Cache.sim/sim_1/behav/xsim'
+Vivado Simulator 2018.2
+Copyright 1986-1999, 2001-2018 Xilinx, Inc. All Rights Reserved.
+Running: D:/Xilinx/Vivado/2018.2/bin/unwrapped/win64.o/xelab.exe -wto dbc366324fa14ebea69a6218dce599dc --incr --debug typical --relax --mt 2 -L xil_defaultlib -L unisims_ver -L unimacro_ver -L secureip --snapshot cpu_tb_behav xil_defaultlib.cpu_tb xil_defaultlib.glbl -log elaborate.log 
+Using 2 slave threads.
+WARNING: [XSIM 43-3431] One or more environment variables have been detected which affect the operation of the C compiler. These are typically not set in standard installations and are not tested by Xilinx, however they may be appropriate for your system, so the flow will attempt to continue.  If errors occur, try running xelab with the "-mt off -v 1" switches to see more information from the C compiler. The following environment variables have been detected:
+    LIBRARY_PATH
+Starting static elaboration
+WARNING: [VRFC 10-278] actual bit length 2 differs from formal bit length 3 for port src_reg_en_EX [F:/1fr/HWnLABS/CA/labs/lab3/CPU_Cache/CPU_Cache.srcs/sources_1/imports/lab/basic/basic.srcs/sources_1/imports/SourceCode/RV32ICore.sv:314]
+Completed static elaboration
+INFO: [XSIM 43-4323] No Change in HDL. Linking previously generated obj files to create kernel
+INFO: [USF-XSim-69] 'elaborate' step finished in '1' seconds
+Vivado Simulator 2018.2
+Time resolution is 1 ps
+relaunch_sim: Time (s): cpu = 00:00:01 ; elapsed = 00:00:06 . Memory (MB): peak = 882.215 ; gain = 0.000
+run 5 us
+current_wave_config {cpu_tb_behav.wcfg}
+cpu_tb_behav.wcfg
+add_wave {{/cpu_tb/RV32ICore_tb_inst/br_type_EX}} 
+relaunch_sim
+INFO: [Vivado 12-5682] Launching behavioral simulation in 'F:/1fr/HWnLABS/CA/labs/lab3/CPU_Cache/CPU_Cache.sim/sim_1/behav/xsim'
+INFO: [SIM-utils-51] Simulation object is 'sim_1'
+INFO: [SIM-utils-54] Inspecting design source files for 'cpu_tb' in fileset 'sim_1'...
+INFO: [USF-XSim-97] Finding global include files...
+INFO: [USF-XSim-98] Fetching design files from 'sim_1'...
+INFO: [USF-XSim-2] XSim::Compile design
+INFO: [USF-XSim-61] Executing 'COMPILE and ANALYZE' step in 'F:/1fr/HWnLABS/CA/labs/lab3/CPU_Cache/CPU_Cache.sim/sim_1/behav/xsim'
+"xvlog --incr --relax -prj cpu_tb_vlog.prj"
+INFO: [USF-XSim-69] 'compile' step finished in '1' seconds
+INFO: [Vivado 12-5682] Launching behavioral simulation in 'F:/1fr/HWnLABS/CA/labs/lab3/CPU_Cache/CPU_Cache.sim/sim_1/behav/xsim'
+INFO: [USF-XSim-3] XSim::Elaborate design
+INFO: [USF-XSim-61] Executing 'ELABORATE' step in 'F:/1fr/HWnLABS/CA/labs/lab3/CPU_Cache/CPU_Cache.sim/sim_1/behav/xsim'
+Vivado Simulator 2018.2
+Copyright 1986-1999, 2001-2018 Xilinx, Inc. All Rights Reserved.
+Running: D:/Xilinx/Vivado/2018.2/bin/unwrapped/win64.o/xelab.exe -wto dbc366324fa14ebea69a6218dce599dc --incr --debug typical --relax --mt 2 -L xil_defaultlib -L unisims_ver -L unimacro_ver -L secureip --snapshot cpu_tb_behav xil_defaultlib.cpu_tb xil_defaultlib.glbl -log elaborate.log 
+Using 2 slave threads.
+WARNING: [XSIM 43-3431] One or more environment variables have been detected which affect the operation of the C compiler. These are typically not set in standard installations and are not tested by Xilinx, however they may be appropriate for your system, so the flow will attempt to continue.  If errors occur, try running xelab with the "-mt off -v 1" switches to see more information from the C compiler. The following environment variables have been detected:
+    LIBRARY_PATH
+Starting static elaboration
+WARNING: [VRFC 10-278] actual bit length 2 differs from formal bit length 3 for port src_reg_en_EX [F:/1fr/HWnLABS/CA/labs/lab3/CPU_Cache/CPU_Cache.srcs/sources_1/imports/lab/basic/basic.srcs/sources_1/imports/SourceCode/RV32ICore.sv:314]
+Completed static elaboration
+INFO: [XSIM 43-4323] No Change in HDL. Linking previously generated obj files to create kernel
+INFO: [USF-XSim-69] 'elaborate' step finished in '2' seconds
+Vivado Simulator 2018.2
+Time resolution is 1 ps
+relaunch_sim: Time (s): cpu = 00:00:02 ; elapsed = 00:00:06 . Memory (MB): peak = 882.215 ; gain = 0.000
+run 5 us
+current_wave_config {cpu_tb_behav.wcfg}
+cpu_tb_behav.wcfg
+add_wave {{/cpu_tb/RV32ICore_tb_inst/WB_Data_WB1/misstimes}} 
+current_wave_config {cpu_tb_behav.wcfg}
+cpu_tb_behav.wcfg
+add_wave {{/cpu_tb/RV32ICore_tb_inst/WB_Data_WB1/accesstimes}} 
+relaunch_sim
+INFO: [Vivado 12-5682] Launching behavioral simulation in 'F:/1fr/HWnLABS/CA/labs/lab3/CPU_Cache/CPU_Cache.sim/sim_1/behav/xsim'
+INFO: [SIM-utils-51] Simulation object is 'sim_1'
+INFO: [SIM-utils-54] Inspecting design source files for 'cpu_tb' in fileset 'sim_1'...
+INFO: [USF-XSim-97] Finding global include files...
+INFO: [USF-XSim-98] Fetching design files from 'sim_1'...
+INFO: [USF-XSim-2] XSim::Compile design
+INFO: [USF-XSim-61] Executing 'COMPILE and ANALYZE' step in 'F:/1fr/HWnLABS/CA/labs/lab3/CPU_Cache/CPU_Cache.sim/sim_1/behav/xsim'
+"xvlog --incr --relax -prj cpu_tb_vlog.prj"
+INFO: [USF-XSim-69] 'compile' step finished in '2' seconds
+INFO: [Vivado 12-5682] Launching behavioral simulation in 'F:/1fr/HWnLABS/CA/labs/lab3/CPU_Cache/CPU_Cache.sim/sim_1/behav/xsim'
+INFO: [USF-XSim-3] XSim::Elaborate design
+INFO: [USF-XSim-61] Executing 'ELABORATE' step in 'F:/1fr/HWnLABS/CA/labs/lab3/CPU_Cache/CPU_Cache.sim/sim_1/behav/xsim'
+Vivado Simulator 2018.2
+Copyright 1986-1999, 2001-2018 Xilinx, Inc. All Rights Reserved.
+Running: D:/Xilinx/Vivado/2018.2/bin/unwrapped/win64.o/xelab.exe -wto dbc366324fa14ebea69a6218dce599dc --incr --debug typical --relax --mt 2 -L xil_defaultlib -L unisims_ver -L unimacro_ver -L secureip --snapshot cpu_tb_behav xil_defaultlib.cpu_tb xil_defaultlib.glbl -log elaborate.log 
+Using 2 slave threads.
+WARNING: [XSIM 43-3431] One or more environment variables have been detected which affect the operation of the C compiler. These are typically not set in standard installations and are not tested by Xilinx, however they may be appropriate for your system, so the flow will attempt to continue.  If errors occur, try running xelab with the "-mt off -v 1" switches to see more information from the C compiler. The following environment variables have been detected:
+    LIBRARY_PATH
+Starting static elaboration
+WARNING: [VRFC 10-278] actual bit length 2 differs from formal bit length 3 for port src_reg_en_EX [F:/1fr/HWnLABS/CA/labs/lab3/CPU_Cache/CPU_Cache.srcs/sources_1/imports/lab/basic/basic.srcs/sources_1/imports/SourceCode/RV32ICore.sv:314]
+Completed static elaboration
+INFO: [XSIM 43-4323] No Change in HDL. Linking previously generated obj files to create kernel
+INFO: [USF-XSim-69] 'elaborate' step finished in '1' seconds
+Vivado Simulator 2018.2
+Time resolution is 1 ps
+relaunch_sim: Time (s): cpu = 00:00:02 ; elapsed = 00:00:06 . Memory (MB): peak = 882.215 ; gain = 0.000
+run all
+run: Time (s): cpu = 00:00:02 ; elapsed = 00:00:08 . Memory (MB): peak = 882.215 ; gain = 0.000
+close_sim
+INFO: [Simtcl 6-16] Simulation closed
+exit
+INFO: [Common 17-206] Exiting Vivado at Fri May  8 14:16:47 2020...

@@ -1,0 +1,31 @@
+#-----------------------------------------------------------
+# Vivado v2018.2 (64-bit)
+# SW Build 2258646 on Thu Jun 14 20:03:12 MDT 2018
+# IP Build 2256618 on Thu Jun 14 22:10:49 MDT 2018
+# Start of session at: Thu May 28 19:09:50 2020
+# Process ID: 1240
+# Current directory: F:/1fr/HWnLABS/CA/labs/lab4/BTB
+# Command line: vivado.exe -gui_launcher_event rodinguilauncherevent20852 F:\1fr\HWnLABS\CA\labs\lab4\BTB\BTB.xpr
+# Log file: F:/1fr/HWnLABS/CA/labs/lab4/BTB/vivado.log
+# Journal file: F:/1fr/HWnLABS/CA/labs/lab4/BTB\vivado.jou
+#-----------------------------------------------------------
+start_gui
+open_project F:/1fr/HWnLABS/CA/labs/lab4/BTB/BTB.xpr
+update_compile_order -fileset sources_1
+launch_simulation
+source cpu_tb.tcl
+relaunch_sim
+relaunch_sim
+current_wave_config {Untitled 1}
+add_wave {{/cpu_tb/RV32ICore_tb_inst/RegisterFile1/reg_file}} 
+current_wave_config {Untitled 1}
+add_wave {{/cpu_tb/RV32ICore_tb_inst/NPC_Generator1/BTB_inst/br_times}} {{/cpu_tb/RV32ICore_tb_inst/NPC_Generator1/BTB_inst/pred_times}} {{/cpu_tb/RV32ICore_tb_inst/NPC_Generator1/BTB_inst/fail_times}} 
+current_wave_config {Untitled 1}
+add_wave {{/cpu_tb/RV32ICore_tb_inst/inst_ID}} 
+relaunch_sim
+run all
+update_compile_order -fileset sources_1
+relaunch_sim
+update_compile_order -fileset sources_1
+run all
+close_sim

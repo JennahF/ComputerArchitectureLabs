@@ -1,0 +1,53 @@
+# compile verilog/system verilog design source files
+sv xil_defaultlib  --include "../../../../CPU_Cache.srcs/sources_1/imports/lab/basic/basic.srcs/sources_1/imports/SourceCode" \
+"../../../../CPU_Cache.srcs/sources_1/imports/lab/basic/basic.srcs/sources_1/imports/SourceCode/ALU.sv" \
+"../../../../CPU_Cache.srcs/sources_1/imports/lab/basic/basic.srcs/sources_1/imports/SourceCode/IdExSegReg/AddrEx.sv" \
+"../../../../CPU_Cache.srcs/sources_1/imports/lab/basic/basic.srcs/sources_1/imports/SourceCode/ExMemSegReg/AddrMem.sv" \
+"../../../../CPU_Cache.srcs/sources_1/imports/lab/basic/basic.srcs/sources_1/imports/SourceCode/MemWbSegReg/AddrWb.sv" \
+"../../../../CPU_Cache.srcs/sources_1/imports/lab/basic/basic.srcs/sources_1/imports/SourceCode/IdExSegReg/BrTarget.sv" \
+"../../../../CPU_Cache.srcs/sources_1/imports/lab/basic/basic.srcs/sources_1/imports/SourceCode/BranchDecision.sv" \
+"../../../../CPU_Cache.srcs/sources_1/imports/lab/basic/basic.srcs/sources_1/imports/SourceCode/ControllerDecoder.sv" \
+"../../../../CPU_Cache.srcs/sources_1/imports/lab/basic/basic.srcs/sources_1/imports/SourceCode/IdExSegReg/CsrAddrEX.sv" \
+"../../../../CPU_Cache.srcs/sources_1/imports/lab/basic/basic.srcs/sources_1/imports/SourceCode/ExMemSegReg/CsrAddrMem.sv" \
+"../../../../CPU_Cache.srcs/sources_1/imports/lab/basic/basic.srcs/sources_1/imports/SourceCode/MemWbSegReg/CsrAddrWb.sv" \
+"../../../../CPU_Cache.srcs/sources_1/imports/lab/basic/basic.srcs/sources_1/imports/SourceCode/CsrController.sv" \
+"../../../../CPU_Cache.srcs/sources_1/imports/lab/basic/basic.srcs/sources_1/imports/SourceCode/IdExSegReg/CsrCtrlEX.sv" \
+"../../../../CPU_Cache.srcs/sources_1/imports/lab/basic/basic.srcs/sources_1/imports/SourceCode/ExMemSegReg/CsrCtrlMem.sv" \
+"../../../../CPU_Cache.srcs/sources_1/imports/lab/basic/basic.srcs/sources_1/imports/SourceCode/MemWbSegReg/CsrCtrlWb.sv" \
+"../../../../CPU_Cache.srcs/sources_1/imports/lab/basic/basic.srcs/sources_1/imports/SourceCode/IdExSegReg/CsrDataEX.sv" \
+"../../../../CPU_Cache.srcs/sources_1/imports/lab/basic/basic.srcs/sources_1/imports/SourceCode/ExMemSegReg/CsrDataMem.sv" \
+"../../../../CPU_Cache.srcs/sources_1/imports/lab/basic/basic.srcs/sources_1/imports/SourceCode/MemWbSegReg/CsrWbData.sv" \
+"../../../../CPU_Cache.srcs/sources_1/imports/lab/basic/basic.srcs/sources_1/imports/SourceCode/IdExSegReg/CtrlEx.sv" \
+"../../../../CPU_Cache.srcs/sources_1/imports/lab/basic/basic.srcs/sources_1/imports/SourceCode/ExMemSegReg/CtrlMem.sv" \
+"../../../../CPU_Cache.srcs/sources_1/imports/lab/basic/basic.srcs/sources_1/imports/SourceCode/MemWbSegReg/CtrlWb.sv" \
+"../../../../CPU_Cache.srcs/sources_1/imports/lab/basic/basic.srcs/sources_1/imports/SourceCode/DataExtend.sv" \
+"../../../../CPU_Cache.srcs/sources_1/imports/lab/basic/basic.srcs/sources_1/imports/SourceCode/GeneralRegister.sv" \
+"../../../../CPU_Cache.srcs/sources_1/imports/lab/basic/basic.srcs/sources_1/imports/SourceCode/Hazard.sv" \
+"../../../../CPU_Cache.srcs/sources_1/imports/lab/basic/basic.srcs/sources_1/imports/SourceCode/IfIdSegReg/IR.sv" \
+"../../../../CPU_Cache.srcs/sources_1/imports/lab/basic/basic.srcs/sources_1/imports/SourceCode/ImmExtend.sv" \
+"../../../../CPU_Cache.srcs/sources_1/imports/lab/basic/basic.srcs/sources_1/imports/SourceCode/Cache/InstructionCache.sv" \
+"../../../../CPU_Cache.srcs/sources_1/imports/lab/basic/basic.srcs/sources_1/imports/SourceCode/NPCGenerator.sv" \
+"../../../../CPU_Cache.srcs/sources_1/imports/lab/basic/basic.srcs/sources_1/imports/SourceCode/IdExSegReg/Op1.sv" \
+"../../../../CPU_Cache.srcs/sources_1/imports/lab/basic/basic.srcs/sources_1/imports/SourceCode/IdExSegReg/Op2.sv" \
+"../../../../CPU_Cache.srcs/sources_1/imports/lab/basic/basic.srcs/sources_1/imports/SourceCode/PC.sv" \
+"../../../../CPU_Cache.srcs/sources_1/imports/lab/basic/basic.srcs/sources_1/imports/SourceCode/IdExSegReg/PcEx.sv" \
+"../../../../CPU_Cache.srcs/sources_1/imports/lab/basic/basic.srcs/sources_1/imports/SourceCode/IfIdSegReg/PcId.sv" \
+"../../../../CPU_Cache.srcs/sources_1/imports/lab/basic/basic.srcs/sources_1/imports/SourceCode/RV32ICore.sv" \
+"../../../../CPU_Cache.srcs/sources_1/imports/lab/basic/basic.srcs/sources_1/imports/SourceCode/IdExSegReg/Reg2Ex.sv" \
+"../../../../CPU_Cache.srcs/sources_1/imports/lab/basic/basic.srcs/sources_1/imports/SourceCode/ExMemSegReg/Reg2Mem.sv" \
+"../../../../CPU_Cache.srcs/sources_1/imports/lab/basic/basic.srcs/sources_1/imports/SourceCode/ExMemSegReg/Result.sv" \
+"../../../../CPU_Cache.srcs/sources_1/imports/lab/basic/basic.srcs/sources_1/imports/SourceCode/MemWbSegReg/WbData.sv" \
+"../../../../CPU_Cache.srcs/sources_1/imports/lab/cache/cache.srcs/sources_1/imports/CacheSrcCode/cache_backup.sv" \
+"../../../../CPU_Cache.srcs/sources_1/imports/lab/basic/basic.srcs/sources_1/imports/SourceCode/csralu.sv" \
+"../../../../CPU_Cache.srcs/sources_1/imports/lab/cache/cache.srcs/sources_1/imports/CacheSrcCode/lru.sv" \
+"../../../../CPU_Cache.srcs/sources_1/imports/lab/cache/cache.srcs/sources_1/imports/CacheSrcCode/main_mem.sv" \
+"../../../../CPU_Cache.srcs/sources_1/imports/lab/cache/cache.srcs/sources_1/imports/CacheSrcCode/mem.sv" \
+
+verilog xil_defaultlib  --include "../../../../CPU_Cache.srcs/sources_1/imports/lab/basic/basic.srcs/sources_1/imports/SourceCode" \
+"../../../../CPU_Cache.srcs/sim_1/imports/Testbench/cpu_tb.v" \
+
+# compile glbl module
+verilog xil_defaultlib "glbl.v"
+
+# Do not sort compile order
+nosort

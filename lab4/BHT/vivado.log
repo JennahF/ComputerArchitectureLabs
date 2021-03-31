@@ -1,0 +1,64 @@
+#-----------------------------------------------------------
+# Vivado v2018.2 (64-bit)
+# SW Build 2258646 on Thu Jun 14 20:03:12 MDT 2018
+# IP Build 2256618 on Thu Jun 14 22:10:49 MDT 2018
+# Start of session at: Sun May 31 20:48:54 2020
+# Process ID: 9524
+# Current directory: F:/1fr/HWnLABS/CA/labs/lab4/BHT
+# Command line: vivado.exe -gui_launcher_event rodinguilauncherevent8344 F:\1fr\HWnLABS\CA\labs\lab4\BHT\BHT.xpr
+# Log file: F:/1fr/HWnLABS/CA/labs/lab4/BHT/vivado.log
+# Journal file: F:/1fr/HWnLABS/CA/labs/lab4/BHT\vivado.jou
+#-----------------------------------------------------------
+start_gui
+open_project F:/1fr/HWnLABS/CA/labs/lab4/BHT/BHT.xpr
+Scanning sources...
+Finished scanning sources
+INFO: [IP_Flow 19-234] Refreshing IP repositories
+INFO: [IP_Flow 19-1704] No user IP repositories specified
+INFO: [IP_Flow 19-2313] Loaded Vivado IP repository 'D:/Xilinx/Vivado/2018.2/data/ip'.
+open_project: Time (s): cpu = 00:00:10 ; elapsed = 00:00:13 . Memory (MB): peak = 747.387 ; gain = 67.430
+update_compile_order -fileset sources_1
+archive_project F:/1fr/HWnLABS/CA/labs/lab4/BHT.xpr.zip -temp_dir F:/1fr/HWnLABS/CA/labs/lab4/BHT/.Xil/Vivado-9524-MSI -force -include_local_ip_cache
+INFO: [Coretcl 2-137] starting archive...
+INFO: [Coretcl 2-1499] Saving project copy to temporary location 'F:/1fr/HWnLABS/CA/labs/lab4/BHT/.Xil/Vivado-9524-MSI' for archiving project
+Scanning sources...
+Finished scanning sources
+INFO: [Coretcl 2-1211] Creating project copy for archival...
+INFO: [Coretcl 2-1213] Including run results for 'synth_1'
+INFO: [Coretcl 2-1213] Including run results for 'impl_1'
+INFO: [filemgmt 56-200] Setting project included file 'F:/1fr/HWnLABS/CA/labs/lab4/LAB3CPU_BTB_BHT/Parameters.v' to type 'Verilog Header'.
+INFO: [Coretcl 2-1212] Importing remotely added design sources and verilog include files (if any)...
+INFO: [filemgmt 20-348] Importing the appropriate files for fileset: 'sim_1'
+INFO: [filemgmt 20-348] Importing the appropriate files for fileset: 'sources_1'
+INFO: [Coretcl 2-1209] Adding archive summary file to the project...
+INFO: [Coretcl 2-1214] Preparing project files for archive...
+INFO: [Coretcl 2-1210] Compressing project files and data...
+INFO: [Coretcl 2-1215] Project archived (F:/1fr/HWnLABS/CA/labs/lab4/BHT.xpr.zip)
+INFO: [Coretcl 2-1216] To view the archive summary log in GUI, double click on 'Design Sources->Text->archive_project_summary.txt', or open this file from the archived project directory.
+close_project
+open_project F:/1fr/HWnLABS/CA/labs/lab4/BTB/BTB.xpr
+Scanning sources...
+Finished scanning sources
+INFO: [IP_Flow 19-234] Refreshing IP repositories
+INFO: [IP_Flow 19-1704] No user IP repositories specified
+INFO: [IP_Flow 19-2313] Loaded Vivado IP repository 'D:/Xilinx/Vivado/2018.2/data/ip'.
+update_compile_order -fileset sources_1
+archive_project F:/1fr/HWnLABS/CA/labs/lab4/BTB.xpr.zip -temp_dir F:/1fr/HWnLABS/CA/labs/lab4/BHT/.Xil/Vivado-9524-MSI -force -include_local_ip_cache
+INFO: [Coretcl 2-137] starting archive...
+INFO: [Coretcl 2-1499] Saving project copy to temporary location 'F:/1fr/HWnLABS/CA/labs/lab4/BHT/.Xil/Vivado-9524-MSI' for archiving project
+Scanning sources...
+Finished scanning sources
+INFO: [Coretcl 2-1211] Creating project copy for archival...
+INFO: [Coretcl 2-1213] Including run results for 'synth_1'
+INFO: [Coretcl 2-1213] Including run results for 'impl_1'
+INFO: [filemgmt 56-200] Setting project included file 'F:/1fr/HWnLABS/CA/labs/lab4/LAB3CPU_BTB/Parameters.v' to type 'Verilog Header'.
+INFO: [Coretcl 2-1212] Importing remotely added design sources and verilog include files (if any)...
+INFO: [filemgmt 20-348] Importing the appropriate files for fileset: 'sim_1'
+INFO: [filemgmt 20-348] Importing the appropriate files for fileset: 'sources_1'
+INFO: [Coretcl 2-1209] Adding archive summary file to the project...
+INFO: [Coretcl 2-1214] Preparing project files for archive...
+INFO: [Coretcl 2-1210] Compressing project files and data...
+INFO: [Coretcl 2-1215] Project archived (F:/1fr/HWnLABS/CA/labs/lab4/BTB.xpr.zip)
+INFO: [Coretcl 2-1216] To view the archive summary log in GUI, double click on 'Design Sources->Text->archive_project_summary.txt', or open this file from the archived project directory.
+exit
+INFO: [Common 17-206] Exiting Vivado at Sun May 31 20:51:28 2020...

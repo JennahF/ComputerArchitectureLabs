@@ -1,0 +1,12 @@
+#-----------------------------------------------------------
+# Vivado v2018.2 (64-bit)
+# SW Build 2258646 on Thu Jun 14 20:03:12 MDT 2018
+# IP Build 2256618 on Thu Jun 14 22:10:49 MDT 2018
+# Start of session at: Sat May  2 20:55:26 2020
+# Process ID: 19140
+# Current directory: D:/20SP/CA/lab/CPU_Cache/CPU_Cache.runs/synth_1
+# Command line: vivado.exe -log cache_lru.vds -product Vivado -mode batch -messageDb vivado.pb -notrace -source cache_lru.tcl
+# Log file: D:/20SP/CA/lab/CPU_Cache/CPU_Cache.runs/synth_1/cache_lru.vds
+# Journal file: D:/20SP/CA/lab/CPU_Cache/CPU_Cache.runs/synth_1\vivado.jou
+#-----------------------------------------------------------
+source cache_lru.tcl -notrace

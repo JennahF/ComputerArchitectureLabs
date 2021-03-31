@@ -1,0 +1,55 @@
+#-----------------------------------------------------------
+# Vivado v2018.2 (64-bit)
+# SW Build 2258646 on Thu Jun 14 20:03:12 MDT 2018
+# IP Build 2256618 on Thu Jun 14 22:10:49 MDT 2018
+# Start of session at: Fri Apr 24 10:40:03 2020
+# Process ID: 19584
+# Current directory: F:/1fr/HWnLABS/CA/labs/lab2/CSR
+# Command line: vivado.exe -gui_launcher_event rodinguilauncherevent1256 F:\1fr\HWnLABS\CA\labs\lab2\CSR\CSR.xpr
+# Log file: F:/1fr/HWnLABS/CA/labs/lab2/CSR/vivado.log
+# Journal file: F:/1fr/HWnLABS/CA/labs/lab2/CSR\vivado.jou
+#-----------------------------------------------------------
+start_gui
+open_project F:/1fr/HWnLABS/CA/labs/lab2/CSR/CSR.xpr
+update_compile_order -fileset sources_1
+launch_simulation
+source testBench.tcl
+relaunch_sim
+run 30 us
+relaunch_sim
+run 30 us
+relaunch_sim
+run 30 us
+relaunch_sim
+run 30 us
+relaunch_sim
+run 30 us
+relaunch_sim
+run 30 us
+relaunch_sim
+run 30 us
+relaunch_sim
+run 30 us
+relaunch_sim
+run 30 us
+relaunch_sim
+run 30 us
+relaunch_sim
+run 30 us
+relaunch_sim
+run 30 us
+relaunch_sim
+relaunch_sim
+run 30 us
+relaunch_sim
+run 30 us
+relaunch_sim
+run 30 us
+relaunch_sim
+current_wave_config {Untitled 1}
+add_wave {{/testBench/RV32ICore1/op1_src}} 
+relaunch_sim
+run 30 us
+relaunch_sim
+run 30 us
+close_sim

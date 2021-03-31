@@ -1,0 +1,328 @@
+#-----------------------------------------------------------
+# Vivado v2018.2 (64-bit)
+# SW Build 2258646 on Thu Jun 14 20:03:12 MDT 2018
+# IP Build 2256618 on Thu Jun 14 22:10:49 MDT 2018
+# Start of session at: Thu May  7 17:15:03 2020
+# Process ID: 1852
+# Current directory: F:/1fr/HWnLABS/CA/labs/lab3/Level1
+# Command line: vivado.exe -gui_launcher_event rodinguilauncherevent23516 F:\1fr\HWnLABS\CA\labs\lab3\Level1\Level1.xpr
+# Log file: F:/1fr/HWnLABS/CA/labs/lab3/Level1/vivado.log
+# Journal file: F:/1fr/HWnLABS/CA/labs/lab3/Level1\vivado.jou
+#-----------------------------------------------------------
+start_gui
+open_project F:/1fr/HWnLABS/CA/labs/lab3/Level1/Level1.xpr
+Scanning sources...
+Finished scanning sources
+INFO: [IP_Flow 19-234] Refreshing IP repositories
+INFO: [IP_Flow 19-1704] No user IP repositories specified
+INFO: [IP_Flow 19-2313] Loaded Vivado IP repository 'D:/Xilinx/Vivado/2018.2/data/ip'.
+update_compile_order -fileset sources_1
+launch_simulation
+INFO: [Vivado 12-5682] Launching behavioral simulation in 'F:/1fr/HWnLABS/CA/labs/lab3/Level1/Level1.sim/sim_1/behav/xsim'
+INFO: [SIM-utils-51] Simulation object is 'sim_1'
+INFO: [SIM-utils-54] Inspecting design source files for 'cache_tb' in fileset 'sim_1'...
+INFO: [USF-XSim-97] Finding global include files...
+INFO: [USF-XSim-98] Fetching design files from 'sim_1'...
+INFO: [USF-XSim-2] XSim::Compile design
+INFO: [USF-XSim-61] Executing 'COMPILE and ANALYZE' step in 'F:/1fr/HWnLABS/CA/labs/lab3/Level1/Level1.sim/sim_1/behav/xsim'
+"xvlog --incr --relax -prj cache_tb_vlog.prj"
+INFO: [VRFC 10-2263] Analyzing SystemVerilog file "F:/1fr/HWnLABS/CA/labs/lab3/CacheSrcCode/cache.sv" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module cache
+INFO: [VRFC 10-2263] Analyzing SystemVerilog file "F:/1fr/HWnLABS/CA/labs/lab3/CacheSrcCode/main_mem.sv" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module main_mem
+INFO: [VRFC 10-2263] Analyzing SystemVerilog file "F:/1fr/HWnLABS/CA/labs/lab3/CacheSrcCode/mem.sv" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module mem
+INFO: [VRFC 10-2263] Analyzing SystemVerilog file "F:/1fr/HWnLABS/CA/labs/lab3/CacheSrcCode/cache_tb.sv" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module cache_tb
+INFO: [USF-XSim-69] 'compile' step finished in '2' seconds
+INFO: [USF-XSim-3] XSim::Elaborate design
+INFO: [USF-XSim-61] Executing 'ELABORATE' step in 'F:/1fr/HWnLABS/CA/labs/lab3/Level1/Level1.sim/sim_1/behav/xsim'
+Vivado Simulator 2018.2
+Copyright 1986-1999, 2001-2018 Xilinx, Inc. All Rights Reserved.
+Running: D:/Xilinx/Vivado/2018.2/bin/unwrapped/win64.o/xelab.exe -wto 8a98b65028d842a4ba46189314e7c929 --incr --debug typical --relax --mt 2 -L xil_defaultlib -L unisims_ver -L unimacro_ver -L secureip --snapshot cache_tb_behav xil_defaultlib.cache_tb xil_defaultlib.glbl -log elaborate.log 
+Using 2 slave threads.
+WARNING: [XSIM 43-3431] One or more environment variables have been detected which affect the operation of the C compiler. These are typically not set in standard installations and are not tested by Xilinx, however they may be appropriate for your system, so the flow will attempt to continue.  If errors occur, try running xelab with the "-mt off -v 1" switches to see more information from the C compiler. The following environment variables have been detected:
+    LIBRARY_PATH
+Starting static elaboration
+Completed static elaboration
+Starting simulation data flow analysis
+WARNING: [XSIM 43-4099] "F:/1fr/HWnLABS/CA/labs/lab3/CacheSrcCode/cache.sv" Line 3. Module cache(SET_ADDR_LEN=2,TAG_ADDR_LEN=12,WAY_CNT=3) doesn't have a timescale but at least one module in design has a timescale.
+WARNING: [XSIM 43-4099] "F:/1fr/HWnLABS/CA/labs/lab3/CacheSrcCode/main_mem.sv" Line 2. Module main_mem(ADDR_LEN=14) doesn't have a timescale but at least one module in design has a timescale.
+WARNING: [XSIM 43-4099] "F:/1fr/HWnLABS/CA/labs/lab3/CacheSrcCode/mem.sv" Line 2. Module mem(ADDR_LEN=17) doesn't have a timescale but at least one module in design has a timescale.
+Completed simulation data flow analysis
+Time Resolution for simulation is 1ps
+Compiling module xil_defaultlib.mem(ADDR_LEN=17)
+Compiling module xil_defaultlib.main_mem(ADDR_LEN=14)
+Compiling module xil_defaultlib.cache(SET_ADDR_LEN=2,TAG_ADDR_LE...
+Compiling module xil_defaultlib.cache_tb
+Compiling module xil_defaultlib.glbl
+Built simulation snapshot cache_tb_behav
+
+****** Webtalk v2018.2 (64-bit)
+  **** SW Build 2258646 on Thu Jun 14 20:03:12 MDT 2018
+  **** IP Build 2256618 on Thu Jun 14 22:10:49 MDT 2018
+    ** Copyright 1986-2018 Xilinx, Inc. All Rights Reserved.
+
+source F:/1fr/HWnLABS/CA/labs/lab3/Level1/Level1.sim/sim_1/behav/xsim/xsim.dir/cache_tb_behav/webtalk/xsim_webtalk.tcl -notrace
+INFO: [Common 17-206] Exiting Webtalk at Thu May  7 17:16:09 2020...
+run_program: Time (s): cpu = 00:00:02 ; elapsed = 00:00:26 . Memory (MB): peak = 772.098 ; gain = 3.641
+INFO: [USF-XSim-69] 'elaborate' step finished in '26' seconds
+INFO: [USF-XSim-4] XSim::Simulate design
+INFO: [USF-XSim-61] Executing 'SIMULATE' step in 'F:/1fr/HWnLABS/CA/labs/lab3/Level1/Level1.sim/sim_1/behav/xsim'
+INFO: [USF-XSim-98] *** Running xsim
+   with args "cache_tb_behav -key {Behavioral:sim_1:Functional:cache_tb} -tclbatch {cache_tb.tcl} -log {simulate.log}"
+INFO: [USF-XSim-8] Loading simulator feature
+Vivado Simulator 2018.2
+Time resolution is 1 ps
+source cache_tb.tcl
+# set curr_wave [current_wave_config]
+# if { [string length $curr_wave] == 0 } {
+#   if { [llength [get_objects]] > 0} {
+#     add_wave /
+#     set_property needs_save false [current_wave_config]
+#   } else {
+#      send_msg_id Add_Wave-1 WARNING "No top level signals found. Simulator will start without a wave window. If you want to open a wave window go to 'File->New Waveform Configuration' or type 'create_wave_config' in the TCL console."
+#   }
+# }
+WARNING: [Wavedata 42-489] Can't add object "/cache_tb/addr_rom" to the wave window because it has 393216 bits, which exceeds the display limit of 65536 bits.  To change the display limit, use the command "set_property display_limit <new limit> [current_wave_config]".
+WARNING: [Wavedata 42-489] Can't add object "/cache_tb/wr_data_rom" to the wave window because it has 393216 bits, which exceeds the display limit of 65536 bits.  To change the display limit, use the command "set_property display_limit <new limit> [current_wave_config]".
+# run 1000ns
+INFO: [USF-XSim-96] XSim completed. Design snapshot 'cache_tb_behav' loaded.
+INFO: [USF-XSim-97] XSim simulation ran for 1000ns
+launch_simulation: Time (s): cpu = 00:00:09 ; elapsed = 00:00:33 . Memory (MB): peak = 779.578 ; gain = 21.230
+run 5 us
+run all
+run: Time (s): cpu = 00:00:05 ; elapsed = 00:00:05 . Memory (MB): peak = 797.680 ; gain = 2.176
+relaunch_sim
+INFO: [Vivado 12-5682] Launching behavioral simulation in 'F:/1fr/HWnLABS/CA/labs/lab3/Level1/Level1.sim/sim_1/behav/xsim'
+INFO: [SIM-utils-51] Simulation object is 'sim_1'
+INFO: [SIM-utils-54] Inspecting design source files for 'cache_tb' in fileset 'sim_1'...
+INFO: [USF-XSim-97] Finding global include files...
+INFO: [USF-XSim-98] Fetching design files from 'sim_1'...
+INFO: [USF-XSim-2] XSim::Compile design
+INFO: [USF-XSim-61] Executing 'COMPILE and ANALYZE' step in 'F:/1fr/HWnLABS/CA/labs/lab3/Level1/Level1.sim/sim_1/behav/xsim'
+"xvlog --incr --relax -prj cache_tb_vlog.prj"
+INFO: [VRFC 10-2263] Analyzing SystemVerilog file "F:/1fr/HWnLABS/CA/labs/lab3/CacheSrcCode/cache.sv" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module cache
+INFO: [VRFC 10-2263] Analyzing SystemVerilog file "F:/1fr/HWnLABS/CA/labs/lab3/CacheSrcCode/main_mem.sv" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module main_mem
+INFO: [VRFC 10-2263] Analyzing SystemVerilog file "F:/1fr/HWnLABS/CA/labs/lab3/CacheSrcCode/mem.sv" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module mem
+INFO: [VRFC 10-2263] Analyzing SystemVerilog file "F:/1fr/HWnLABS/CA/labs/lab3/CacheSrcCode/cache_tb.sv" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module cache_tb
+INFO: [USF-XSim-69] 'compile' step finished in '1' seconds
+INFO: [Vivado 12-5682] Launching behavioral simulation in 'F:/1fr/HWnLABS/CA/labs/lab3/Level1/Level1.sim/sim_1/behav/xsim'
+INFO: [USF-XSim-3] XSim::Elaborate design
+INFO: [USF-XSim-61] Executing 'ELABORATE' step in 'F:/1fr/HWnLABS/CA/labs/lab3/Level1/Level1.sim/sim_1/behav/xsim'
+Vivado Simulator 2018.2
+Copyright 1986-1999, 2001-2018 Xilinx, Inc. All Rights Reserved.
+Running: D:/Xilinx/Vivado/2018.2/bin/unwrapped/win64.o/xelab.exe -wto 8a98b65028d842a4ba46189314e7c929 --incr --debug typical --relax --mt 2 -L xil_defaultlib -L unisims_ver -L unimacro_ver -L secureip --snapshot cache_tb_behav xil_defaultlib.cache_tb xil_defaultlib.glbl -log elaborate.log 
+Using 2 slave threads.
+WARNING: [XSIM 43-3431] One or more environment variables have been detected which affect the operation of the C compiler. These are typically not set in standard installations and are not tested by Xilinx, however they may be appropriate for your system, so the flow will attempt to continue.  If errors occur, try running xelab with the "-mt off -v 1" switches to see more information from the C compiler. The following environment variables have been detected:
+    LIBRARY_PATH
+Starting static elaboration
+Completed static elaboration
+Starting simulation data flow analysis
+WARNING: [XSIM 43-4099] "F:/1fr/HWnLABS/CA/labs/lab3/CacheSrcCode/cache.sv" Line 3. Module cache(SET_ADDR_LEN=2,TAG_ADDR_LEN=12,WAY_CNT=3) doesn't have a timescale but at least one module in design has a timescale.
+WARNING: [XSIM 43-4099] "F:/1fr/HWnLABS/CA/labs/lab3/CacheSrcCode/main_mem.sv" Line 2. Module main_mem(ADDR_LEN=14) doesn't have a timescale but at least one module in design has a timescale.
+WARNING: [XSIM 43-4099] "F:/1fr/HWnLABS/CA/labs/lab3/CacheSrcCode/mem.sv" Line 2. Module mem(ADDR_LEN=17) doesn't have a timescale but at least one module in design has a timescale.
+Completed simulation data flow analysis
+Time Resolution for simulation is 1ps
+Compiling module xil_defaultlib.mem(ADDR_LEN=17)
+Compiling module xil_defaultlib.main_mem(ADDR_LEN=14)
+Compiling module xil_defaultlib.cache(SET_ADDR_LEN=2,TAG_ADDR_LE...
+Compiling module xil_defaultlib.cache_tb
+Compiling module xil_defaultlib.glbl
+Built simulation snapshot cache_tb_behav
+run_program: Time (s): cpu = 00:00:00 ; elapsed = 00:00:16 . Memory (MB): peak = 863.813 ; gain = 0.000
+INFO: [USF-XSim-69] 'elaborate' step finished in '16' seconds
+launch_simulation: Time (s): cpu = 00:00:00 ; elapsed = 00:00:16 . Memory (MB): peak = 863.813 ; gain = 0.000
+Vivado Simulator 2018.2
+Time resolution is 1 ps
+relaunch_sim: Time (s): cpu = 00:00:02 ; elapsed = 00:00:23 . Memory (MB): peak = 863.813 ; gain = 0.000
+run all
+run: Time (s): cpu = 00:00:04 ; elapsed = 00:00:05 . Memory (MB): peak = 864.719 ; gain = 0.906
+current_wave_config {Untitled 1}
+Untitled 1
+add_wave {{/cache_tb/cache_test_instance/rd_req}} 
+relaunch_sim
+INFO: [Vivado 12-5682] Launching behavioral simulation in 'F:/1fr/HWnLABS/CA/labs/lab3/Level1/Level1.sim/sim_1/behav/xsim'
+INFO: [SIM-utils-51] Simulation object is 'sim_1'
+INFO: [SIM-utils-54] Inspecting design source files for 'cache_tb' in fileset 'sim_1'...
+INFO: [USF-XSim-97] Finding global include files...
+INFO: [USF-XSim-98] Fetching design files from 'sim_1'...
+INFO: [USF-XSim-2] XSim::Compile design
+INFO: [USF-XSim-61] Executing 'COMPILE and ANALYZE' step in 'F:/1fr/HWnLABS/CA/labs/lab3/Level1/Level1.sim/sim_1/behav/xsim'
+"xvlog --incr --relax -prj cache_tb_vlog.prj"
+INFO: [VRFC 10-2263] Analyzing SystemVerilog file "F:/1fr/HWnLABS/CA/labs/lab3/CacheSrcCode/cache.sv" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module cache
+INFO: [VRFC 10-2263] Analyzing SystemVerilog file "F:/1fr/HWnLABS/CA/labs/lab3/CacheSrcCode/main_mem.sv" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module main_mem
+INFO: [VRFC 10-2263] Analyzing SystemVerilog file "F:/1fr/HWnLABS/CA/labs/lab3/CacheSrcCode/mem.sv" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module mem
+INFO: [VRFC 10-2263] Analyzing SystemVerilog file "F:/1fr/HWnLABS/CA/labs/lab3/CacheSrcCode/cache_tb.sv" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module cache_tb
+INFO: [USF-XSim-69] 'compile' step finished in '4' seconds
+INFO: [Vivado 12-5682] Launching behavioral simulation in 'F:/1fr/HWnLABS/CA/labs/lab3/Level1/Level1.sim/sim_1/behav/xsim'
+INFO: [USF-XSim-3] XSim::Elaborate design
+INFO: [USF-XSim-61] Executing 'ELABORATE' step in 'F:/1fr/HWnLABS/CA/labs/lab3/Level1/Level1.sim/sim_1/behav/xsim'
+Vivado Simulator 2018.2
+Copyright 1986-1999, 2001-2018 Xilinx, Inc. All Rights Reserved.
+Running: D:/Xilinx/Vivado/2018.2/bin/unwrapped/win64.o/xelab.exe -wto 8a98b65028d842a4ba46189314e7c929 --incr --debug typical --relax --mt 2 -L xil_defaultlib -L unisims_ver -L unimacro_ver -L secureip --snapshot cache_tb_behav xil_defaultlib.cache_tb xil_defaultlib.glbl -log elaborate.log 
+Using 2 slave threads.
+WARNING: [XSIM 43-3431] One or more environment variables have been detected which affect the operation of the C compiler. These are typically not set in standard installations and are not tested by Xilinx, however they may be appropriate for your system, so the flow will attempt to continue.  If errors occur, try running xelab with the "-mt off -v 1" switches to see more information from the C compiler. The following environment variables have been detected:
+    LIBRARY_PATH
+Starting static elaboration
+Completed static elaboration
+Starting simulation data flow analysis
+WARNING: [XSIM 43-4099] "F:/1fr/HWnLABS/CA/labs/lab3/CacheSrcCode/cache.sv" Line 3. Module cache(SET_ADDR_LEN=2,TAG_ADDR_LEN=12,WAY_CNT=3) doesn't have a timescale but at least one module in design has a timescale.
+WARNING: [XSIM 43-4099] "F:/1fr/HWnLABS/CA/labs/lab3/CacheSrcCode/main_mem.sv" Line 2. Module main_mem(ADDR_LEN=14) doesn't have a timescale but at least one module in design has a timescale.
+WARNING: [XSIM 43-4099] "F:/1fr/HWnLABS/CA/labs/lab3/CacheSrcCode/mem.sv" Line 2. Module mem(ADDR_LEN=17) doesn't have a timescale but at least one module in design has a timescale.
+Completed simulation data flow analysis
+Time Resolution for simulation is 1ps
+Compiling module xil_defaultlib.mem(ADDR_LEN=17)
+Compiling module xil_defaultlib.main_mem(ADDR_LEN=14)
+Compiling module xil_defaultlib.cache(SET_ADDR_LEN=2,TAG_ADDR_LE...
+Compiling module xil_defaultlib.cache_tb
+Compiling module xil_defaultlib.glbl
+Built simulation snapshot cache_tb_behav
+run_program: Time (s): cpu = 00:00:01 ; elapsed = 00:00:19 . Memory (MB): peak = 881.836 ; gain = 0.000
+INFO: [USF-XSim-69] 'elaborate' step finished in '19' seconds
+launch_simulation: Time (s): cpu = 00:00:01 ; elapsed = 00:00:19 . Memory (MB): peak = 881.836 ; gain = 0.000
+Vivado Simulator 2018.2
+Time resolution is 1 ps
+relaunch_sim: Time (s): cpu = 00:00:07 ; elapsed = 00:00:27 . Memory (MB): peak = 881.836 ; gain = 0.000
+run all
+current_wave_config {Untitled 1}
+Untitled 1
+add_wave {{/cache_tb/validation_data}} 
+relaunch_sim
+INFO: [Vivado 12-5682] Launching behavioral simulation in 'F:/1fr/HWnLABS/CA/labs/lab3/Level1/Level1.sim/sim_1/behav/xsim'
+INFO: [SIM-utils-51] Simulation object is 'sim_1'
+INFO: [SIM-utils-54] Inspecting design source files for 'cache_tb' in fileset 'sim_1'...
+INFO: [USF-XSim-97] Finding global include files...
+INFO: [USF-XSim-98] Fetching design files from 'sim_1'...
+INFO: [USF-XSim-2] XSim::Compile design
+INFO: [USF-XSim-61] Executing 'COMPILE and ANALYZE' step in 'F:/1fr/HWnLABS/CA/labs/lab3/Level1/Level1.sim/sim_1/behav/xsim'
+"xvlog --incr --relax -prj cache_tb_vlog.prj"
+INFO: [VRFC 10-2263] Analyzing SystemVerilog file "F:/1fr/HWnLABS/CA/labs/lab3/CacheSrcCode/cache.sv" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module cache
+INFO: [VRFC 10-2263] Analyzing SystemVerilog file "F:/1fr/HWnLABS/CA/labs/lab3/CacheSrcCode/main_mem.sv" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module main_mem
+INFO: [VRFC 10-2263] Analyzing SystemVerilog file "F:/1fr/HWnLABS/CA/labs/lab3/CacheSrcCode/mem.sv" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module mem
+INFO: [VRFC 10-2263] Analyzing SystemVerilog file "F:/1fr/HWnLABS/CA/labs/lab3/CacheSrcCode/cache_tb.sv" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module cache_tb
+INFO: [USF-XSim-69] 'compile' step finished in '3' seconds
+INFO: [Vivado 12-5682] Launching behavioral simulation in 'F:/1fr/HWnLABS/CA/labs/lab3/Level1/Level1.sim/sim_1/behav/xsim'
+INFO: [USF-XSim-3] XSim::Elaborate design
+INFO: [USF-XSim-61] Executing 'ELABORATE' step in 'F:/1fr/HWnLABS/CA/labs/lab3/Level1/Level1.sim/sim_1/behav/xsim'
+Vivado Simulator 2018.2
+Copyright 1986-1999, 2001-2018 Xilinx, Inc. All Rights Reserved.
+Running: D:/Xilinx/Vivado/2018.2/bin/unwrapped/win64.o/xelab.exe -wto 8a98b65028d842a4ba46189314e7c929 --incr --debug typical --relax --mt 2 -L xil_defaultlib -L unisims_ver -L unimacro_ver -L secureip --snapshot cache_tb_behav xil_defaultlib.cache_tb xil_defaultlib.glbl -log elaborate.log 
+Using 2 slave threads.
+WARNING: [XSIM 43-3431] One or more environment variables have been detected which affect the operation of the C compiler. These are typically not set in standard installations and are not tested by Xilinx, however they may be appropriate for your system, so the flow will attempt to continue.  If errors occur, try running xelab with the "-mt off -v 1" switches to see more information from the C compiler. The following environment variables have been detected:
+    LIBRARY_PATH
+Starting static elaboration
+Completed static elaboration
+Starting simulation data flow analysis
+WARNING: [XSIM 43-4099] "F:/1fr/HWnLABS/CA/labs/lab3/CacheSrcCode/cache.sv" Line 3. Module cache(SET_ADDR_LEN=2,TAG_ADDR_LEN=12,WAY_CNT=3) doesn't have a timescale but at least one module in design has a timescale.
+WARNING: [XSIM 43-4099] "F:/1fr/HWnLABS/CA/labs/lab3/CacheSrcCode/main_mem.sv" Line 2. Module main_mem(ADDR_LEN=14) doesn't have a timescale but at least one module in design has a timescale.
+WARNING: [XSIM 43-4099] "F:/1fr/HWnLABS/CA/labs/lab3/CacheSrcCode/mem.sv" Line 2. Module mem(ADDR_LEN=17) doesn't have a timescale but at least one module in design has a timescale.
+Completed simulation data flow analysis
+Time Resolution for simulation is 1ps
+Compiling module xil_defaultlib.mem(ADDR_LEN=17)
+Compiling module xil_defaultlib.main_mem(ADDR_LEN=14)
+Compiling module xil_defaultlib.cache(SET_ADDR_LEN=2,TAG_ADDR_LE...
+Compiling module xil_defaultlib.cache_tb
+Compiling module xil_defaultlib.glbl
+Built simulation snapshot cache_tb_behav
+run_program: Time (s): cpu = 00:00:01 ; elapsed = 00:00:16 . Memory (MB): peak = 881.836 ; gain = 0.000
+INFO: [USF-XSim-69] 'elaborate' step finished in '16' seconds
+launch_simulation: Time (s): cpu = 00:00:01 ; elapsed = 00:00:16 . Memory (MB): peak = 881.836 ; gain = 0.000
+Vivado Simulator 2018.2
+Time resolution is 1 ps
+relaunch_sim: Time (s): cpu = 00:00:02 ; elapsed = 00:00:22 . Memory (MB): peak = 881.836 ; gain = 0.000
+current_wave_config {Untitled 1}
+Untitled 1
+add_wave {{/cache_tb/validation_count}} 
+relaunch_sim
+INFO: [Vivado 12-5682] Launching behavioral simulation in 'F:/1fr/HWnLABS/CA/labs/lab3/Level1/Level1.sim/sim_1/behav/xsim'
+INFO: [SIM-utils-51] Simulation object is 'sim_1'
+INFO: [SIM-utils-54] Inspecting design source files for 'cache_tb' in fileset 'sim_1'...
+INFO: [USF-XSim-97] Finding global include files...
+INFO: [USF-XSim-98] Fetching design files from 'sim_1'...
+INFO: [USF-XSim-2] XSim::Compile design
+INFO: [USF-XSim-61] Executing 'COMPILE and ANALYZE' step in 'F:/1fr/HWnLABS/CA/labs/lab3/Level1/Level1.sim/sim_1/behav/xsim'
+"xvlog --incr --relax -prj cache_tb_vlog.prj"
+INFO: [USF-XSim-69] 'compile' step finished in '2' seconds
+INFO: [Vivado 12-5682] Launching behavioral simulation in 'F:/1fr/HWnLABS/CA/labs/lab3/Level1/Level1.sim/sim_1/behav/xsim'
+INFO: [USF-XSim-3] XSim::Elaborate design
+INFO: [USF-XSim-61] Executing 'ELABORATE' step in 'F:/1fr/HWnLABS/CA/labs/lab3/Level1/Level1.sim/sim_1/behav/xsim'
+Vivado Simulator 2018.2
+Copyright 1986-1999, 2001-2018 Xilinx, Inc. All Rights Reserved.
+Running: D:/Xilinx/Vivado/2018.2/bin/unwrapped/win64.o/xelab.exe -wto 8a98b65028d842a4ba46189314e7c929 --incr --debug typical --relax --mt 2 -L xil_defaultlib -L unisims_ver -L unimacro_ver -L secureip --snapshot cache_tb_behav xil_defaultlib.cache_tb xil_defaultlib.glbl -log elaborate.log 
+Using 2 slave threads.
+WARNING: [XSIM 43-3431] One or more environment variables have been detected which affect the operation of the C compiler. These are typically not set in standard installations and are not tested by Xilinx, however they may be appropriate for your system, so the flow will attempt to continue.  If errors occur, try running xelab with the "-mt off -v 1" switches to see more information from the C compiler. The following environment variables have been detected:
+    LIBRARY_PATH
+Starting static elaboration
+Completed static elaboration
+INFO: [XSIM 43-4323] No Change in HDL. Linking previously generated obj files to create kernel
+INFO: [USF-XSim-69] 'elaborate' step finished in '3' seconds
+Vivado Simulator 2018.2
+Time resolution is 1 ps
+relaunch_sim: Time (s): cpu = 00:00:02 ; elapsed = 00:00:09 . Memory (MB): peak = 881.836 ; gain = 0.000
+run all
+run: Time (s): cpu = 00:00:03 ; elapsed = 00:00:05 . Memory (MB): peak = 881.836 ; gain = 0.000
+relaunch_sim
+INFO: [Vivado 12-5682] Launching behavioral simulation in 'F:/1fr/HWnLABS/CA/labs/lab3/Level1/Level1.sim/sim_1/behav/xsim'
+INFO: [SIM-utils-51] Simulation object is 'sim_1'
+INFO: [SIM-utils-54] Inspecting design source files for 'cache_tb' in fileset 'sim_1'...
+INFO: [USF-XSim-97] Finding global include files...
+INFO: [USF-XSim-98] Fetching design files from 'sim_1'...
+INFO: [USF-XSim-2] XSim::Compile design
+INFO: [USF-XSim-61] Executing 'COMPILE and ANALYZE' step in 'F:/1fr/HWnLABS/CA/labs/lab3/Level1/Level1.sim/sim_1/behav/xsim'
+"xvlog --incr --relax -prj cache_tb_vlog.prj"
+INFO: [VRFC 10-2263] Analyzing SystemVerilog file "F:/1fr/HWnLABS/CA/labs/lab3/CacheSrcCode/cache.sv" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module cache
+INFO: [VRFC 10-2263] Analyzing SystemVerilog file "F:/1fr/HWnLABS/CA/labs/lab3/CacheSrcCode/main_mem.sv" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module main_mem
+INFO: [VRFC 10-2263] Analyzing SystemVerilog file "F:/1fr/HWnLABS/CA/labs/lab3/CacheSrcCode/mem.sv" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module mem
+INFO: [VRFC 10-2263] Analyzing SystemVerilog file "F:/1fr/HWnLABS/CA/labs/lab3/CacheSrcCode/cache_tb.sv" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module cache_tb
+INFO: [USF-XSim-69] 'compile' step finished in '3' seconds
+INFO: [Vivado 12-5682] Launching behavioral simulation in 'F:/1fr/HWnLABS/CA/labs/lab3/Level1/Level1.sim/sim_1/behav/xsim'
+INFO: [USF-XSim-3] XSim::Elaborate design
+INFO: [USF-XSim-61] Executing 'ELABORATE' step in 'F:/1fr/HWnLABS/CA/labs/lab3/Level1/Level1.sim/sim_1/behav/xsim'
+Vivado Simulator 2018.2
+Copyright 1986-1999, 2001-2018 Xilinx, Inc. All Rights Reserved.
+Running: D:/Xilinx/Vivado/2018.2/bin/unwrapped/win64.o/xelab.exe -wto 8a98b65028d842a4ba46189314e7c929 --incr --debug typical --relax --mt 2 -L xil_defaultlib -L unisims_ver -L unimacro_ver -L secureip --snapshot cache_tb_behav xil_defaultlib.cache_tb xil_defaultlib.glbl -log elaborate.log 
+Using 2 slave threads.
+WARNING: [XSIM 43-3431] One or more environment variables have been detected which affect the operation of the C compiler. These are typically not set in standard installations and are not tested by Xilinx, however they may be appropriate for your system, so the flow will attempt to continue.  If errors occur, try running xelab with the "-mt off -v 1" switches to see more information from the C compiler. The following environment variables have been detected:
+    LIBRARY_PATH
+Starting static elaboration
+Completed static elaboration
+Starting simulation data flow analysis
+WARNING: [XSIM 43-4099] "F:/1fr/HWnLABS/CA/labs/lab3/CacheSrcCode/cache.sv" Line 3. Module cache(SET_ADDR_LEN=2,TAG_ADDR_LEN=12,WAY_CNT=3) doesn't have a timescale but at least one module in design has a timescale.
+WARNING: [XSIM 43-4099] "F:/1fr/HWnLABS/CA/labs/lab3/CacheSrcCode/main_mem.sv" Line 2. Module main_mem(ADDR_LEN=14) doesn't have a timescale but at least one module in design has a timescale.
+WARNING: [XSIM 43-4099] "F:/1fr/HWnLABS/CA/labs/lab3/CacheSrcCode/mem.sv" Line 2. Module mem(ADDR_LEN=17) doesn't have a timescale but at least one module in design has a timescale.
+Completed simulation data flow analysis
+Time Resolution for simulation is 1ps
+Compiling module xil_defaultlib.mem(ADDR_LEN=17)
+Compiling module xil_defaultlib.main_mem(ADDR_LEN=14)
+Compiling module xil_defaultlib.cache(SET_ADDR_LEN=2,TAG_ADDR_LE...
+Compiling module xil_defaultlib.cache_tb
+Compiling module xil_defaultlib.glbl
+Built simulation snapshot cache_tb_behav
+run_program: Time (s): cpu = 00:00:00 ; elapsed = 00:00:15 . Memory (MB): peak = 881.836 ; gain = 0.000
+INFO: [USF-XSim-69] 'elaborate' step finished in '14' seconds
+launch_simulation: Time (s): cpu = 00:00:00 ; elapsed = 00:00:15 . Memory (MB): peak = 881.836 ; gain = 0.000
+Vivado Simulator 2018.2
+Time resolution is 1 ps
+relaunch_sim: Time (s): cpu = 00:00:02 ; elapsed = 00:00:22 . Memory (MB): peak = 881.836 ; gain = 0.000
+run all
+close_sim
+INFO: [Simtcl 6-16] Simulation closed
+exit
+INFO: [Common 17-206] Exiting Vivado at Fri May  8 11:05:31 2020...

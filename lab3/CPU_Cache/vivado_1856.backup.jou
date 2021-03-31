@@ -1,0 +1,122 @@
+#-----------------------------------------------------------
+# Vivado v2018.2 (64-bit)
+# SW Build 2258646 on Thu Jun 14 20:03:12 MDT 2018
+# IP Build 2256618 on Thu Jun 14 22:10:49 MDT 2018
+# Start of session at: Fri May  8 11:05:02 2020
+# Process ID: 1856
+# Current directory: F:/1fr/HWnLABS/CA/labs/lab3/CPU_Cache
+# Command line: vivado.exe -gui_launcher_event rodinguilauncherevent9752 F:\1fr\HWnLABS\CA\labs\lab3\CPU_Cache\CPU_Cache.xpr
+# Log file: F:/1fr/HWnLABS/CA/labs/lab3/CPU_Cache/vivado.log
+# Journal file: F:/1fr/HWnLABS/CA/labs/lab3/CPU_Cache\vivado.jou
+#-----------------------------------------------------------
+start_gui
+open_project F:/1fr/HWnLABS/CA/labs/lab3/CPU_Cache/CPU_Cache.xpr
+update_compile_order -fileset sources_1
+# Disabling source management mode.  This is to allow the top design properties to be set without GUI intervention.
+set_property source_mgmt_mode None [current_project]
+set_property top RV32ICore [current_fileset]
+# Re-enabling previously disabled source management mode.
+set_property source_mgmt_mode All [current_project]
+update_compile_order -fileset sources_1
+launch_simulation
+open_wave_config F:/1fr/HWnLABS/CA/labs/lab3/CPU_Cache/CPU_Cache.srcs/sim_1/imports/CPU_Cache/cpu_tb_behav.wcfg
+source cpu_tb.tcl
+current_wave_config {cpu_tb_behav.wcfg}
+add_wave {{/cpu_tb/RV32ICore_tb_inst/inst_ID}} 
+current_wave_config {cpu_tb_behav.wcfg}
+add_wave {{/cpu_tb/RV32ICore_tb_inst/RegisterFile1/reg_file}} 
+current_wave_config {cpu_tb_behav.wcfg}
+add_wave {{/cpu_tb/RV32ICore_tb_inst/WB_Data_WB1/cache_inst1/wr_req}} 
+current_wave_config {cpu_tb_behav.wcfg}
+add_wave {{/cpu_tb/RV32ICore_tb_inst/WB_Data_WB1/cache_inst1/rd_req}} 
+current_wave_config {cpu_tb_behav.wcfg}
+add_wave {{/cpu_tb/RV32ICore_tb_inst/WB_Data_WB1/cache_inst1/rd_data}} 
+current_wave_config {cpu_tb_behav.wcfg}
+add_wave {{/cpu_tb/RV32ICore_tb_inst/WB_Data_WB1/cache_inst1/cache_stat}} 
+relaunch_sim
+run all
+current_wave_config {cpu_tb_behav.wcfg}
+add_wave {{/cpu_tb/RV32ICore_tb_inst/WB_Data_WB1/cache_inst1/addr}} 
+relaunch_sim
+current_wave_config {cpu_tb_behav.wcfg}
+add_wave {{/cpu_tb/RV32ICore_tb_inst/miss}} 
+relaunch_sim
+current_wave_config {cpu_tb_behav.wcfg}
+add_wave {{/cpu_tb/RV32ICore_tb_inst/PC_IF}} 
+relaunch_sim
+current_wave_config {cpu_tb_behav.wcfg}
+add_wave {{/cpu_tb/RV32ICore_tb_inst/IR_ID1/flush_ff}} 
+current_wave_config {cpu_tb_behav.wcfg}
+add_wave {{/cpu_tb/RV32ICore_tb_inst/IR_ID1/bubbleD}} 
+current_wave_config {cpu_tb_behav.wcfg}
+add_wave {{/cpu_tb/RV32ICore_tb_inst/IR_ID1/flushD}} 
+relaunch_sim
+relaunch_sim
+run all
+current_wave_config {cpu_tb_behav.wcfg}
+add_wave {{/cpu_tb/RV32ICore_tb_inst/WB_Data_WB1/cache_inst1/cache_hit}} 
+relaunch_sim
+current_wave_config {cpu_tb_behav.wcfg}
+add_wave {{/cpu_tb/RV32ICore_tb_inst/WB_Data_WB1/cache_inst1/tag_addr}} 
+current_wave_config {cpu_tb_behav.wcfg}
+add_wave {{/cpu_tb/RV32ICore_tb_inst/WB_Data_WB1/cache_inst1/mem_rd_tag_addr}} 
+current_wave_config {cpu_tb_behav.wcfg}
+add_wave {{/cpu_tb/RV32ICore_tb_inst/WB_Data_WB1/cache_inst1/cache_tags}} 
+current_wave_config {cpu_tb_behav.wcfg}
+add_wave {{/cpu_tb/RV32ICore_tb_inst/WB_Data_WB1/cache_inst1/set_addr}} 
+current_wave_config {cpu_tb_behav.wcfg}
+add_wave {{/cpu_tb/RV32ICore_tb_inst/WB_Data_WB1/cache_inst1/mem_rd_set_addr}} 
+relaunch_sim
+current_wave_config {cpu_tb_behav.wcfg}
+add_wave {{/cpu_tb/RV32ICore_tb_inst/WB_Data_WB1/cache_inst1/swap_in_addr}} 
+current_wave_config {cpu_tb_behav.wcfg}
+add_wave {{/cpu_tb/RV32ICore_tb_inst/WB_Data_WB1/cache_inst1/swap_old_addr}} 
+relaunch_sim
+current_wave_config {cpu_tb_behav.wcfg}
+add_wave {{/cpu_tb/RV32ICore_tb_inst/WB_Data_WB1/cache_inst1/cmp}} 
+relaunch_sim
+current_wave_config {cpu_tb_behav.wcfg}
+add_wave {{/cpu_tb/RV32ICore_tb_inst/WB_Data_WB1/cache_inst1/valid}} 
+relaunch_sim
+relaunch_sim
+run all
+current_wave_config {cpu_tb_behav.wcfg}
+add_wave {{/cpu_tb/RV32ICore_tb_inst/reg_write_en_WB}} 
+current_wave_config {cpu_tb_behav.wcfg}
+add_wave {{/cpu_tb/RV32ICore_tb_inst/reg_dest_WB}} 
+relaunch_sim
+current_wave_config {cpu_tb_behav.wcfg}
+add_wave {{/cpu_tb/RV32ICore_tb_inst/reg_write_en_ID}} {{/cpu_tb/RV32ICore_tb_inst/reg_write_en_EX}} {{/cpu_tb/RV32ICore_tb_inst/reg_write_en_MEM}} 
+relaunch_sim
+current_wave_config {cpu_tb_behav.wcfg}
+add_wave {{/cpu_tb/RV32ICore_tb_inst/flushE}} 
+relaunch_sim
+run 5 us
+current_wave_config {cpu_tb_behav.wcfg}
+add_wave {{/cpu_tb/RV32ICore_tb_inst/op1_sel}} 
+current_wave_config {cpu_tb_behav.wcfg}
+add_wave {{/cpu_tb/RV32ICore_tb_inst/reg2_sel}} 
+relaunch_sim
+run 5 us
+current_wave_config {cpu_tb_behav.wcfg}
+add_wave {{/cpu_tb/RV32ICore_tb_inst/ALU_op1}} 
+current_wave_config {cpu_tb_behav.wcfg}
+add_wave {{/cpu_tb/RV32ICore_tb_inst/dealt_reg2}} 
+run 5 us
+relaunch_sim
+run 5 us
+current_wave_config {cpu_tb_behav.wcfg}
+add_wave {{/cpu_tb/RV32ICore_tb_inst/br}} 
+relaunch_sim
+run 5 us
+current_wave_config {cpu_tb_behav.wcfg}
+add_wave {{/cpu_tb/RV32ICore_tb_inst/br_type_EX}} 
+relaunch_sim
+run 5 us
+current_wave_config {cpu_tb_behav.wcfg}
+add_wave {{/cpu_tb/RV32ICore_tb_inst/WB_Data_WB1/misstimes}} 
+current_wave_config {cpu_tb_behav.wcfg}
+add_wave {{/cpu_tb/RV32ICore_tb_inst/WB_Data_WB1/accesstimes}} 
+relaunch_sim
+run all
+close_sim

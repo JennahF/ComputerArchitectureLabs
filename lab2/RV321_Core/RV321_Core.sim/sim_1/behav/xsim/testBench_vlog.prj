@@ -1,0 +1,37 @@
+# compile verilog/system verilog design source files
+verilog xil_defaultlib  \
+"../../../../../../ustc_ca2020_lab/Lab2/SourceCode/ALU.v" \
+"../../../../../../ustc_ca2020_lab/Lab2/SourceCode/IdExSegReg/AddrEx.v" \
+"../../../../../../ustc_ca2020_lab/Lab2/SourceCode/ExMemSegReg/AddrMem.v" \
+"../../../../../../ustc_ca2020_lab/Lab2/SourceCode/MemWbSegReg/AddrWb.v" \
+"../../../../../../ustc_ca2020_lab/Lab2/SourceCode/IdExSegReg/BrTarget.v" \
+"../../../../../../ustc_ca2020_lab/Lab2/SourceCode/BranchDecision.v" \
+"../../../../../../ustc_ca2020_lab/Lab2/SourceCode/ControllerDecoder.v" \
+"../../../../../../ustc_ca2020_lab/Lab2/SourceCode/IdExSegReg/CtrlEx.v" \
+"../../../../../../ustc_ca2020_lab/Lab2/SourceCode/ExMemSegReg/CtrlMem.v" \
+"../../../../../../ustc_ca2020_lab/Lab2/SourceCode/MemWbSegReg/CtrlWb.v" \
+"../../../../../../ustc_ca2020_lab/Lab2/SourceCode/Cache/DataCache.v" \
+"../../../../../../ustc_ca2020_lab/Lab2/SourceCode/DataExtend.v" \
+"../../../../../../ustc_ca2020_lab/Lab2/SourceCode/GeneralRegister.v" \
+"../../../../../../ustc_ca2020_lab/Lab2/SourceCode/Hazard.v" \
+"../../../../../../ustc_ca2020_lab/Lab2/SourceCode/IfIdSegReg/IR.v" \
+"../../../../../../ustc_ca2020_lab/Lab2/SourceCode/ImmExtend.v" \
+"../../../../../../ustc_ca2020_lab/Lab2/SourceCode/Cache/InstructionCache.v" \
+"../../../../../../ustc_ca2020_lab/Lab2/SourceCode/NPCGenerator.v" \
+"../../../../../../ustc_ca2020_lab/Lab2/SourceCode/IdExSegReg/Op1.v" \
+"../../../../../../ustc_ca2020_lab/Lab2/SourceCode/IdExSegReg/Op2.v" \
+"../../../../../../ustc_ca2020_lab/Lab2/SourceCode/PC.v" \
+"../../../../../../ustc_ca2020_lab/Lab2/SourceCode/IdExSegReg/PcEx.v" \
+"../../../../../../ustc_ca2020_lab/Lab2/SourceCode/IfIdSegReg/PcId.v" \
+"../../../../../../ustc_ca2020_lab/Lab2/SourceCode/RV32ICore.v" \
+"../../../../../../ustc_ca2020_lab/Lab2/SourceCode/IdExSegReg/Reg2Ex.v" \
+"../../../../../../ustc_ca2020_lab/Lab2/SourceCode/ExMemSegReg/Reg2Mem.v" \
+"../../../../../../ustc_ca2020_lab/Lab2/SourceCode/ExMemSegReg/Result.v" \
+"../../../../../../ustc_ca2020_lab/Lab2/SourceCode/MemWbSegReg/WbData.v" \
+"../../../../../../ustc_ca2020_lab/Lab2/Simulation/testBench.v" \
+
+# compile glbl module
+verilog xil_defaultlib "glbl.v"
+
+# Do not sort compile order
+nosort

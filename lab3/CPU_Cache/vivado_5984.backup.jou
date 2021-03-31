@@ -1,0 +1,32 @@
+#-----------------------------------------------------------
+# Vivado v2018.2 (64-bit)
+# SW Build 2258646 on Thu Jun 14 20:03:12 MDT 2018
+# IP Build 2256618 on Thu Jun 14 22:10:49 MDT 2018
+# Start of session at: Fri May  8 14:41:45 2020
+# Process ID: 5984
+# Current directory: F:/1fr/HWnLABS/CA/labs/lab3/CPU_Cache
+# Command line: vivado.exe -gui_launcher_event rodinguilauncherevent23760 F:\1fr\HWnLABS\CA\labs\lab3\CPU_Cache\CPU_Cache.xpr
+# Log file: F:/1fr/HWnLABS/CA/labs/lab3/CPU_Cache/vivado.log
+# Journal file: F:/1fr/HWnLABS/CA/labs/lab3/CPU_Cache\vivado.jou
+#-----------------------------------------------------------
+start_gui
+open_project F:/1fr/HWnLABS/CA/labs/lab3/CPU_Cache/CPU_Cache.xpr
+update_compile_order -fileset sources_1
+launch_simulation
+open_wave_config F:/1fr/HWnLABS/CA/labs/lab3/CPU_Cache/CPU_Cache.srcs/sim_1/imports/CPU_Cache/cpu_tb_behav.wcfg
+source cpu_tb.tcl
+current_wave_config {cpu_tb_behav.wcfg}
+add_wave {{/cpu_tb/RV32ICore_tb_inst/WB_Data_WB1/misstimes}} 
+current_wave_config {cpu_tb_behav.wcfg}
+add_wave {{/cpu_tb/RV32ICore_tb_inst/WB_Data_WB1/accesstimes}} 
+relaunch_sim
+run all
+run all
+relaunch_sim
+current_wave_config {cpu_tb_behav.wcfg}
+add_wave {{/cpu_tb/RV32ICore_tb_inst/WB_Data_WB1/cache_inst1/cache_stat}} 
+current_wave_config {cpu_tb_behav.wcfg}
+add_wave {{/cpu_tb/RV32ICore_tb_inst/WB_Data_WB1/cache_inst1/mem_rd_set_addr}} 
+current_wave_config {cpu_tb_behav.wcfg}
+add_wave {{/cpu_tb/RV32ICore_tb_inst/WB_Data_WB1/cache_inst1/mem_wr_req}} 
+close_sim

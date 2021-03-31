@@ -1,0 +1,39 @@
+# compile verilog/system verilog design source files
+verilog xil_defaultlib  \
+"../../../../../../ustc_ca2020_lab/Lab2/CSR/ALU.v" \
+"../../../../../../ustc_ca2020_lab/Lab2/CSR/IdExSegReg/AddrEx.v" \
+"../../../../../../ustc_ca2020_lab/Lab2/CSR/ExMemSegReg/AddrMem.v" \
+"../../../../../../ustc_ca2020_lab/Lab2/CSR/MemWbSegReg/AddrWb.v" \
+"../../../../../../ustc_ca2020_lab/Lab2/CSR/IdExSegReg/BrTarget.v" \
+"../../../../../../ustc_ca2020_lab/Lab2/CSR/BranchDecision.v" \
+"../../../../../../ustc_ca2020_lab/Lab2/CSR/CSR.v" \
+"../../../../../../ustc_ca2020_lab/Lab2/CSR/CSR_ALU.v" \
+"../../../../../../ustc_ca2020_lab/Lab2/CSR/ControllerDecoder.v" \
+"../../../../../../ustc_ca2020_lab/Lab2/CSR/IdExSegReg/CtrlEx.v" \
+"../../../../../../ustc_ca2020_lab/Lab2/CSR/ExMemSegReg/CtrlMem.v" \
+"../../../../../../ustc_ca2020_lab/Lab2/CSR/MemWbSegReg/CtrlWb.v" \
+"../../../../../../ustc_ca2020_lab/Lab2/CSR/Cache/DataCache.v" \
+"../../../../../../ustc_ca2020_lab/Lab2/CSR/DataExtend.v" \
+"../../../../../../ustc_ca2020_lab/Lab2/CSR/GeneralRegister.v" \
+"../../../../../../ustc_ca2020_lab/Lab2/CSR/Hazard.v" \
+"../../../../../../ustc_ca2020_lab/Lab2/CSR/IfIdSegReg/IR.v" \
+"../../../../../../ustc_ca2020_lab/Lab2/CSR/ImmExtend.v" \
+"../../../../../../ustc_ca2020_lab/Lab2/CSR/Cache/InstructionCache.v" \
+"../../../../../../ustc_ca2020_lab/Lab2/CSR/NPCGenerator.v" \
+"../../../../../../ustc_ca2020_lab/Lab2/CSR/IdExSegReg/Op1.v" \
+"../../../../../../ustc_ca2020_lab/Lab2/CSR/IdExSegReg/Op2.v" \
+"../../../../../../ustc_ca2020_lab/Lab2/CSR/PC.v" \
+"../../../../../../ustc_ca2020_lab/Lab2/CSR/IdExSegReg/PcEx.v" \
+"../../../../../../ustc_ca2020_lab/Lab2/CSR/IfIdSegReg/PcId.v" \
+"../../../../../../ustc_ca2020_lab/Lab2/CSR/RV32ICore.v" \
+"../../../../../../ustc_ca2020_lab/Lab2/CSR/IdExSegReg/Reg2Ex.v" \
+"../../../../../../ustc_ca2020_lab/Lab2/CSR/ExMemSegReg/Reg2Mem.v" \
+"../../../../../../ustc_ca2020_lab/Lab2/CSR/ExMemSegReg/Result.v" \
+"../../../../../../ustc_ca2020_lab/Lab2/CSR/MemWbSegReg/WbData.v" \
+"../../../../../../ustc_ca2020_lab/Lab2/CSR/Simulation/testBench.v" \
+
+# compile glbl module
+verilog xil_defaultlib "glbl.v"
+
+# Do not sort compile order
+nosort

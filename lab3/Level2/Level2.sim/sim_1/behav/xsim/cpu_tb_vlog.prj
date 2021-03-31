@@ -1,0 +1,45 @@
+# compile verilog/system verilog design source files
+verilog xil_defaultlib  \
+"../../../../../LAB2CPU/ALU.v" \
+"../../../../../LAB2CPU/IdExSegReg/AddrEx.v" \
+"../../../../../LAB2CPU/ExMemSegReg/AddrMem.v" \
+"../../../../../LAB2CPU/MemWbSegReg/AddrWb.v" \
+"../../../../../LAB2CPU/IdExSegReg/BrTarget.v" \
+"../../../../../LAB2CPU/BranchDecision.v" \
+"../../../../../LAB2CPU/CSR.v" \
+"../../../../../LAB2CPU/CSR_ALU.v" \
+"../../../../../LAB2CPU/ControllerDecoder.v" \
+"../../../../../LAB2CPU/IdExSegReg/CtrlEx.v" \
+"../../../../../LAB2CPU/ExMemSegReg/CtrlMem.v" \
+"../../../../../LAB2CPU/MemWbSegReg/CtrlWb.v" \
+"../../../../../LAB2CPU/DataExtend.v" \
+"../../../../../LAB2CPU/GeneralRegister.v" \
+"../../../../../LAB2CPU/Hazard.v" \
+"../../../../../LAB2CPU/IfIdSegReg/IR.v" \
+"../../../../../LAB2CPU/ImmExtend.v" \
+"../../../../../LAB2CPU/Cache/InstructionCache.v" \
+"../../../../../LAB2CPU/NPCGenerator.v" \
+"../../../../../LAB2CPU/IdExSegReg/Op1.v" \
+"../../../../../LAB2CPU/IdExSegReg/Op2.v" \
+"../../../../../LAB2CPU/PC.v" \
+"../../../../../LAB2CPU/IdExSegReg/PcEx.v" \
+"../../../../../LAB2CPU/IfIdSegReg/PcId.v" \
+"../../../../../LAB2CPU/RV32ICore.v" \
+"../../../../../LAB2CPU/IdExSegReg/Reg2Ex.v" \
+"../../../../../LAB2CPU/ExMemSegReg/Reg2Mem.v" \
+"../../../../../LAB2CPU/ExMemSegReg/Result.v" \
+"../../../../../LAB2CPU/MemWbSegReg/WbData.v" \
+
+sv xil_defaultlib  \
+"../../../../../LAB2CPU/cache.sv" \
+"../../../../../CacheSrcCode/main_mem.sv" \
+"../../../../../CacheSrcCode/mem.sv" \
+
+verilog xil_defaultlib  \
+"../../../../../LAB2CPU/simulation/cpu_tb.v" \
+
+# compile glbl module
+verilog xil_defaultlib "glbl.v"
+
+# Do not sort compile order
+nosort

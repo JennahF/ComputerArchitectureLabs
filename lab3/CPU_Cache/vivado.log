@@ -1,0 +1,63 @@
+#-----------------------------------------------------------
+# Vivado v2018.2 (64-bit)
+# SW Build 2258646 on Thu Jun 14 20:03:12 MDT 2018
+# IP Build 2256618 on Thu Jun 14 22:10:49 MDT 2018
+# Start of session at: Wed May 27 22:35:19 2020
+# Process ID: 7284
+# Current directory: F:/1fr/HWnLABS/CA/labs/lab3/CPU_Cache
+# Command line: vivado.exe -gui_launcher_event rodinguilauncherevent7636 F:\1fr\HWnLABS\CA\labs\lab3\CPU_Cache\CPU_Cache.xpr
+# Log file: F:/1fr/HWnLABS/CA/labs/lab3/CPU_Cache/vivado.log
+# Journal file: F:/1fr/HWnLABS/CA/labs/lab3/CPU_Cache\vivado.jou
+#-----------------------------------------------------------
+start_gui
+open_project F:/1fr/HWnLABS/CA/labs/lab3/CPU_Cache/CPU_Cache.xpr
+CRITICAL WARNING: [Project 1-19] Could not find the file 'D:/20SP/CA/lab/CPU_Cache/CPU_Cache.srcs/sources_1/imports/lab/basic/basic.srcs/sources_1/imports/SourceCode/Parameters.sv'.
+CRITICAL WARNING: [Project 1-19] Could not find the file 'D:/20SP/CA/lab/CPU_Cache/CPU_Cache.srcs/sources_1/imports/lab/basic/basic.srcs/sources_1/imports/SourceCode/ALU.v'.
+CRITICAL WARNING: [Project 1-19] Could not find the file 'D:/20SP/CA/lab/CPU_Cache/CPU_Cache.srcs/sources_1/imports/lab/basic/basic.srcs/sources_1/imports/SourceCode/IdExSegReg/AddrEx.v'.
+CRITICAL WARNING: [Project 1-19] Could not find the file 'D:/20SP/CA/lab/CPU_Cache/CPU_Cache.srcs/sources_1/imports/lab/basic/basic.srcs/sources_1/imports/SourceCode/ExMemSegReg/AddrMem.v'.
+CRITICAL WARNING: [Project 1-19] Could not find the file 'D:/20SP/CA/lab/CPU_Cache/CPU_Cache.srcs/sources_1/imports/lab/basic/basic.srcs/sources_1/imports/SourceCode/MemWbSegReg/AddrWb.v'.
+CRITICAL WARNING: [Project 1-19] Could not find the file 'D:/20SP/CA/lab/CPU_Cache/CPU_Cache.srcs/sources_1/imports/lab/basic/basic.srcs/sources_1/imports/SourceCode/IdExSegReg/BrTarget.v'.
+CRITICAL WARNING: [Project 1-19] Could not find the file 'D:/20SP/CA/lab/CPU_Cache/CPU_Cache.srcs/sources_1/imports/lab/basic/basic.srcs/sources_1/imports/SourceCode/BranchDecision.v'.
+CRITICAL WARNING: [Project 1-19] Could not find the file 'D:/20SP/CA/lab/CPU_Cache/CPU_Cache.srcs/sources_1/imports/lab/basic/basic.srcs/sources_1/imports/SourceCode/ControllerDecoder.v'.
+CRITICAL WARNING: [Project 1-19] Could not find the file 'D:/20SP/CA/lab/CPU_Cache/CPU_Cache.srcs/sources_1/imports/lab/basic/basic.srcs/sources_1/imports/SourceCode/IdExSegReg/CsrAddrEX.v'.
+CRITICAL WARNING: [Project 1-19] Could not find the file 'D:/20SP/CA/lab/CPU_Cache/CPU_Cache.srcs/sources_1/imports/lab/basic/basic.srcs/sources_1/imports/SourceCode/ExMemSegReg/CsrAddrMem.v'.
+CRITICAL WARNING: [Project 1-19] Could not find the file 'D:/20SP/CA/lab/CPU_Cache/CPU_Cache.srcs/sources_1/imports/lab/basic/basic.srcs/sources_1/imports/SourceCode/MemWbSegReg/CsrAddrWb.v'.
+CRITICAL WARNING: [Project 1-19] Could not find the file 'D:/20SP/CA/lab/CPU_Cache/CPU_Cache.srcs/sources_1/imports/lab/basic/basic.srcs/sources_1/imports/SourceCode/CsrController.v'.
+CRITICAL WARNING: [Project 1-19] Could not find the file 'D:/20SP/CA/lab/CPU_Cache/CPU_Cache.srcs/sources_1/imports/lab/basic/basic.srcs/sources_1/imports/SourceCode/IdExSegReg/CsrCtrlEX.v'.
+CRITICAL WARNING: [Project 1-19] Could not find the file 'D:/20SP/CA/lab/CPU_Cache/CPU_Cache.srcs/sources_1/imports/lab/basic/basic.srcs/sources_1/imports/SourceCode/ExMemSegReg/CsrCtrlMem.v'.
+CRITICAL WARNING: [Project 1-19] Could not find the file 'D:/20SP/CA/lab/CPU_Cache/CPU_Cache.srcs/sources_1/imports/lab/basic/basic.srcs/sources_1/imports/SourceCode/MemWbSegReg/CsrCtrlWb.v'.
+CRITICAL WARNING: [Project 1-19] Could not find the file 'D:/20SP/CA/lab/CPU_Cache/CPU_Cache.srcs/sources_1/imports/lab/basic/basic.srcs/sources_1/imports/SourceCode/IdExSegReg/CsrDataEX.v'.
+CRITICAL WARNING: [Project 1-19] Could not find the file 'D:/20SP/CA/lab/CPU_Cache/CPU_Cache.srcs/sources_1/imports/lab/basic/basic.srcs/sources_1/imports/SourceCode/ExMemSegReg/CsrDataMem.v'.
+CRITICAL WARNING: [Project 1-19] Could not find the file 'D:/20SP/CA/lab/CPU_Cache/CPU_Cache.srcs/sources_1/imports/lab/basic/basic.srcs/sources_1/imports/SourceCode/MemWbSegReg/CsrWbData.v'.
+CRITICAL WARNING: [Project 1-19] Could not find the file 'D:/20SP/CA/lab/CPU_Cache/CPU_Cache.srcs/sources_1/imports/lab/basic/basic.srcs/sources_1/imports/SourceCode/IdExSegReg/CtrlEx.v'.
+CRITICAL WARNING: [Project 1-19] Could not find the file 'D:/20SP/CA/lab/CPU_Cache/CPU_Cache.srcs/sources_1/imports/lab/basic/basic.srcs/sources_1/imports/SourceCode/ExMemSegReg/CtrlMem.v'.
+CRITICAL WARNING: [Project 1-19] Could not find the file 'D:/20SP/CA/lab/CPU_Cache/CPU_Cache.srcs/sources_1/imports/lab/basic/basic.srcs/sources_1/imports/SourceCode/MemWbSegReg/CtrlWb.v'.
+CRITICAL WARNING: [Project 1-19] Could not find the file 'D:/20SP/CA/lab/CPU_Cache/CPU_Cache.srcs/sources_1/imports/lab/basic/basic.srcs/sources_1/imports/SourceCode/Cache/DataCache.v'.
+CRITICAL WARNING: [Project 1-19] Could not find the file 'D:/20SP/CA/lab/CPU_Cache/CPU_Cache.srcs/sources_1/imports/lab/basic/basic.srcs/sources_1/imports/SourceCode/DataExtend.v'.
+CRITICAL WARNING: [Project 1-19] Could not find the file 'D:/20SP/CA/lab/CPU_Cache/CPU_Cache.srcs/sources_1/imports/lab/basic/basic.srcs/sources_1/imports/SourceCode/GeneralRegister.v'.
+CRITICAL WARNING: [Project 1-19] Could not find the file 'D:/20SP/CA/lab/CPU_Cache/CPU_Cache.srcs/sources_1/imports/lab/basic/basic.srcs/sources_1/imports/SourceCode/Hazard.v'.
+CRITICAL WARNING: [Project 1-19] Could not find the file 'D:/20SP/CA/lab/CPU_Cache/CPU_Cache.srcs/sources_1/imports/lab/basic/basic.srcs/sources_1/imports/SourceCode/IfIdSegReg/IR.v'.
+CRITICAL WARNING: [Project 1-19] Could not find the file 'D:/20SP/CA/lab/CPU_Cache/CPU_Cache.srcs/sources_1/imports/lab/basic/basic.srcs/sources_1/imports/SourceCode/ImmExtend.v'.
+CRITICAL WARNING: [Project 1-19] Could not find the file 'D:/20SP/CA/lab/CPU_Cache/CPU_Cache.srcs/sources_1/imports/lab/basic/basic.srcs/sources_1/imports/SourceCode/Cache/InstructionCache.v'.
+CRITICAL WARNING: [Project 1-19] Could not find the file 'D:/20SP/CA/lab/CPU_Cache/CPU_Cache.srcs/sources_1/imports/lab/basic/basic.srcs/sources_1/imports/SourceCode/NPCGenerator.v'.
+CRITICAL WARNING: [Project 1-19] Could not find the file 'D:/20SP/CA/lab/CPU_Cache/CPU_Cache.srcs/sources_1/imports/lab/basic/basic.srcs/sources_1/imports/SourceCode/IdExSegReg/Op1.v'.
+CRITICAL WARNING: [Project 1-19] Could not find the file 'D:/20SP/CA/lab/CPU_Cache/CPU_Cache.srcs/sources_1/imports/lab/basic/basic.srcs/sources_1/imports/SourceCode/IdExSegReg/Op2.v'.
+CRITICAL WARNING: [Project 1-19] Could not find the file 'D:/20SP/CA/lab/CPU_Cache/CPU_Cache.srcs/sources_1/imports/lab/basic/basic.srcs/sources_1/imports/SourceCode/PC.v'.
+CRITICAL WARNING: [Project 1-19] Could not find the file 'D:/20SP/CA/lab/CPU_Cache/CPU_Cache.srcs/sources_1/imports/lab/basic/basic.srcs/sources_1/imports/SourceCode/IdExSegReg/PcEx.v'.
+CRITICAL WARNING: [Project 1-19] Could not find the file 'D:/20SP/CA/lab/CPU_Cache/CPU_Cache.srcs/sources_1/imports/lab/basic/basic.srcs/sources_1/imports/SourceCode/IfIdSegReg/PcId.v'.
+CRITICAL WARNING: [Project 1-19] Could not find the file 'D:/20SP/CA/lab/CPU_Cache/CPU_Cache.srcs/sources_1/imports/lab/basic/basic.srcs/sources_1/imports/SourceCode/IdExSegReg/Reg2Ex.v'.
+CRITICAL WARNING: [Project 1-19] Could not find the file 'D:/20SP/CA/lab/CPU_Cache/CPU_Cache.srcs/sources_1/imports/lab/basic/basic.srcs/sources_1/imports/SourceCode/ExMemSegReg/Reg2Mem.v'.
+CRITICAL WARNING: [Project 1-19] Could not find the file 'D:/20SP/CA/lab/CPU_Cache/CPU_Cache.srcs/sources_1/imports/lab/basic/basic.srcs/sources_1/imports/SourceCode/ExMemSegReg/Result.v'.
+CRITICAL WARNING: [Project 1-19] Could not find the file 'D:/20SP/CA/lab/CPU_Cache/CPU_Cache.srcs/sources_1/imports/lab/basic/basic.srcs/sources_1/imports/SourceCode/csralu.v'.
+Scanning sources...
+Finished scanning sources
+INFO: [IP_Flow 19-234] Refreshing IP repositories
+INFO: [IP_Flow 19-1704] No user IP repositories specified
+INFO: [IP_Flow 19-2313] Loaded Vivado IP repository 'D:/Xilinx/Vivado/2018.2/data/ip'.
+open_project: Time (s): cpu = 00:00:14 ; elapsed = 00:00:07 . Memory (MB): peak = 753.184 ; gain = 75.898
+update_compile_order -fileset sources_1
+export_ip_user_files -of_objects  [get_files F:/1fr/HWnLABS/CA/labs/lab3/CPU_Cache/CPU_Cache.srcs/sources_1/imports/lab/cache/cache.srcs/sources_1/imports/CacheSrcCode/cache_tb.sv] -no_script -reset -force -quiet
+remove_files  F:/1fr/HWnLABS/CA/labs/lab3/CPU_Cache/CPU_Cache.srcs/sources_1/imports/lab/cache/cache.srcs/sources_1/imports/CacheSrcCode/cache_tb.sv
+update_compile_order -fileset sources_1
+exit
+INFO: [Common 17-206] Exiting Vivado at Wed May 27 23:32:33 2020...
